@@ -782,7 +782,7 @@
     },
     {
       "date": "2021-10-11",
-      "close": 67.84,
+      "close": 67.83,
       "volume": 16068400
     },
     {
@@ -2837,7 +2837,7 @@
     },
     {
       "date": "2023-05-31",
-      "close": 62.99,
+      "close": 62.98,
       "volume": 43393600
     },
     {
@@ -4067,7 +4067,7 @@
     },
     {
       "date": "2024-05-22",
-      "close": 69.62,
+      "close": 69.61,
       "volume": 31110700
     },
     {
@@ -4077,7 +4077,7 @@
     },
     {
       "date": "2024-05-24",
-      "close": 69.62,
+      "close": 69.61,
       "volume": 20488500
     },
     {
@@ -4192,7 +4192,7 @@
     },
     {
       "date": "2024-06-28",
-      "close": 69.99,
+      "close": 69.98,
       "volume": 34952000
     },
     {
@@ -6289,43 +6289,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-02-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-02-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-02-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-02-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-02-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-03",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -6343,43 +6307,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-03-04",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-04",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-03-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-06",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-06",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -6397,43 +6325,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-03-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-03-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-11",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -6451,43 +6343,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-03-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-03-13",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-13",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-13",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-14",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -6505,43 +6361,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-03-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-03-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-19",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-19",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -6559,43 +6379,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-03-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-03-21",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-21",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-21",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-24",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-24",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -6613,43 +6397,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-03-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-03-26",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-26",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-26",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-27",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -6667,43 +6415,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-03-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-03-31",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-31",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-03-31",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-01",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-01",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -6721,43 +6433,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-04-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-04-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-04",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-04",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -6775,43 +6451,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-04-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-04-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-09",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-09",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -6829,30 +6469,6 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-04-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-04-11",
       "short_volume": 0,
       "total_volume": 0,
@@ -6860,30 +6476,6 @@
     },
     {
       "date": "2025-04-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-15",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-15",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -6901,43 +6493,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-04-16",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-16",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-04-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-21",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-21",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -6955,43 +6511,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-04-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-04-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-24",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-24",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7009,30 +6529,6 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-04-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-04-28",
       "short_volume": 0,
       "total_volume": 0,
@@ -7040,30 +6536,6 @@
     },
     {
       "date": "2025-04-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-04-30",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7081,43 +6553,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-05-01",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-01",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-05-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-05",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7135,43 +6571,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-05-06",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-06",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-05-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-08",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7189,43 +6589,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-05-09",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-09",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-05-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-13",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-13",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7243,43 +6607,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-05-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-05-15",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-15",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-15",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-16",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-16",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7297,43 +6625,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-05-19",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-19",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-05-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-21",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-21",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7351,43 +6643,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-05-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-05-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-27",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7405,43 +6661,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-05-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-05-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-05-30",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7459,43 +6679,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-06-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-06-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-04",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-04",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7513,43 +6697,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-06-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-06-06",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-06",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-06",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-09",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-09",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7567,30 +6715,6 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-06-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-06-11",
       "short_volume": 0,
       "total_volume": 0,
@@ -7598,30 +6722,6 @@
     },
     {
       "date": "2025-06-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-13",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-13",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7639,43 +6739,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-06-16",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-16",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-06-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-18",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7693,43 +6757,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-06-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-06-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-24",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-24",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7747,30 +6775,6 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-06-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-26",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-26",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-06-26",
       "short_volume": 0,
       "total_volume": 0,
@@ -7778,30 +6782,6 @@
     },
     {
       "date": "2025-06-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-06-30",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7819,43 +6799,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-07-01",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-01",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-07-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-03",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7873,43 +6817,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-07-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-07-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-09",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-09",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7927,30 +6835,6 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-07-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-07-11",
       "short_volume": 0,
       "total_volume": 0,
@@ -7958,30 +6842,6 @@
     },
     {
       "date": "2025-07-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-15",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-15",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -7999,43 +6859,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-07-16",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-16",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-07-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-18",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8053,43 +6877,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-07-21",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-21",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-07-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-23",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8107,43 +6895,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-07-24",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-24",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-07-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-28",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8161,43 +6913,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-07-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-07-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-31",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-07-31",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8215,43 +6931,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-08-01",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-01",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-08-04",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-04",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-04",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-05",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8269,43 +6949,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-08-06",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-06",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-08-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-08",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8323,43 +6967,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-08-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-08-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-13",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-13",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8377,43 +6985,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-08-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-08-15",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-15",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-15",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-18",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8431,43 +7003,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-08-19",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-19",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-08-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-21",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-21",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8485,43 +7021,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-08-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-08-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-26",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-26",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8539,43 +7039,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-08-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-08-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-08-29",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8593,43 +7057,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-09-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-09-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-04",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-04",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8647,43 +7075,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-09-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-09-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-09",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-09",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8701,30 +7093,6 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-09-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-09-11",
       "short_volume": 0,
       "total_volume": 0,
@@ -8732,30 +7100,6 @@
     },
     {
       "date": "2025-09-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-15",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-15",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8773,43 +7117,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-09-16",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-16",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-09-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-18",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8827,43 +7135,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-09-19",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-19",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-09-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-23",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8881,43 +7153,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-09-24",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-24",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-09-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-26",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-26",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8935,43 +7171,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-09-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-09-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-09-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-01",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-01",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -8989,43 +7189,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-10-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-10-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-06",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-06",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9043,43 +7207,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-10-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-10-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-09",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-09",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9097,30 +7225,6 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-10-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-13",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-13",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-10-13",
       "short_volume": 0,
       "total_volume": 0,
@@ -9128,30 +7232,6 @@
     },
     {
       "date": "2025-10-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-15",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-15",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9169,43 +7249,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-10-16",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-16",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-10-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-20",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9223,43 +7267,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-10-21",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-21",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-10-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-23",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9277,43 +7285,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-10-24",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-24",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-10-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-28",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9331,43 +7303,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-10-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-10-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-31",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-10-31",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9385,43 +7321,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-11-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-11-04",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-04",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-04",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-05",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9439,43 +7339,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-11-06",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-06",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-11-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-10",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9493,30 +7357,6 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-11-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-11-12",
       "short_volume": 0,
       "total_volume": 0,
@@ -9524,30 +7364,6 @@
     },
     {
       "date": "2025-11-13",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-13",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-13",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-14",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9565,43 +7381,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-11-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-11-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-19",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-19",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9619,43 +7399,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-11-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-11-21",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-21",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-21",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-24",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-24",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9673,43 +7417,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-11-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-11-26",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-26",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-26",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-11-28",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9727,43 +7435,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-12-01",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-01",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-12-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-03",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9781,43 +7453,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-12-04",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-04",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-12-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-08",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9835,43 +7471,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-12-09",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-09",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-12-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-11",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9889,43 +7489,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-12-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-12-15",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-15",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-15",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-16",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-16",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9943,43 +7507,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-12-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-12-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-19",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-19",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -9997,43 +7525,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-12-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-12-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-24",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-24",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -10051,30 +7543,6 @@
       "short_ratio": 0
     },
     {
-      "date": "2025-12-26",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-26",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2025-12-29",
       "short_volume": 0,
       "total_volume": 0,
@@ -10082,30 +7550,6 @@
     },
     {
       "date": "2025-12-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-31",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2025-12-31",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -10123,43 +7567,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2026-01-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2026-01-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-06",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-06",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -10177,43 +7585,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2026-01-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-07",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2026-01-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-08",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-09",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-09",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -10231,30 +7603,6 @@
       "short_ratio": 0
     },
     {
-      "date": "2026-01-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-13",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-13",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2026-01-13",
       "short_volume": 0,
       "total_volume": 0,
@@ -10262,30 +7610,6 @@
     },
     {
       "date": "2026-01-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-14",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-15",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-15",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -10303,43 +7627,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2026-01-16",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-16",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2026-01-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-21",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-21",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -10357,43 +7645,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2026-01-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-22",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2026-01-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-26",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-26",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -10411,30 +7663,6 @@
       "short_ratio": 0
     },
     {
-      "date": "2026-01-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-28",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2026-01-28",
       "short_volume": 0,
       "total_volume": 0,
@@ -10442,30 +7670,6 @@
     },
     {
       "date": "2026-01-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-29",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-30",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-01-30",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -10483,43 +7687,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2026-02-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-02",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2026-02-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-03",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-04",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-04",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -10537,43 +7705,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2026-02-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-05",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2026-02-06",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-06",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-06",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-09",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-09",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -10591,30 +7723,6 @@
       "short_ratio": 0
     },
     {
-      "date": "2026-02-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-10",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-11",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2026-02-11",
       "short_volume": 0,
       "total_volume": 0,
@@ -10622,30 +7730,6 @@
     },
     {
       "date": "2026-02-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-12",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-13",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-13",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -10663,43 +7747,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2026-02-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-17",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2026-02-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-18",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-19",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-19",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -10717,43 +7765,7 @@
       "short_ratio": 0
     },
     {
-      "date": "2026-02-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-20",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2026-02-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-23",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-24",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-24",
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
@@ -10771,30 +7783,6 @@
       "short_ratio": 0
     },
     {
-      "date": "2026-02-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-25",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-26",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-26",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
       "date": "2026-02-26",
       "short_volume": 0,
       "total_volume": 0,
@@ -10805,1588 +7793,6 @@
       "short_volume": 0,
       "total_volume": 0,
       "short_ratio": 0
-    },
-    {
-      "date": "2026-02-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    },
-    {
-      "date": "2026-02-27",
-      "short_volume": 0,
-      "total_volume": 0,
-      "short_ratio": 0
-    }
-  ],
-  "short_interest": [
-    {
-      "date": "2017-12-29",
-      "short_interest": 44873668,
-      "prev_short_interest": 49629951,
-      "change_pct": 0,
-      "avg_daily_volume": 8840913,
-      "days_to_cover": 5.08
-    },
-    {
-      "date": "2018-01-12",
-      "short_interest": 49154627,
-      "prev_short_interest": 44873626,
-      "change_pct": 0,
-      "avg_daily_volume": 14753287,
-      "days_to_cover": 3.33
-    },
-    {
-      "date": "2018-01-31",
-      "short_interest": 58454683,
-      "prev_short_interest": 49154627,
-      "change_pct": 0,
-      "avg_daily_volume": 14475013,
-      "days_to_cover": 4.04
-    },
-    {
-      "date": "2018-02-15",
-      "short_interest": 71595834,
-      "prev_short_interest": 58454683,
-      "change_pct": 0,
-      "avg_daily_volume": 25549342,
-      "days_to_cover": 2.8
-    },
-    {
-      "date": "2018-02-28",
-      "short_interest": 66741515,
-      "prev_short_interest": 71595834,
-      "change_pct": 0,
-      "avg_daily_volume": 16465938,
-      "days_to_cover": 4.05
-    },
-    {
-      "date": "2018-03-15",
-      "short_interest": 53055759,
-      "prev_short_interest": 66741515,
-      "change_pct": 0,
-      "avg_daily_volume": 13012889,
-      "days_to_cover": 4.08
-    },
-    {
-      "date": "2018-03-29",
-      "short_interest": 54081764,
-      "prev_short_interest": 53055759,
-      "change_pct": 0,
-      "avg_daily_volume": 13615430,
-      "days_to_cover": 3.97
-    },
-    {
-      "date": "2018-04-13",
-      "short_interest": 49266756,
-      "prev_short_interest": 54081764,
-      "change_pct": 0,
-      "avg_daily_volume": 13252255,
-      "days_to_cover": 3.72
-    },
-    {
-      "date": "2018-04-30",
-      "short_interest": 71786831,
-      "prev_short_interest": 49266756,
-      "change_pct": 0,
-      "avg_daily_volume": 14821211,
-      "days_to_cover": 4.84
-    },
-    {
-      "date": "2018-05-15",
-      "short_interest": 65021723,
-      "prev_short_interest": 71786831,
-      "change_pct": 0,
-      "avg_daily_volume": 15552011,
-      "days_to_cover": 4.18
-    },
-    {
-      "date": "2018-05-31",
-      "short_interest": 57229592,
-      "prev_short_interest": 65021723,
-      "change_pct": 0,
-      "avg_daily_volume": 12560235,
-      "days_to_cover": 4.56
-    },
-    {
-      "date": "2018-06-15",
-      "short_interest": 70208077,
-      "prev_short_interest": 57229592,
-      "change_pct": 0,
-      "avg_daily_volume": 11898546,
-      "days_to_cover": 5.9
-    },
-    {
-      "date": "2018-06-29",
-      "short_interest": 85017499,
-      "prev_short_interest": 70208077,
-      "change_pct": 0,
-      "avg_daily_volume": 11667916,
-      "days_to_cover": 7.29
-    },
-    {
-      "date": "2018-07-13",
-      "short_interest": 76789454,
-      "prev_short_interest": 84941211,
-      "change_pct": 0,
-      "avg_daily_volume": 12030526,
-      "days_to_cover": 6.38
-    },
-    {
-      "date": "2018-07-31",
-      "short_interest": 71688390,
-      "prev_short_interest": 76789454,
-      "change_pct": 0,
-      "avg_daily_volume": 9881622,
-      "days_to_cover": 7.25
-    },
-    {
-      "date": "2018-08-15",
-      "short_interest": 68875715,
-      "prev_short_interest": 71688390,
-      "change_pct": 0,
-      "avg_daily_volume": 10729165,
-      "days_to_cover": 6.42
-    },
-    {
-      "date": "2018-08-31",
-      "short_interest": 64668158,
-      "prev_short_interest": 68875715,
-      "change_pct": 0,
-      "avg_daily_volume": 9199042,
-      "days_to_cover": 7.03
-    },
-    {
-      "date": "2018-09-14",
-      "short_interest": 73507264,
-      "prev_short_interest": 64668158,
-      "change_pct": 0,
-      "avg_daily_volume": 13018763,
-      "days_to_cover": 5.65
-    },
-    {
-      "date": "2018-09-28",
-      "short_interest": 86052969,
-      "prev_short_interest": 73507270,
-      "change_pct": 0,
-      "avg_daily_volume": 14201656,
-      "days_to_cover": 6.06
-    },
-    {
-      "date": "2018-10-15",
-      "short_interest": 84063403,
-      "prev_short_interest": 86052969,
-      "change_pct": 0,
-      "avg_daily_volume": 22530616,
-      "days_to_cover": 3.73
-    },
-    {
-      "date": "2018-10-31",
-      "short_interest": 95393107,
-      "prev_short_interest": 84063403,
-      "change_pct": 0,
-      "avg_daily_volume": 22848041,
-      "days_to_cover": 4.18
-    },
-    {
-      "date": "2018-11-15",
-      "short_interest": 98050568,
-      "prev_short_interest": 95393107,
-      "change_pct": 0,
-      "avg_daily_volume": 24525121,
-      "days_to_cover": 4
-    },
-    {
-      "date": "2018-11-30",
-      "short_interest": 79062456,
-      "prev_short_interest": 98050568,
-      "change_pct": 0,
-      "avg_daily_volume": 24035027,
-      "days_to_cover": 3.29
-    },
-    {
-      "date": "2018-12-14",
-      "short_interest": 70786009,
-      "prev_short_interest": 79062456,
-      "change_pct": 0,
-      "avg_daily_volume": 23132166,
-      "days_to_cover": 3.06
-    },
-    {
-      "date": "2018-12-31",
-      "short_interest": 88417533,
-      "prev_short_interest": 70786009,
-      "change_pct": 0,
-      "avg_daily_volume": 32649337,
-      "days_to_cover": 2.71
-    },
-    {
-      "date": "2019-01-15",
-      "short_interest": 94313910,
-      "prev_short_interest": 88417533,
-      "change_pct": 0,
-      "avg_daily_volume": 32358999,
-      "days_to_cover": 2.91
-    },
-    {
-      "date": "2019-01-31",
-      "short_interest": 93906039,
-      "prev_short_interest": 94313910,
-      "change_pct": 0,
-      "avg_daily_volume": 22952577,
-      "days_to_cover": 4.09
-    },
-    {
-      "date": "2019-02-15",
-      "short_interest": 62291323,
-      "prev_short_interest": 93906039,
-      "change_pct": 0,
-      "avg_daily_volume": 22042158,
-      "days_to_cover": 2.83
-    },
-    {
-      "date": "2019-02-28",
-      "short_interest": 63408117,
-      "prev_short_interest": 62291323,
-      "change_pct": 0,
-      "avg_daily_volume": 14370057,
-      "days_to_cover": 4.41
-    },
-    {
-      "date": "2019-03-15",
-      "short_interest": 80618319,
-      "prev_short_interest": 63408117,
-      "change_pct": 0,
-      "avg_daily_volume": 19972400,
-      "days_to_cover": 4.04
-    },
-    {
-      "date": "2019-03-29",
-      "short_interest": 83167200,
-      "prev_short_interest": 80618319,
-      "change_pct": 0,
-      "avg_daily_volume": 20030867,
-      "days_to_cover": 4.15
-    },
-    {
-      "date": "2019-04-15",
-      "short_interest": 61512396,
-      "prev_short_interest": 83167200,
-      "change_pct": 0,
-      "avg_daily_volume": 16237245,
-      "days_to_cover": 3.79
-    },
-    {
-      "date": "2019-04-30",
-      "short_interest": 60883139,
-      "prev_short_interest": 61512396,
-      "change_pct": 0,
-      "avg_daily_volume": 13535803,
-      "days_to_cover": 4.5
-    },
-    {
-      "date": "2019-05-15",
-      "short_interest": 65568990,
-      "prev_short_interest": 60883139,
-      "change_pct": 0,
-      "avg_daily_volume": 25624342,
-      "days_to_cover": 2.56
-    },
-    {
-      "date": "2019-05-31",
-      "short_interest": 73608574,
-      "prev_short_interest": 65568990,
-      "change_pct": 0,
-      "avg_daily_volume": 21765893,
-      "days_to_cover": 3.38
-    },
-    {
-      "date": "2019-06-14",
-      "short_interest": 65619757,
-      "prev_short_interest": 73608574,
-      "change_pct": 0,
-      "avg_daily_volume": 27314709,
-      "days_to_cover": 2.4
-    },
-    {
-      "date": "2019-06-28",
-      "short_interest": 58558763,
-      "prev_short_interest": 65619757,
-      "change_pct": 0,
-      "avg_daily_volume": 21931508,
-      "days_to_cover": 2.67
-    },
-    {
-      "date": "2019-07-15",
-      "short_interest": 53983162,
-      "prev_short_interest": 58558763,
-      "change_pct": 0,
-      "avg_daily_volume": 19225546,
-      "days_to_cover": 2.81
-    },
-    {
-      "date": "2019-07-31",
-      "short_interest": 48979410,
-      "prev_short_interest": 53983162,
-      "change_pct": 0,
-      "avg_daily_volume": 14677113,
-      "days_to_cover": 3.34
-    },
-    {
-      "date": "2019-08-15",
-      "short_interest": 58426047,
-      "prev_short_interest": 48979410,
-      "change_pct": 0,
-      "avg_daily_volume": 29006301,
-      "days_to_cover": 2.01
-    },
-    {
-      "date": "2019-08-30",
-      "short_interest": 62020259,
-      "prev_short_interest": 58426047,
-      "change_pct": 0,
-      "avg_daily_volume": 17227407,
-      "days_to_cover": 3.6
-    },
-    {
-      "date": "2019-09-13",
-      "short_interest": 66153477,
-      "prev_short_interest": 62020259,
-      "change_pct": 0,
-      "avg_daily_volume": 20669448,
-      "days_to_cover": 3.2
-    },
-    {
-      "date": "2019-09-30",
-      "short_interest": 63528006,
-      "prev_short_interest": 66153477,
-      "change_pct": 0,
-      "avg_daily_volume": 17704145,
-      "days_to_cover": 3.59
-    },
-    {
-      "date": "2019-10-15",
-      "short_interest": 60604486,
-      "prev_short_interest": 63528006,
-      "change_pct": 0,
-      "avg_daily_volume": 20120005,
-      "days_to_cover": 3.01
-    },
-    {
-      "date": "2019-10-31",
-      "short_interest": 55019350,
-      "prev_short_interest": 60604486,
-      "change_pct": 0,
-      "avg_daily_volume": 15280603,
-      "days_to_cover": 3.6
-    },
-    {
-      "date": "2019-11-15",
-      "short_interest": 65980873,
-      "prev_short_interest": 55019350,
-      "change_pct": 0,
-      "avg_daily_volume": 15020803,
-      "days_to_cover": 4.39
-    },
-    {
-      "date": "2019-11-29",
-      "short_interest": 66733153,
-      "prev_short_interest": 65980873,
-      "change_pct": 0,
-      "avg_daily_volume": 16981772,
-      "days_to_cover": 3.93
-    },
-    {
-      "date": "2019-12-13",
-      "short_interest": 79356869,
-      "prev_short_interest": 66733153,
-      "change_pct": 0,
-      "avg_daily_volume": 16584734,
-      "days_to_cover": 4.78
-    },
-    {
-      "date": "2019-12-31",
-      "short_interest": 81904752,
-      "prev_short_interest": 79356869,
-      "change_pct": 0,
-      "avg_daily_volume": 16387246,
-      "days_to_cover": 5
-    },
-    {
-      "date": "2020-01-15",
-      "short_interest": 80229050,
-      "prev_short_interest": 81904752,
-      "change_pct": 0,
-      "avg_daily_volume": 15653838,
-      "days_to_cover": 5.13
-    },
-    {
-      "date": "2020-01-31",
-      "short_interest": 76068923,
-      "prev_short_interest": 80229050,
-      "change_pct": 0,
-      "avg_daily_volume": 24569154,
-      "days_to_cover": 3.1
-    },
-    {
-      "date": "2020-02-14",
-      "short_interest": 78263842,
-      "prev_short_interest": 76068923,
-      "change_pct": 0,
-      "avg_daily_volume": 19118860,
-      "days_to_cover": 4.09
-    },
-    {
-      "date": "2020-02-28",
-      "short_interest": 86844152,
-      "prev_short_interest": 78263842,
-      "change_pct": 0,
-      "avg_daily_volume": 51877020,
-      "days_to_cover": 1.67
-    },
-    {
-      "date": "2020-03-13",
-      "short_interest": 103154078,
-      "prev_short_interest": 86844152,
-      "change_pct": 0,
-      "avg_daily_volume": 59030117,
-      "days_to_cover": 1.75
-    },
-    {
-      "date": "2020-03-31",
-      "short_interest": 94158247,
-      "prev_short_interest": 103154078,
-      "change_pct": 0,
-      "avg_daily_volume": 46401649,
-      "days_to_cover": 2.03
-    },
-    {
-      "date": "2020-04-15",
-      "short_interest": 104346833,
-      "prev_short_interest": 94158247,
-      "change_pct": 0,
-      "avg_daily_volume": 38930030,
-      "days_to_cover": 2.68
-    },
-    {
-      "date": "2020-04-30",
-      "short_interest": 81920889,
-      "prev_short_interest": 104346833,
-      "change_pct": 0,
-      "avg_daily_volume": 26178607,
-      "days_to_cover": 3.13
-    },
-    {
-      "date": "2020-05-15",
-      "short_interest": 60240827,
-      "prev_short_interest": 82008443,
-      "change_pct": 0,
-      "avg_daily_volume": 21724706,
-      "days_to_cover": 2.77
-    },
-    {
-      "date": "2020-05-29",
-      "short_interest": 52207907,
-      "prev_short_interest": 60240827,
-      "change_pct": 0,
-      "avg_daily_volume": 21880179,
-      "days_to_cover": 2.39
-    },
-    {
-      "date": "2020-06-15",
-      "short_interest": 70299822,
-      "prev_short_interest": 52207907,
-      "change_pct": 0,
-      "avg_daily_volume": 32831256,
-      "days_to_cover": 2.14
-    },
-    {
-      "date": "2020-06-30",
-      "short_interest": 61504339,
-      "prev_short_interest": 70299822,
-      "change_pct": 0,
-      "avg_daily_volume": 30582346,
-      "days_to_cover": 2.01
-    },
-    {
-      "date": "2020-07-15",
-      "short_interest": 65068408,
-      "prev_short_interest": 61504339,
-      "change_pct": 0,
-      "avg_daily_volume": 21740296,
-      "days_to_cover": 2.99
-    },
-    {
-      "date": "2020-07-31",
-      "short_interest": 53950138,
-      "prev_short_interest": 65068408,
-      "change_pct": 0,
-      "avg_daily_volume": 19896016,
-      "days_to_cover": 2.71
-    },
-    {
-      "date": "2020-08-14",
-      "short_interest": 58508077,
-      "prev_short_interest": 53950138,
-      "change_pct": 0,
-      "avg_daily_volume": 15751219,
-      "days_to_cover": 3.71
-    },
-    {
-      "date": "2020-08-31",
-      "short_interest": 57571371,
-      "prev_short_interest": 58508077,
-      "change_pct": 0,
-      "avg_daily_volume": 16861706,
-      "days_to_cover": 3.41
-    },
-    {
-      "date": "2020-09-15",
-      "short_interest": 55512257,
-      "prev_short_interest": 57571371,
-      "change_pct": 0,
-      "avg_daily_volume": 25948628,
-      "days_to_cover": 2.14
-    },
-    {
-      "date": "2020-09-30",
-      "short_interest": 68611771,
-      "prev_short_interest": 55512257,
-      "change_pct": 0,
-      "avg_daily_volume": 29260655,
-      "days_to_cover": 2.34
-    },
-    {
-      "date": "2020-10-15",
-      "short_interest": 61828608,
-      "prev_short_interest": 68611771,
-      "change_pct": 0,
-      "avg_daily_volume": 22811548,
-      "days_to_cover": 2.71
-    },
-    {
-      "date": "2020-10-30",
-      "short_interest": 85587894,
-      "prev_short_interest": 61828608,
-      "change_pct": 0,
-      "avg_daily_volume": 28782738,
-      "days_to_cover": 2.97
-    },
-    {
-      "date": "2020-11-13",
-      "short_interest": 77970937,
-      "prev_short_interest": 85587894,
-      "change_pct": 0,
-      "avg_daily_volume": 36061589,
-      "days_to_cover": 2.16
-    },
-    {
-      "date": "2020-11-30",
-      "short_interest": 82201383,
-      "prev_short_interest": 77970937,
-      "change_pct": 0,
-      "avg_daily_volume": 22815088,
-      "days_to_cover": 3.6
-    },
-    {
-      "date": "2020-12-15",
-      "short_interest": 79090091,
-      "prev_short_interest": 82201383,
-      "change_pct": 0,
-      "avg_daily_volume": 20781055,
-      "days_to_cover": 3.81
-    },
-    {
-      "date": "2020-12-31",
-      "short_interest": 75622860,
-      "prev_short_interest": 79090091,
-      "change_pct": 0,
-      "avg_daily_volume": 21375522,
-      "days_to_cover": 3.54
-    },
-    {
-      "date": "2021-01-15",
-      "short_interest": 115898066,
-      "prev_short_interest": 75622860,
-      "change_pct": 0,
-      "avg_daily_volume": 30034845,
-      "days_to_cover": 3.86
-    },
-    {
-      "date": "2021-01-29",
-      "short_interest": 130218944,
-      "prev_short_interest": 115898066,
-      "change_pct": 0,
-      "avg_daily_volume": 27657040,
-      "days_to_cover": 4.71
-    },
-    {
-      "date": "2021-02-12",
-      "short_interest": 123569322,
-      "prev_short_interest": 130218944,
-      "change_pct": 0,
-      "avg_daily_volume": 20839936,
-      "days_to_cover": 5.93
-    },
-    {
-      "date": "2021-02-26",
-      "short_interest": 120151169,
-      "prev_short_interest": 123569322,
-      "change_pct": 0,
-      "avg_daily_volume": 25864439,
-      "days_to_cover": 4.65
-    },
-    {
-      "date": "2021-03-15",
-      "short_interest": 106633999,
-      "prev_short_interest": 120151169,
-      "change_pct": 0,
-      "avg_daily_volume": 31166117,
-      "days_to_cover": 3.42
-    },
-    {
-      "date": "2021-03-31",
-      "short_interest": 99278802,
-      "prev_short_interest": 106633999,
-      "change_pct": 0,
-      "avg_daily_volume": 26003666,
-      "days_to_cover": 3.82
-    },
-    {
-      "date": "2021-04-15",
-      "short_interest": 82311421,
-      "prev_short_interest": 99278802,
-      "change_pct": 0,
-      "avg_daily_volume": 16514454,
-      "days_to_cover": 4.98
-    },
-    {
-      "date": "2021-04-30",
-      "short_interest": 92930504,
-      "prev_short_interest": 82311421,
-      "change_pct": 0,
-      "avg_daily_volume": 17645478,
-      "days_to_cover": 5.27
-    },
-    {
-      "date": "2021-05-14",
-      "short_interest": 105909820,
-      "prev_short_interest": 92930504,
-      "change_pct": 0,
-      "avg_daily_volume": 19911587,
-      "days_to_cover": 5.32
-    },
-    {
-      "date": "2021-05-28",
-      "short_interest": 87545954,
-      "prev_short_interest": 105909820,
-      "change_pct": 0,
-      "avg_daily_volume": 19595521,
-      "days_to_cover": 4.47
-    },
-    {
-      "date": "2021-06-15",
-      "short_interest": 83067736,
-      "prev_short_interest": 87563187,
-      "change_pct": 0,
-      "avg_daily_volume": 16053263,
-      "days_to_cover": 5.17
-    },
-    {
-      "date": "2021-06-30",
-      "short_interest": 92304189,
-      "prev_short_interest": 83067736,
-      "change_pct": 0,
-      "avg_daily_volume": 19426502,
-      "days_to_cover": 4.75
-    },
-    {
-      "date": "2021-07-15",
-      "short_interest": 87467222,
-      "prev_short_interest": 92304189,
-      "change_pct": 0,
-      "avg_daily_volume": 18920365,
-      "days_to_cover": 4.62
-    },
-    {
-      "date": "2021-07-30",
-      "short_interest": 94397691,
-      "prev_short_interest": 87467222,
-      "change_pct": 0,
-      "avg_daily_volume": 22193519,
-      "days_to_cover": 4.25
-    },
-    {
-      "date": "2021-08-13",
-      "short_interest": 85516063,
-      "prev_short_interest": 94397691,
-      "change_pct": 0,
-      "avg_daily_volume": 17112643,
-      "days_to_cover": 5
-    },
-    {
-      "date": "2021-08-31",
-      "short_interest": 88283912,
-      "prev_short_interest": 85516063,
-      "change_pct": 0,
-      "avg_daily_volume": 17406291,
-      "days_to_cover": 5.07
-    },
-    {
-      "date": "2021-09-15",
-      "short_interest": 99896204,
-      "prev_short_interest": 88283912,
-      "change_pct": 0,
-      "avg_daily_volume": 16418775,
-      "days_to_cover": 6.08
-    },
-    {
-      "date": "2021-09-30",
-      "short_interest": 95171358,
-      "prev_short_interest": 99896204,
-      "change_pct": 0,
-      "avg_daily_volume": 28912264,
-      "days_to_cover": 3.29
-    },
-    {
-      "date": "2021-10-15",
-      "short_interest": 97133868,
-      "prev_short_interest": 95171358,
-      "change_pct": 0,
-      "avg_daily_volume": 27110943,
-      "days_to_cover": 3.58
-    },
-    {
-      "date": "2021-10-29",
-      "short_interest": 102901262,
-      "prev_short_interest": 97133868,
-      "change_pct": 0,
-      "avg_daily_volume": 20743521,
-      "days_to_cover": 4.96
-    },
-    {
-      "date": "2021-11-15",
-      "short_interest": 95130845,
-      "prev_short_interest": 102901262,
-      "change_pct": 0,
-      "avg_daily_volume": 22332567,
-      "days_to_cover": 4.26
-    },
-    {
-      "date": "2021-11-30",
-      "short_interest": 107203419,
-      "prev_short_interest": 95130845,
-      "change_pct": 0,
-      "avg_daily_volume": 29564013,
-      "days_to_cover": 3.63
-    },
-    {
-      "date": "2021-12-15",
-      "short_interest": 91593422,
-      "prev_short_interest": 107203419,
-      "change_pct": 0,
-      "avg_daily_volume": 31238392,
-      "days_to_cover": 2.93
-    },
-    {
-      "date": "2021-12-31",
-      "short_interest": 86713173,
-      "prev_short_interest": 91593422,
-      "change_pct": 0,
-      "avg_daily_volume": 19179139,
-      "days_to_cover": 4.52
-    },
-    {
-      "date": "2022-01-14",
-      "short_interest": 99411886,
-      "prev_short_interest": 86713173,
-      "change_pct": 0,
-      "avg_daily_volume": 36374212,
-      "days_to_cover": 2.73
-    },
-    {
-      "date": "2022-01-31",
-      "short_interest": 98525488,
-      "prev_short_interest": 99411886,
-      "change_pct": 0,
-      "avg_daily_volume": 53726802,
-      "days_to_cover": 1.83
-    },
-    {
-      "date": "2022-02-15",
-      "short_interest": 108532147,
-      "prev_short_interest": 98525488,
-      "change_pct": 0,
-      "avg_daily_volume": 43878663,
-      "days_to_cover": 2.47
-    },
-    {
-      "date": "2022-02-28",
-      "short_interest": 109886772,
-      "prev_short_interest": 108532147,
-      "change_pct": 0,
-      "avg_daily_volume": 42675943,
-      "days_to_cover": 2.57
-    },
-    {
-      "date": "2022-03-15",
-      "short_interest": 102165568,
-      "prev_short_interest": 109886772,
-      "change_pct": 0,
-      "avg_daily_volume": 43488298,
-      "days_to_cover": 2.35
-    },
-    {
-      "date": "2022-03-31",
-      "short_interest": 98899902,
-      "prev_short_interest": 102165568,
-      "change_pct": 0,
-      "avg_daily_volume": 44113799,
-      "days_to_cover": 2.24
-    },
-    {
-      "date": "2022-04-14",
-      "short_interest": 114110155,
-      "prev_short_interest": 98903005,
-      "change_pct": 0,
-      "avg_daily_volume": 42513037,
-      "days_to_cover": 2.68
-    },
-    {
-      "date": "2022-04-29",
-      "short_interest": 104496060,
-      "prev_short_interest": 114110155,
-      "change_pct": 0,
-      "avg_daily_volume": 31468365,
-      "days_to_cover": 3.32
-    },
-    {
-      "date": "2022-05-13",
-      "short_interest": 97471627,
-      "prev_short_interest": 104496060,
-      "change_pct": 0,
-      "avg_daily_volume": 45705016,
-      "days_to_cover": 2.13
-    },
-    {
-      "date": "2022-05-31",
-      "short_interest": 102808014,
-      "prev_short_interest": 97471627,
-      "change_pct": 0,
-      "avg_daily_volume": 49824620,
-      "days_to_cover": 2.06
-    },
-    {
-      "date": "2022-06-15",
-      "short_interest": 116923060,
-      "prev_short_interest": 103058014,
-      "change_pct": 0,
-      "avg_daily_volume": 56051055,
-      "days_to_cover": 2.09
-    },
-    {
-      "date": "2022-06-30",
-      "short_interest": 109987380,
-      "prev_short_interest": 116923060,
-      "change_pct": 0,
-      "avg_daily_volume": 41106309,
-      "days_to_cover": 2.68
-    },
-    {
-      "date": "2022-07-15",
-      "short_interest": 76127188,
-      "prev_short_interest": 109987380,
-      "change_pct": 0,
-      "avg_daily_volume": 39897153,
-      "days_to_cover": 1.91
-    },
-    {
-      "date": "2022-07-29",
-      "short_interest": 90668201,
-      "prev_short_interest": 76127188,
-      "change_pct": 0,
-      "avg_daily_volume": 41175275,
-      "days_to_cover": 2.2
-    },
-    {
-      "date": "2022-08-15",
-      "short_interest": 94935440,
-      "prev_short_interest": 90668201,
-      "change_pct": 0,
-      "avg_daily_volume": 28955311,
-      "days_to_cover": 3.28
-    },
-    {
-      "date": "2022-08-31",
-      "short_interest": 77093600,
-      "prev_short_interest": 94935440,
-      "change_pct": 0,
-      "avg_daily_volume": 33032030,
-      "days_to_cover": 2.33
-    },
-    {
-      "date": "2022-09-15",
-      "short_interest": 73977768,
-      "prev_short_interest": 77093600,
-      "change_pct": 0,
-      "avg_daily_volume": 32633550,
-      "days_to_cover": 2.27
-    },
-    {
-      "date": "2022-09-30",
-      "short_interest": 80689599,
-      "prev_short_interest": 73977768,
-      "change_pct": 0,
-      "avg_daily_volume": 42958773,
-      "days_to_cover": 1.88
-    },
-    {
-      "date": "2022-10-14",
-      "short_interest": 75822077,
-      "prev_short_interest": 80689599,
-      "change_pct": 0,
-      "avg_daily_volume": 41675581,
-      "days_to_cover": 1.82
-    },
-    {
-      "date": "2022-10-31",
-      "short_interest": 91716768,
-      "prev_short_interest": 75822077,
-      "change_pct": 0,
-      "avg_daily_volume": 51174084,
-      "days_to_cover": 1.79
-    },
-    {
-      "date": "2022-11-15",
-      "short_interest": 90979396,
-      "prev_short_interest": 91716768,
-      "change_pct": 0,
-      "avg_daily_volume": 41312456,
-      "days_to_cover": 2.2
-    },
-    {
-      "date": "2022-11-30",
-      "short_interest": 75666545,
-      "prev_short_interest": 90979396,
-      "change_pct": 0,
-      "avg_daily_volume": 28075376,
-      "days_to_cover": 2.7
-    },
-    {
-      "date": "2022-12-15",
-      "short_interest": 68230759,
-      "prev_short_interest": 75666545,
-      "change_pct": 0,
-      "avg_daily_volume": 32791569,
-      "days_to_cover": 2.08
-    },
-    {
-      "date": "2022-12-30",
-      "short_interest": 86163737,
-      "prev_short_interest": 68230759,
-      "change_pct": 0,
-      "avg_daily_volume": 27027459,
-      "days_to_cover": 3.19
-    },
-    {
-      "date": "2023-01-13",
-      "short_interest": 78962156,
-      "prev_short_interest": 86163737,
-      "change_pct": 0,
-      "avg_daily_volume": 35569617,
-      "days_to_cover": 2.22
-    },
-    {
-      "date": "2023-01-31",
-      "short_interest": 63890226,
-      "prev_short_interest": 78962156,
-      "change_pct": 0,
-      "avg_daily_volume": 35034431,
-      "days_to_cover": 1.82
-    },
-    {
-      "date": "2023-02-15",
-      "short_interest": 82174183,
-      "prev_short_interest": 63890226,
-      "change_pct": 0,
-      "avg_daily_volume": 45583176,
-      "days_to_cover": 1.8
-    },
-    {
-      "date": "2023-02-28",
-      "short_interest": 79373438,
-      "prev_short_interest": 82174183,
-      "change_pct": 0,
-      "avg_daily_volume": 62914486,
-      "days_to_cover": 1.26
-    },
-    {
-      "date": "2023-03-15",
-      "short_interest": 90403814,
-      "prev_short_interest": 79373438,
-      "change_pct": 0,
-      "avg_daily_volume": 56532033,
-      "days_to_cover": 1.6
-    },
-    {
-      "date": "2023-03-31",
-      "short_interest": 68287702,
-      "prev_short_interest": 90403814,
-      "change_pct": 0,
-      "avg_daily_volume": 46098719,
-      "days_to_cover": 1.48
-    },
-    {
-      "date": "2023-04-14",
-      "short_interest": 68972342,
-      "prev_short_interest": 68287702,
-      "change_pct": 0,
-      "avg_daily_volume": 44596276,
-      "days_to_cover": 1.55
-    },
-    {
-      "date": "2023-04-28",
-      "short_interest": 88755665,
-      "prev_short_interest": 68972342,
-      "change_pct": 0,
-      "avg_daily_volume": 31117552,
-      "days_to_cover": 2.85
-    },
-    {
-      "date": "2023-05-15",
-      "short_interest": 83955778,
-      "prev_short_interest": 88755665,
-      "change_pct": 0,
-      "avg_daily_volume": 30440719,
-      "days_to_cover": 2.76
-    },
-    {
-      "date": "2023-05-31",
-      "short_interest": 77757268,
-      "prev_short_interest": 83955778,
-      "change_pct": 0,
-      "avg_daily_volume": 33271575,
-      "days_to_cover": 2.34
-    },
-    {
-      "date": "2023-06-15",
-      "short_interest": 62568941,
-      "prev_short_interest": 77757268,
-      "change_pct": 0,
-      "avg_daily_volume": 34376518,
-      "days_to_cover": 1.82
-    },
-    {
-      "date": "2023-06-30",
-      "short_interest": 70199128,
-      "prev_short_interest": 62568941,
-      "change_pct": 0,
-      "avg_daily_volume": 36561535,
-      "days_to_cover": 1.92
-    },
-    {
-      "date": "2023-07-14",
-      "short_interest": 80048450,
-      "prev_short_interest": 70199128,
-      "change_pct": 0,
-      "avg_daily_volume": 37320890,
-      "days_to_cover": 2.14
-    },
-    {
-      "date": "2023-07-31",
-      "short_interest": 72566641,
-      "prev_short_interest": 80048450,
-      "change_pct": 0,
-      "avg_daily_volume": 30651907,
-      "days_to_cover": 2.37
-    },
-    {
-      "date": "2023-08-15",
-      "short_interest": 81992891,
-      "prev_short_interest": 72566641,
-      "change_pct": 0,
-      "avg_daily_volume": 31604316,
-      "days_to_cover": 2.59
-    },
-    {
-      "date": "2023-08-31",
-      "short_interest": 91219654,
-      "prev_short_interest": 81992891,
-      "change_pct": 0,
-      "avg_daily_volume": 32177234,
-      "days_to_cover": 2.83
-    },
-    {
-      "date": "2023-09-15",
-      "short_interest": 89690891,
-      "prev_short_interest": 91219654,
-      "change_pct": 0,
-      "avg_daily_volume": 29819916,
-      "days_to_cover": 3.01
-    },
-    {
-      "date": "2023-09-29",
-      "short_interest": 99230502,
-      "prev_short_interest": 89690891,
-      "change_pct": 0,
-      "avg_daily_volume": 37258982,
-      "days_to_cover": 2.66
-    },
-    {
-      "date": "2023-10-13",
-      "short_interest": 81449203,
-      "prev_short_interest": 99230502,
-      "change_pct": 0,
-      "avg_daily_volume": 64079098,
-      "days_to_cover": 1.27
-    },
-    {
-      "date": "2023-10-31",
-      "short_interest": 87802629,
-      "prev_short_interest": 81449203,
-      "change_pct": 0,
-      "avg_daily_volume": 47751362,
-      "days_to_cover": 1.84
-    },
-    {
-      "date": "2023-11-15",
-      "short_interest": 69846611,
-      "prev_short_interest": 82408584,
-      "change_pct": 0,
-      "avg_daily_volume": 59153766,
-      "days_to_cover": 1.18
-    },
-    {
-      "date": "2023-11-30",
-      "short_interest": 59423213,
-      "prev_short_interest": 69846611,
-      "change_pct": 0,
-      "avg_daily_volume": 38392248,
-      "days_to_cover": 1.55
-    },
-    {
-      "date": "2023-12-15",
-      "short_interest": 54442670,
-      "prev_short_interest": 59423213,
-      "change_pct": 0,
-      "avg_daily_volume": 39290626,
-      "days_to_cover": 1.39
-    },
-    {
-      "date": "2023-12-29",
-      "short_interest": 53420842,
-      "prev_short_interest": 54442670,
-      "change_pct": 0,
-      "avg_daily_volume": 26022380,
-      "days_to_cover": 2.05
-    },
-    {
-      "date": "2024-01-12",
-      "short_interest": 60239912,
-      "prev_short_interest": 53420842,
-      "change_pct": 0,
-      "avg_daily_volume": 34103949,
-      "days_to_cover": 1.77
-    },
-    {
-      "date": "2024-01-31",
-      "short_interest": 70280868,
-      "prev_short_interest": 60239912,
-      "change_pct": 0,
-      "avg_daily_volume": 37857253,
-      "days_to_cover": 1.86
-    },
-    {
-      "date": "2024-02-15",
-      "short_interest": 72705690,
-      "prev_short_interest": 70280868,
-      "change_pct": 0,
-      "avg_daily_volume": 42466746,
-      "days_to_cover": 1.71
-    },
-    {
-      "date": "2024-02-29",
-      "short_interest": 74769176,
-      "prev_short_interest": 72705690,
-      "change_pct": 0,
-      "avg_daily_volume": 35876765,
-      "days_to_cover": 2.08
-    },
-    {
-      "date": "2024-03-15",
-      "short_interest": 83744674,
-      "prev_short_interest": 74769176,
-      "change_pct": 0,
-      "avg_daily_volume": 35613386,
-      "days_to_cover": 2.35
-    },
-    {
-      "date": "2024-03-28",
-      "short_interest": 64020297,
-      "prev_short_interest": 83744674,
-      "change_pct": 0,
-      "avg_daily_volume": 32595513,
-      "days_to_cover": 1.96
-    },
-    {
-      "date": "2024-04-15",
-      "short_interest": 79913391,
-      "prev_short_interest": 64020297,
-      "change_pct": 0,
-      "avg_daily_volume": 43419413,
-      "days_to_cover": 1.84
-    },
-    {
-      "date": "2024-04-30",
-      "short_interest": 74437598,
-      "prev_short_interest": 79913391,
-      "change_pct": 0,
-      "avg_daily_volume": 44338829,
-      "days_to_cover": 1.68
-    },
-    {
-      "date": "2024-05-15",
-      "short_interest": 80162238,
-      "prev_short_interest": 74437598,
-      "change_pct": 0,
-      "avg_daily_volume": 36266273,
-      "days_to_cover": 2.21
-    },
-    {
-      "date": "2024-05-31",
-      "short_interest": 62484621,
-      "prev_short_interest": 80162238,
-      "change_pct": 0,
-      "avg_daily_volume": 31498963,
-      "days_to_cover": 1.98
-    },
-    {
-      "date": "2024-06-14",
-      "short_interest": 61206096,
-      "prev_short_interest": 62484621,
-      "change_pct": 0,
-      "avg_daily_volume": 35620905,
-      "days_to_cover": 1.72
-    },
-    {
-      "date": "2024-06-28",
-      "short_interest": 60024095,
-      "prev_short_interest": 61206096,
-      "change_pct": 0,
-      "avg_daily_volume": 31793255,
-      "days_to_cover": 1.89
-    },
-    {
-      "date": "2024-07-15",
-      "short_interest": 60118215,
-      "prev_short_interest": 60024095,
-      "change_pct": 0,
-      "avg_daily_volume": 28086893,
-      "days_to_cover": 2.14
-    },
-    {
-      "date": "2024-07-31",
-      "short_interest": 72416003,
-      "prev_short_interest": 60118215,
-      "change_pct": 0,
-      "avg_daily_volume": 35292588,
-      "days_to_cover": 2.05
-    },
-    {
-      "date": "2024-08-15",
-      "short_interest": 87291633,
-      "prev_short_interest": 72416003,
-      "change_pct": 0,
-      "avg_daily_volume": 50083330,
-      "days_to_cover": 1.74
-    },
-    {
-      "date": "2024-08-30",
-      "short_interest": 82737621,
-      "prev_short_interest": 87291633,
-      "change_pct": 0,
-      "avg_daily_volume": 27655298,
-      "days_to_cover": 2.99
-    },
-    {
-      "date": "2024-09-13",
-      "short_interest": 75578460,
-      "prev_short_interest": 82737621,
-      "change_pct": 0,
-      "avg_daily_volume": 36008846,
-      "days_to_cover": 2.1
-    },
-    {
-      "date": "2024-09-30",
-      "short_interest": 71618986,
-      "prev_short_interest": 75578460,
-      "change_pct": 0,
-      "avg_daily_volume": 34533494,
-      "days_to_cover": 2.07
-    },
-    {
-      "date": "2024-10-15",
-      "short_interest": 82379633,
-      "prev_short_interest": 71618986,
-      "change_pct": 0,
-      "avg_daily_volume": 37392403,
-      "days_to_cover": 2.2
-    },
-    {
-      "date": "2024-10-31",
-      "short_interest": 75513548,
-      "prev_short_interest": 82379633,
-      "change_pct": 0,
-      "avg_daily_volume": 35935432,
-      "days_to_cover": 2.1
-    },
-    {
-      "date": "2024-11-15",
-      "short_interest": 87788487,
-      "prev_short_interest": 75513548,
-      "change_pct": 0,
-      "avg_daily_volume": 34902536,
-      "days_to_cover": 2.52
-    },
-    {
-      "date": "2024-11-29",
-      "short_interest": 89406578,
-      "prev_short_interest": 87788487,
-      "change_pct": 0,
-      "avg_daily_volume": 30142260,
-      "days_to_cover": 2.97
-    },
-    {
-      "date": "2024-12-13",
-      "short_interest": 87199352,
-      "prev_short_interest": 89406578,
-      "change_pct": 0,
-      "avg_daily_volume": 27033011,
-      "days_to_cover": 3.23
-    },
-    {
-      "date": "2024-12-31",
-      "short_interest": 83232333,
-      "prev_short_interest": 87199352,
-      "change_pct": 0,
-      "avg_daily_volume": 34830140,
-      "days_to_cover": 2.39
-    },
-    {
-      "date": "2025-01-15",
-      "short_interest": 96593997,
-      "prev_short_interest": 83232333,
-      "change_pct": 0,
-      "avg_daily_volume": 37109538,
-      "days_to_cover": 2.6
-    },
-    {
-      "date": "2025-01-31",
-      "short_interest": 91837765,
-      "prev_short_interest": 96593997,
-      "change_pct": 0,
-      "avg_daily_volume": 29239496,
-      "days_to_cover": 3.14
-    },
-    {
-      "date": "2025-02-14",
-      "short_interest": 85759775,
-      "prev_short_interest": 91837765,
-      "change_pct": 0,
-      "avg_daily_volume": 28871355,
-      "days_to_cover": 2.97
-    },
-    {
-      "date": "2025-02-28",
-      "short_interest": 95434444,
-      "prev_short_interest": 85759775,
-      "change_pct": 0,
-      "avg_daily_volume": 30921388,
-      "days_to_cover": 3.09
-    },
-    {
-      "date": "2025-03-14",
-      "short_interest": 103669424,
-      "prev_short_interest": 95434444,
-      "change_pct": 0,
-      "avg_daily_volume": 56245134,
-      "days_to_cover": 1.84
-    },
-    {
-      "date": "2025-03-31",
-      "short_interest": 100475539,
-      "prev_short_interest": 103669424,
-      "change_pct": 0,
-      "avg_daily_volume": 41857992,
-      "days_to_cover": 2.4
-    },
-    {
-      "date": "2025-04-15",
-      "short_interest": 100294229,
-      "prev_short_interest": 100475539,
-      "change_pct": 0,
-      "avg_daily_volume": 100757971,
-      "days_to_cover": 1
-    },
-    {
-      "date": "2025-04-30",
-      "short_interest": 105969718,
-      "prev_short_interest": 100294229,
-      "change_pct": 0,
-      "avg_daily_volume": 48352976,
-      "days_to_cover": 2.19
-    },
-    {
-      "date": "2025-05-15",
-      "short_interest": 93285777,
-      "prev_short_interest": 105969718,
-      "change_pct": 0,
-      "avg_daily_volume": 43186511,
-      "days_to_cover": 2.16
-    },
-    {
-      "date": "2025-05-30",
-      "short_interest": 88277609,
-      "prev_short_interest": 93285777,
-      "change_pct": 0,
-      "avg_daily_volume": 32848342,
-      "days_to_cover": 2.69
-    },
-    {
-      "date": "2025-06-13",
-      "short_interest": 83576746,
-      "prev_short_interest": 88277609,
-      "change_pct": 0,
-      "avg_daily_volume": 34941572,
-      "days_to_cover": 2.39
-    },
-    {
-      "date": "2025-06-30",
-      "short_interest": 78456303,
-      "prev_short_interest": 83576746,
-      "change_pct": 0,
-      "avg_daily_volume": 36968688,
-      "days_to_cover": 2.12
-    },
-    {
-      "date": "2025-07-15",
-      "short_interest": 68887197,
-      "prev_short_interest": 78456303,
-      "change_pct": 0,
-      "avg_daily_volume": 31619835,
-      "days_to_cover": 2.18
-    },
-    {
-      "date": "2025-07-31",
-      "short_interest": 71829768,
-      "prev_short_interest": 68887197,
-      "change_pct": 0,
-      "avg_daily_volume": 29516017,
-      "days_to_cover": 2.43
-    },
-    {
-      "date": "2025-08-15",
-      "short_interest": 71322465,
-      "prev_short_interest": 71829768,
-      "change_pct": 0,
-      "avg_daily_volume": 35101436,
-      "days_to_cover": 2.03
-    },
-    {
-      "date": "2025-08-29",
-      "short_interest": 74446575,
-      "prev_short_interest": 71322465,
-      "change_pct": 0,
-      "avg_daily_volume": 32215767,
-      "days_to_cover": 2.31
-    },
-    {
-      "date": "2025-09-15",
-      "short_interest": 74794460,
-      "prev_short_interest": 74446575,
-      "change_pct": 0,
-      "avg_daily_volume": 35222209,
-      "days_to_cover": 2.12
-    },
-    {
-      "date": "2025-09-30",
-      "short_interest": 79390678,
-      "prev_short_interest": 74794460,
-      "change_pct": 0,
-      "avg_daily_volume": 34935713,
-      "days_to_cover": 2.27
-    },
-    {
-      "date": "2025-10-15",
-      "short_interest": 79753117,
-      "prev_short_interest": 79390678,
-      "change_pct": 0,
-      "avg_daily_volume": 47600612,
-      "days_to_cover": 1.68
-    },
-    {
-      "date": "2025-10-31",
-      "short_interest": 82810610,
-      "prev_short_interest": 79753117,
-      "change_pct": 0,
-      "avg_daily_volume": 47370198,
-      "days_to_cover": 1.75
-    },
-    {
-      "date": "2025-11-14",
-      "short_interest": 85332359,
-      "prev_short_interest": 82810610,
-      "change_pct": 0,
-      "avg_daily_volume": 44778247,
-      "days_to_cover": 1.91
-    },
-    {
-      "date": "2025-11-28",
-      "short_interest": 84792370,
-      "prev_short_interest": 85332359,
-      "change_pct": 0,
-      "avg_daily_volume": 44526925,
-      "days_to_cover": 1.9
-    },
-    {
-      "date": "2025-12-15",
-      "short_interest": 65017227,
-      "prev_short_interest": 84792370,
-      "change_pct": 0,
-      "avg_daily_volume": 39115341,
-      "days_to_cover": 1.66
-    },
-    {
-      "date": "2025-12-31",
-      "short_interest": 63547370,
-      "prev_short_interest": 65017227,
-      "change_pct": 0,
-      "avg_daily_volume": 26783649,
-      "days_to_cover": 2.37
-    },
-    {
-      "date": "2026-01-15",
-      "short_interest": 81464227,
-      "prev_short_interest": 63547370,
-      "change_pct": 0,
-      "avg_daily_volume": 31607466,
-      "days_to_cover": 2.58
-    },
-    {
-      "date": "2026-01-30",
-      "short_interest": 75208022,
-      "prev_short_interest": 81464227,
-      "change_pct": 0,
-      "avg_daily_volume": 39033336,
-      "days_to_cover": 1.93
-    },
-    {
-      "date": "2026-02-13",
-      "short_interest": 88134011,
-      "prev_short_interest": 75208022,
-      "change_pct": 0,
-      "avg_daily_volume": 43550813,
-      "days_to_cover": 2.02
     }
   ],
   "ticker": "HYG"
