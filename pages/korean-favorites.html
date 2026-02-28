@@ -229,9 +229,9 @@ body {
         <tr>
           <th>종목</th>
           <th class="hide-mobile">이름</th>
-          <th>숏 인터레스트</th>
+          <th>Short Ratio</th>
           <th>변화율</th>
-          <th class="hide-mobile">Days to Cover</th>
+          <th class="hide-mobile">숏 거래량</th>
           <th class="hide-mobile">추이</th>
         </tr>
       </thead>
@@ -241,18 +241,19 @@ body {
 
   <div style="text-align:center; margin-bottom: 24px;">
     <div style="font-size:12px; color:var(--text-muted);">
-      행을 클릭하면 가격 & 숏 인터레스트 히스토리컬 차트가 표시됩니다
+      행을 클릭하면 가격 & Short Volume Ratio 히스토리컬 차트가 표시됩니다
     </div>
   </div>
 
   <footer class="page-footer">
     <p class="footer-text">
-      데이터 출처: FINRA Consolidated Short Interest (월 2회) · 가격: Yahoo Finance<br>
+      데이터 출처: FINRA Reg SHO Daily Short Sale Volume · 가격: Yahoo Finance<br>
       종목 선정 기준: 한국 투자자 해외주식 보유/거래량 상위 종목<br>
       © 2026 <a href="https://herdvibe.com" target="_blank">HerdVibe</a>
     </p>
   </footer>
 </div>
+
 
 <script>
 Chart.defaults.color = '#8888a8';
@@ -260,286 +261,168 @@ Chart.defaults.borderColor = 'rgba(255,255,255,0.04)';
 Chart.defaults.font.family = "'JetBrains Mono', 'Noto Sans KR', monospace";
 Chart.defaults.font.size = 10;
 
-// Stock data
-const stocks = [
-  // 빅테크
-  { ticker: 'AAPL', name: 'Apple', cat: 'bigtech', si: 120000000, prev: 112000000, dtc: 1.8, price: 242 },
-  { ticker: 'MSFT', name: 'Microsoft', cat: 'bigtech', si: 45000000, prev: 42000000, dtc: 1.2, price: 425 },
-  { ticker: 'GOOGL', name: 'Alphabet', cat: 'bigtech', si: 32000000, prev: 35000000, dtc: 1.0, price: 185 },
-  { ticker: 'AMZN', name: 'Amazon', cat: 'bigtech', si: 58000000, prev: 52000000, dtc: 1.5, price: 215 },
-  { ticker: 'META', name: 'Meta Platforms', cat: 'bigtech', si: 28000000, prev: 31000000, dtc: 1.1, price: 620 },
-  { ticker: 'NVDA', name: 'NVIDIA', cat: 'bigtech', si: 195000000, prev: 175000000, dtc: 2.1, price: 138 },
-  { ticker: 'TSLA', name: 'Tesla', cat: 'bigtech', si: 82000000, prev: 78000000, dtc: 2.8, price: 340 },
-  // 반도체
-  { ticker: 'AMD', name: 'AMD', cat: 'semi', si: 45000000, prev: 38000000, dtc: 2.3, price: 118 },
-  { ticker: 'AVGO', name: 'Broadcom', cat: 'semi', si: 12000000, prev: 11500000, dtc: 0.8, price: 228 },
-  { ticker: 'QCOM', name: 'Qualcomm', cat: 'semi', si: 18000000, prev: 19500000, dtc: 1.4, price: 175 },
-  { ticker: 'MU', name: 'Micron', cat: 'semi', si: 42000000, prev: 35000000, dtc: 2.5, price: 98 },
-  { ticker: 'INTC', name: 'Intel', cat: 'semi', si: 125000000, prev: 118000000, dtc: 3.2, price: 22 },
-  { ticker: 'ARM', name: 'Arm Holdings', cat: 'semi', si: 38000000, prev: 32000000, dtc: 3.8, price: 168 },
-  { ticker: 'SMCI', name: 'Super Micro', cat: 'semi', si: 28000000, prev: 22000000, dtc: 4.2, price: 42 },
-  // AI / 소프트웨어
-  { ticker: 'PLTR', name: 'Palantir', cat: 'ai', si: 92000000, prev: 85000000, dtc: 2.6, price: 105 },
-  { ticker: 'SNOW', name: 'Snowflake', cat: 'ai', si: 32000000, prev: 34000000, dtc: 3.1, price: 178 },
-  { ticker: 'CRM', name: 'Salesforce', cat: 'ai', si: 22000000, prev: 20000000, dtc: 1.5, price: 310 },
-  { ticker: 'NOW', name: 'ServiceNow', cat: 'ai', si: 8500000, prev: 9200000, dtc: 0.9, price: 1050 },
-  { ticker: 'SHOP', name: 'Shopify', cat: 'ai', si: 15000000, prev: 17000000, dtc: 1.8, price: 108 },
-  // 핀테크 / 금융
-  { ticker: 'COIN', name: 'Coinbase', cat: 'fintech', si: 18000000, prev: 22000000, dtc: 3.5, price: 285 },
-  { ticker: 'SOFI', name: 'SoFi Technologies', cat: 'fintech', si: 95000000, prev: 88000000, dtc: 3.8, price: 15 },
-  { ticker: 'SQ', name: 'Block (Square)', cat: 'fintech', si: 25000000, prev: 28000000, dtc: 2.2, price: 78 },
-  { ticker: 'PYPL', name: 'PayPal', cat: 'fintech', si: 30000000, prev: 32000000, dtc: 1.6, price: 72 },
-  { ticker: 'V', name: 'Visa', cat: 'fintech', si: 12000000, prev: 11000000, dtc: 0.6, price: 320 },
-  // 바이오 / 헬스
-  { ticker: 'LLY', name: 'Eli Lilly', cat: 'bio', si: 8500000, prev: 7800000, dtc: 1.2, price: 820 },
-  { ticker: 'NVO', name: 'Novo Nordisk', cat: 'bio', si: 22000000, prev: 18000000, dtc: 2.5, price: 98 },
-  { ticker: 'MRNA', name: 'Moderna', cat: 'bio', si: 38000000, prev: 42000000, dtc: 4.5, price: 35 },
-  { ticker: 'PFE', name: 'Pfizer', cat: 'bio', si: 55000000, prev: 52000000, dtc: 1.8, price: 26 },
-  // 에너지 / 산업
-  { ticker: 'XOM', name: 'ExxonMobil', cat: 'energy', si: 35000000, prev: 32000000, dtc: 1.5, price: 112 },
-  { ticker: 'CVX', name: 'Chevron', cat: 'energy', si: 18000000, prev: 17000000, dtc: 1.1, price: 155 },
-  { ticker: 'LMT', name: 'Lockheed Martin', cat: 'energy', si: 4500000, prev: 5200000, dtc: 1.8, price: 465 },
-  { ticker: 'BA', name: 'Boeing', cat: 'energy', si: 22000000, prev: 18000000, dtc: 3.2, price: 178 },
-  // 기타 인기
-  { ticker: 'NFLX', name: 'Netflix', cat: 'popular', si: 8200000, prev: 7500000, dtc: 0.7, price: 980 },
-  { ticker: 'DIS', name: 'Disney', cat: 'popular', si: 42000000, prev: 45000000, dtc: 2.1, price: 112 },
-  { ticker: 'NIO', name: 'NIO Inc', cat: 'popular', si: 135000000, prev: 128000000, dtc: 3.5, price: 4.2 },
-  { ticker: 'RIVN', name: 'Rivian', cat: 'popular', si: 155000000, prev: 148000000, dtc: 4.8, price: 14 },
-  { ticker: 'RBLX', name: 'Roblox', cat: 'popular', si: 42000000, prev: 38000000, dtc: 3.2, price: 62 },
-  { ticker: 'MARA', name: 'Marathon Digital', cat: 'popular', si: 68000000, prev: 72000000, dtc: 3.8, price: 22 },
-];
+const CATEGORIES = {
+  AAPL:'bigtech',MSFT:'bigtech',GOOGL:'bigtech',AMZN:'bigtech',META:'bigtech',NVDA:'bigtech',TSLA:'bigtech',
+  AMD:'semi',AVGO:'semi',QCOM:'semi',MU:'semi',INTC:'semi',ARM:'semi',SMCI:'semi',
+  PLTR:'ai',SNOW:'ai',CRM:'ai',NOW:'ai',SHOP:'ai',
+  COIN:'fintech',SOFI:'fintech',SQ:'fintech',PYPL:'fintech',V:'fintech',MA:'fintech',
+  LLY:'bio',NVO:'bio',MRNA:'bio',PFE:'bio',
+  XOM:'energy',CVX:'energy',LMT:'energy',BA:'energy',
+  NFLX:'popular',DIS:'popular',NIO:'popular',RIVN:'popular',RBLX:'popular',MARA:'popular',
+};
 
-function formatSI(num) {
-  if (num >= 1e9) return (num / 1e9).toFixed(1) + 'B';
-  if (num >= 1e6) return (num / 1e6).toFixed(1) + 'M';
-  if (num >= 1e3) return (num / 1e3).toFixed(0) + 'K';
-  return num.toString();
-}
+const STOCK_NAMES = {
+  AAPL:'Apple',MSFT:'Microsoft',GOOGL:'Alphabet',AMZN:'Amazon',META:'Meta',NVDA:'NVIDIA',TSLA:'Tesla',
+  AMD:'AMD',AVGO:'Broadcom',QCOM:'Qualcomm',MU:'Micron',INTC:'Intel',ARM:'Arm Holdings',SMCI:'Super Micro',
+  PLTR:'Palantir',SNOW:'Snowflake',CRM:'Salesforce',NOW:'ServiceNow',SHOP:'Shopify',
+  COIN:'Coinbase',SOFI:'SoFi',SQ:'Block',PYPL:'PayPal',V:'Visa',MA:'Mastercard',
+  LLY:'Eli Lilly',NVO:'Novo Nordisk',MRNA:'Moderna',PFE:'Pfizer',
+  XOM:'ExxonMobil',CVX:'Chevron',LMT:'Lockheed Martin',BA:'Boeing',
+  NFLX:'Netflix',DIS:'Disney',NIO:'NIO',RIVN:'Rivian',RBLX:'Roblox',MARA:'Marathon Digital',
+};
 
-function generateMiniHistory(baseLevel, length = 20) {
-  let val = baseLevel * 0.7;
-  const data = [];
-  for (let i = 0; i < length; i++) {
-    val += (Math.random() - 0.45) * baseLevel * 0.08;
-    val = Math.max(baseLevel * 0.3, val);
-    data.push(val);
-  }
-  return data;
-}
-
-function generateDates(start, count, step = 15) {
-  const dates = [];
-  const d = new Date(start);
-  for (let i = 0; i < count; i++) {
-    dates.push(new Date(d));
-    d.setDate(d.getDate() + step);
-  }
-  return dates;
-}
-
-function generatePriceHistory(basePrice, count = 300) {
-  let p = basePrice * 0.6;
-  const data = [];
-  const dates = generateDates('2021-01-01', count, 5);
-  dates.forEach(d => {
-    p += (Math.random() - 0.47) * basePrice * 0.02;
-    p = Math.max(basePrice * 0.2, p);
-    data.push({ x: d, y: Math.round(p * 100) / 100 });
-  });
-  return data;
-}
-
-function generateSIHistory(baseSI, count = 80) {
-  let si = baseSI * 0.6;
-  const data = [];
-  const dates = generateDates('2021-01-01', count, 15);
-  dates.forEach(d => {
-    si += (Math.random() - 0.48) * baseSI * 0.12;
-    si = Math.max(baseSI * 0.2, si);
-    data.push({ x: d, y: Math.round(si) });
-  });
-  return data;
-}
-
-// Render table
+let allStocks = [];
 let currentCategory = 'all';
 let expandedTicker = null;
-const sparkCharts = {};
+let fullData = null;
+
+function formatSI(num) {
+  if (num >= 1e9) return (num/1e9).toFixed(1)+'B';
+  if (num >= 1e6) return (num/1e6).toFixed(1)+'M';
+  if (num >= 1e3) return (num/1e3).toFixed(0)+'K';
+  return typeof num==='number'?num.toFixed(1):String(num);
+}
+
+async function initApp() {
+  let data = null;
+  try {
+    const r = await fetch('../data/korean_favorites.json');
+    if (r.ok) data = await r.json();
+  } catch(e) { console.warn('Fetch failed:', e); }
+
+  if (!data || !data.stocks) {
+    document.getElementById('stockTableBody').innerHTML = '<tr><td colspan="6" style="color:#888;text-align:center;padding:40px">데이터 로딩 실패</td></tr>';
+    return;
+  }
+
+  fullData = data;
+  document.querySelector('.update-badge').textContent = 'DATA AS OF ' + data.updated_at;
+
+  // Build stock list from JSON
+  for (const [ticker, d] of Object.entries(data.stocks)) {
+    const sv = d.short_volume || [];
+    const last = sv.length > 0 ? sv[sv.length-1] : {};
+    const prev = sv.length > 1 ? sv[sv.length-2] : {};
+    const lastRatio = last.short_ratio || 0;
+    const prevRatio = prev.short_ratio || 0;
+    const change = prevRatio > 0 ? ((lastRatio - prevRatio) / prevRatio) * 100 : 0;
+    const lastPrice = d.price && d.price.length > 0 ? d.price[d.price.length-1].close : 0;
+
+    // Mini sparkline data (last 20 short_ratio values)
+    const sparkData = sv.slice(-20).map(s => s.short_ratio || 0);
+
+    allStocks.push({
+      ticker, name: STOCK_NAMES[ticker] || ticker,
+      cat: CATEGORIES[ticker] || 'popular',
+      ratio: lastRatio, prevRatio, change,
+      price: lastPrice, sparkData,
+      shortVol: last.short_volume || 0,
+      totalVol: last.total_volume || 0,
+    });
+  }
+
+  // Sort by ratio descending
+  allStocks.sort((a, b) => b.ratio - a.ratio);
+  renderTable('all');
+}
 
 function renderTable(category) {
   const tbody = document.getElementById('stockTableBody');
   tbody.innerHTML = '';
   expandedTicker = null;
 
-  const filtered = category === 'all' ? stocks : stocks.filter(s => s.cat === category);
+  const filtered = category === 'all' ? allStocks : allStocks.filter(s => s.cat === category);
 
   filtered.forEach(stock => {
-    const change = ((stock.si - stock.prev) / stock.prev) * 100;
-    const changeClass = change > 0 ? 'td-change-up' : 'td-change-down';
-    const changeSign = change > 0 ? '+' : '';
-    const dtcColor = stock.dtc > 3 ? 'var(--accent-red)' : stock.dtc > 2 ? 'var(--accent-orange)' : 'var(--accent-blue)';
-    const dtcPct = Math.min(stock.dtc / 5 * 100, 100);
+    const cc = stock.change > 0 ? 'td-change-up' : 'td-change-down';
+    const cs = stock.change > 0 ? '+' : '';
 
     const tr = document.createElement('tr');
     tr.dataset.ticker = stock.ticker;
     tr.innerHTML = `
       <td><span class="td-ticker">${stock.ticker}</span></td>
       <td class="hide-mobile"><span class="td-name">${stock.name}</span></td>
-      <td><span class="td-mono">${formatSI(stock.si)}</span></td>
-      <td><span class="td-mono ${changeClass}">${changeSign}${change.toFixed(1)}%</span></td>
+      <td><span class="td-mono">${stock.ratio.toFixed(1)}%</span></td>
+      <td><span class="td-mono ${cc}">${cs}${stock.change.toFixed(1)}%</span></td>
       <td class="hide-mobile">
         <span class="td-dtc-bar">
-          <span class="td-mono" style="color:${dtcColor}">${stock.dtc.toFixed(1)}일</span>
-          <span class="dtc-bar-bg"><span class="dtc-bar-fill" style="width:${dtcPct}%;background:${dtcColor}"></span></span>
+          <span class="td-mono" style="color:var(--accent-blue)">${formatSI(stock.shortVol)}</span>
         </span>
       </td>
       <td class="hide-mobile"><div class="sparkline-container"><canvas id="spark-${stock.ticker}" width="100" height="32"></canvas></div></td>
     `;
-
     tr.addEventListener('click', () => toggleExpand(stock.ticker, tr));
     tbody.appendChild(tr);
 
-    // Render sparkline
+    // Sparkline
     setTimeout(() => {
-      const sparkData = generateMiniHistory(stock.si);
-      const canvas = document.getElementById(`spark-${stock.ticker}`);
-      if (!canvas) return;
-      sparkCharts[stock.ticker] = new Chart(canvas, {
-        type: 'line',
-        data: {
-          labels: sparkData.map((_, i) => i),
-          datasets: [{
-            data: sparkData,
-            borderColor: change > 0 ? 'rgba(255, 74, 106, 0.7)' : 'rgba(74, 255, 138, 0.7)',
-            borderWidth: 1.2,
-            pointRadius: 0,
-            fill: true,
-            backgroundColor: change > 0 ? 'rgba(255, 74, 106, 0.06)' : 'rgba(74, 255, 138, 0.06)',
-            tension: 0.3,
-          }]
-        },
-        options: {
-          responsive: false,
-          maintainAspectRatio: false,
-          plugins: { legend: { display: false }, tooltip: { enabled: false } },
-          scales: { x: { display: false }, y: { display: false } }
-        }
+      const canvas = document.getElementById('spark-'+stock.ticker);
+      if (!canvas || stock.sparkData.length < 2) return;
+      new Chart(canvas, {
+        type:'line', data:{labels:stock.sparkData.map((_,i)=>i), datasets:[{
+          data:stock.sparkData, borderColor:stock.change>0?'rgba(255,74,106,0.7)':'rgba(74,255,138,0.7)',
+          borderWidth:1.2, pointRadius:0, fill:true,
+          backgroundColor:stock.change>0?'rgba(255,74,106,0.06)':'rgba(74,255,138,0.06)', tension:0.3
+        }]},
+        options:{responsive:false,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{enabled:false}},scales:{x:{display:false},y:{display:false}}}
       });
     }, 50);
   });
 }
 
 function toggleExpand(ticker, tr) {
-  // Remove existing expanded
   const existing = document.querySelector('.chart-expand-row');
   if (existing) {
-    const prevTicker = existing.dataset.expandTicker;
+    const prev = existing.dataset.expandTicker;
     existing.remove();
-    document.querySelector(`tr[data-ticker="${prevTicker}"]`)?.classList.remove('expanded');
-    if (prevTicker === ticker) { expandedTicker = null; return; }
+    document.querySelector(`tr[data-ticker="${prev}"]`)?.classList.remove('expanded');
+    if (prev === ticker) { expandedTicker = null; return; }
   }
-
   tr.classList.add('expanded');
   expandedTicker = ticker;
 
-  const stock = stocks.find(s => s.ticker === ticker);
+  const d = fullData.stocks[ticker];
+  if (!d) return;
+
   const expandRow = document.createElement('tr');
   expandRow.className = 'chart-expand-row';
   expandRow.dataset.expandTicker = ticker;
-  expandRow.innerHTML = `
-    <td colspan="6">
-      <div class="chart-expand-content">
-        <div class="expand-chart-grid">
-          <div class="expand-chart-box">
-            <span class="expand-chart-label price">${ticker} PRICE</span>
-            <canvas id="expand-price-${ticker}"></canvas>
-          </div>
-          <div class="expand-chart-box">
-            <span class="expand-chart-label short">${ticker} SHORT INTEREST</span>
-            <canvas id="expand-si-${ticker}"></canvas>
-          </div>
-        </div>
-      </div>
-    </td>
-  `;
-
+  expandRow.innerHTML = `<td colspan="6"><div class="chart-expand-content"><div class="expand-chart-grid">
+    <div class="expand-chart-box"><span class="expand-chart-label price">${ticker} PRICE</span><canvas id="expand-price-${ticker}"></canvas></div>
+    <div class="expand-chart-box"><span class="expand-chart-label short">${ticker} SHORT VOL RATIO</span><canvas id="expand-si-${ticker}"></canvas></div>
+  </div></div></td>`;
   tr.after(expandRow);
 
-  // Render expanded charts
-  setTimeout(() => {
-    const priceData = generatePriceHistory(stock.price);
-    const siData = generateSIHistory(stock.si);
+  const tooltipOpts = {backgroundColor:'#1a1a2e',titleColor:'#e8e8f0',bodyColor:'#8888a8',borderColor:'#2a2a4a',borderWidth:1,displayColors:false};
 
-    new Chart(document.getElementById(`expand-price-${ticker}`), {
-      type: 'line',
-      data: {
-        datasets: [{
-          data: priceData,
-          borderColor: 'rgba(74, 142, 255, 0.9)',
-          borderWidth: 1.5,
-          pointRadius: 0,
-          fill: true,
-          backgroundColor: (ctx) => {
-            const g = ctx.chart.ctx.createLinearGradient(0, 0, 0, ctx.chart.height);
-            g.addColorStop(0, 'rgba(74, 142, 255, 0.08)');
-            g.addColorStop(1, 'rgba(74, 142, 255, 0)');
-            return g;
-          },
-          tension: 0.3,
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false }, tooltip: {
-          backgroundColor: '#1a1a2e', titleColor: '#e8e8f0', bodyColor: '#8888a8',
-          borderColor: '#2a2a4a', borderWidth: 1, displayColors: false,
-          callbacks: {
-            title: (items) => items[0].raw.x.toLocaleDateString('ko-KR'),
-            label: (item) => `$${item.raw.y.toFixed(2)}`
-          }
-        }},
-        scales: {
-          x: { type: 'time', time: { unit: 'year' }, grid: { color: 'rgba(255,255,255,0.02)' } },
-          y: { position: 'right', grid: { color: 'rgba(255,255,255,0.02)' }, ticks: { callback: v => '$' + v } }
-        }
-      }
+  setTimeout(() => {
+    const priceData = (d.price||[]).map(p=>({x:new Date(p.date),y:p.close}));
+    const svData = (d.short_volume||[]).map(s=>({x:new Date(s.date),y:s.short_ratio}));
+
+    new Chart(document.getElementById('expand-price-'+ticker), {
+      type:'line', data:{datasets:[{data:priceData,borderColor:'rgba(74,142,255,0.9)',borderWidth:1.5,pointRadius:0,fill:true,
+        backgroundColor:ctx=>{const g=ctx.chart.ctx.createLinearGradient(0,0,0,ctx.chart.height);g.addColorStop(0,'rgba(74,142,255,0.08)');g.addColorStop(1,'rgba(74,142,255,0)');return g;},tension:0.3}]},
+      options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{...tooltipOpts,
+        callbacks:{title:i=>i[0].raw.x.toLocaleDateString('ko-KR'),label:i=>'$'+i.raw.y.toFixed(2)}}},
+        scales:{x:{type:'time',time:{unit:'year'},grid:{color:'rgba(255,255,255,0.02)'}},y:{position:'right',grid:{color:'rgba(255,255,255,0.02)'},ticks:{callback:v=>'$'+v}}}}
     });
 
-    new Chart(document.getElementById(`expand-si-${ticker}`), {
-      type: 'line',
-      data: {
-        datasets: [{
-          data: siData,
-          borderColor: 'rgba(255, 107, 107, 0.9)',
-          borderWidth: 1.5,
-          pointRadius: 0,
-          fill: true,
-          backgroundColor: (ctx) => {
-            const g = ctx.chart.ctx.createLinearGradient(0, 0, 0, ctx.chart.height);
-            g.addColorStop(0, 'rgba(255, 107, 107, 0.1)');
-            g.addColorStop(1, 'rgba(255, 107, 107, 0)');
-            return g;
-          },
-          stepped: 'before',
-        }]
-      },
-      options: {
-        responsive: true,
-        maintainAspectRatio: false,
-        plugins: { legend: { display: false }, tooltip: {
-          backgroundColor: '#1a1a2e', titleColor: '#e8e8f0', bodyColor: '#8888a8',
-          borderColor: '#2a2a4a', borderWidth: 1, displayColors: false,
-          callbacks: {
-            title: (items) => items[0].raw.x.toLocaleDateString('ko-KR'),
-            label: (item) => `SI: ${formatSI(item.raw.y)}`
-          }
-        }},
-        scales: {
-          x: { type: 'time', time: { unit: 'year' }, grid: { color: 'rgba(255,255,255,0.02)' } },
-          y: { position: 'right', grid: { color: 'rgba(255,255,255,0.02)' }, ticks: { callback: v => formatSI(v) } }
-        }
-      }
+    new Chart(document.getElementById('expand-si-'+ticker), {
+      type:'line', data:{datasets:[{data:svData,borderColor:'rgba(255,107,107,0.9)',borderWidth:1.5,pointRadius:0,fill:true,
+        backgroundColor:ctx=>{const g=ctx.chart.ctx.createLinearGradient(0,0,0,ctx.chart.height);g.addColorStop(0,'rgba(255,107,107,0.1)');g.addColorStop(1,'rgba(255,107,107,0)');return g;},tension:0.3}]},
+      options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{...tooltipOpts,
+        callbacks:{title:i=>i[0].raw.x.toLocaleDateString('ko-KR'),label:i=>'Short Ratio: '+i.raw.y.toFixed(1)+'%'}}},
+        scales:{x:{type:'time',time:{unit:'year'},grid:{color:'rgba(255,255,255,0.02)'}},y:{position:'right',grid:{color:'rgba(255,255,255,0.02)'},ticks:{callback:v=>v+'%'}}}}
     });
   }, 100);
 }
@@ -554,8 +437,7 @@ document.querySelectorAll('.cat-tab').forEach(tab => {
   });
 });
 
-// Initial render
-renderTable('all');
+initApp();
 </script>
 </body>
 </html>
