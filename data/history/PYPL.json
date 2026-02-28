@@ -6281,7 +6281,6113 @@
       "volume": 23546849
     }
   ],
-  "short_volume": [],
-  "short_interest": [],
+  "short_volume": [
+    {
+      "date": "2025-02-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-02-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-02-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-02-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-02-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-02-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-31",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-31",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-03-31",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-04-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-05-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-06-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-31",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-31",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-07-31",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-08-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-09-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-31",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-31",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-10-31",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-11-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-01",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-31",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-31",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2025-12-31",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-07",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-08",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-14",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-15",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-16",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-21",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-22",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-28",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-29",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-01-30",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-02",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-03",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-04",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-05",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-06",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-09",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-10",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-11",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-12",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-13",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-17",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-18",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-19",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-20",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-23",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-24",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-25",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-26",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    },
+    {
+      "date": "2026-02-27",
+      "short_volume": 0,
+      "total_volume": 0,
+      "short_ratio": 0
+    }
+  ],
+  "short_interest": [
+    {
+      "date": "2017-12-29",
+      "short_interest": 16802574,
+      "prev_short_interest": 18804106,
+      "change_pct": 0,
+      "avg_daily_volume": 5397974,
+      "days_to_cover": 3.11
+    },
+    {
+      "date": "2018-01-12",
+      "short_interest": 16261372,
+      "prev_short_interest": 16802574,
+      "change_pct": 0,
+      "avg_daily_volume": 8300584,
+      "days_to_cover": 1.96
+    },
+    {
+      "date": "2018-01-31",
+      "short_interest": 12913968,
+      "prev_short_interest": 16261372,
+      "change_pct": 0,
+      "avg_daily_volume": 8783521,
+      "days_to_cover": 1.47
+    },
+    {
+      "date": "2018-02-15",
+      "short_interest": 15168495,
+      "prev_short_interest": 12913968,
+      "change_pct": 0,
+      "avg_daily_volume": 16475016,
+      "days_to_cover": 1
+    },
+    {
+      "date": "2018-02-28",
+      "short_interest": 21108387,
+      "prev_short_interest": 15168495,
+      "change_pct": 0,
+      "avg_daily_volume": 8229836,
+      "days_to_cover": 2.56
+    },
+    {
+      "date": "2018-03-15",
+      "short_interest": 17145680,
+      "prev_short_interest": 21108387,
+      "change_pct": 0,
+      "avg_daily_volume": 8113950,
+      "days_to_cover": 2.11
+    },
+    {
+      "date": "2018-03-29",
+      "short_interest": 15306064,
+      "prev_short_interest": 17145680,
+      "change_pct": 0,
+      "avg_daily_volume": 9278780,
+      "days_to_cover": 1.65
+    },
+    {
+      "date": "2018-04-13",
+      "short_interest": 12051852,
+      "prev_short_interest": 15306064,
+      "change_pct": 0,
+      "avg_daily_volume": 7581344,
+      "days_to_cover": 1.59
+    },
+    {
+      "date": "2018-04-30",
+      "short_interest": 13814801,
+      "prev_short_interest": 12051852,
+      "change_pct": 0,
+      "avg_daily_volume": 8133391,
+      "days_to_cover": 1.7
+    },
+    {
+      "date": "2018-05-15",
+      "short_interest": 14868672,
+      "prev_short_interest": 13814801,
+      "change_pct": 0,
+      "avg_daily_volume": 9246916,
+      "days_to_cover": 1.61
+    },
+    {
+      "date": "2018-05-31",
+      "short_interest": 17056775,
+      "prev_short_interest": 14868672,
+      "change_pct": 0,
+      "avg_daily_volume": 8029147,
+      "days_to_cover": 2.12
+    },
+    {
+      "date": "2018-06-15",
+      "short_interest": 14217260,
+      "prev_short_interest": 17056775,
+      "change_pct": 0,
+      "avg_daily_volume": 7595709,
+      "days_to_cover": 1.87
+    },
+    {
+      "date": "2018-06-29",
+      "short_interest": 14147678,
+      "prev_short_interest": 14217260,
+      "change_pct": 0,
+      "avg_daily_volume": 7718064,
+      "days_to_cover": 1.83
+    },
+    {
+      "date": "2018-07-13",
+      "short_interest": 13416106,
+      "prev_short_interest": 14146641,
+      "change_pct": 0,
+      "avg_daily_volume": 5026543,
+      "days_to_cover": 2.67
+    },
+    {
+      "date": "2018-07-31",
+      "short_interest": 15912301,
+      "prev_short_interest": 13416106,
+      "change_pct": 0,
+      "avg_daily_volume": 10058841,
+      "days_to_cover": 1.58
+    },
+    {
+      "date": "2018-08-15",
+      "short_interest": 17711470,
+      "prev_short_interest": 15912301,
+      "change_pct": 0,
+      "avg_daily_volume": 6582303,
+      "days_to_cover": 2.69
+    },
+    {
+      "date": "2018-08-31",
+      "short_interest": 17623538,
+      "prev_short_interest": 17711470,
+      "change_pct": 0,
+      "avg_daily_volume": 5641279,
+      "days_to_cover": 3.12
+    },
+    {
+      "date": "2018-09-14",
+      "short_interest": 17366263,
+      "prev_short_interest": 17623538,
+      "change_pct": 0,
+      "avg_daily_volume": 7419760,
+      "days_to_cover": 2.34
+    },
+    {
+      "date": "2018-09-28",
+      "short_interest": 17820036,
+      "prev_short_interest": 17366263,
+      "change_pct": 0,
+      "avg_daily_volume": 8760569,
+      "days_to_cover": 2.03
+    },
+    {
+      "date": "2018-10-15",
+      "short_interest": 15194562,
+      "prev_short_interest": 17820036,
+      "change_pct": 0,
+      "avg_daily_volume": 11322465,
+      "days_to_cover": 1.34
+    },
+    {
+      "date": "2018-10-31",
+      "short_interest": 15939483,
+      "prev_short_interest": 15194562,
+      "change_pct": 0,
+      "avg_daily_volume": 14597261,
+      "days_to_cover": 1.09
+    },
+    {
+      "date": "2018-11-15",
+      "short_interest": 14720534,
+      "prev_short_interest": 15939483,
+      "change_pct": 0,
+      "avg_daily_volume": 6839896,
+      "days_to_cover": 2.15
+    },
+    {
+      "date": "2018-11-30",
+      "short_interest": 15305954,
+      "prev_short_interest": 14720534,
+      "change_pct": 0,
+      "avg_daily_volume": 8656401,
+      "days_to_cover": 1.77
+    },
+    {
+      "date": "2018-12-14",
+      "short_interest": 14377533,
+      "prev_short_interest": 15305954,
+      "change_pct": 0,
+      "avg_daily_volume": 9026388,
+      "days_to_cover": 1.59
+    },
+    {
+      "date": "2018-12-31",
+      "short_interest": 15571873,
+      "prev_short_interest": 14377533,
+      "change_pct": 0,
+      "avg_daily_volume": 9916871,
+      "days_to_cover": 1.57
+    },
+    {
+      "date": "2019-01-15",
+      "short_interest": 17066897,
+      "prev_short_interest": 15571873,
+      "change_pct": 0,
+      "avg_daily_volume": 8930908,
+      "days_to_cover": 1.91
+    },
+    {
+      "date": "2019-01-31",
+      "short_interest": 15784358,
+      "prev_short_interest": 17066897,
+      "change_pct": 0,
+      "avg_daily_volume": 10424540,
+      "days_to_cover": 1.51
+    },
+    {
+      "date": "2019-02-15",
+      "short_interest": 21388897,
+      "prev_short_interest": 15784358,
+      "change_pct": 0,
+      "avg_daily_volume": 7206360,
+      "days_to_cover": 2.97
+    },
+    {
+      "date": "2019-02-28",
+      "short_interest": 18823659,
+      "prev_short_interest": 21388897,
+      "change_pct": 0,
+      "avg_daily_volume": 6577540,
+      "days_to_cover": 2.86
+    },
+    {
+      "date": "2019-03-15",
+      "short_interest": 14052592,
+      "prev_short_interest": 18823659,
+      "change_pct": 0,
+      "avg_daily_volume": 6384715,
+      "days_to_cover": 2.2
+    },
+    {
+      "date": "2019-03-29",
+      "short_interest": 15293560,
+      "prev_short_interest": 14052592,
+      "change_pct": 0,
+      "avg_daily_volume": 5940661,
+      "days_to_cover": 2.57
+    },
+    {
+      "date": "2019-04-15",
+      "short_interest": 13993511,
+      "prev_short_interest": 15293560,
+      "change_pct": 0,
+      "avg_daily_volume": 6775063,
+      "days_to_cover": 2.07
+    },
+    {
+      "date": "2019-04-30",
+      "short_interest": 14256788,
+      "prev_short_interest": 13993511,
+      "change_pct": 0,
+      "avg_daily_volume": 7595682,
+      "days_to_cover": 1.88
+    },
+    {
+      "date": "2019-05-15",
+      "short_interest": 13323908,
+      "prev_short_interest": 14256788,
+      "change_pct": 0,
+      "avg_daily_volume": 4934916,
+      "days_to_cover": 2.7
+    },
+    {
+      "date": "2019-05-31",
+      "short_interest": 14278301,
+      "prev_short_interest": 13323908,
+      "change_pct": 0,
+      "avg_daily_volume": 5160131,
+      "days_to_cover": 2.77
+    },
+    {
+      "date": "2019-06-14",
+      "short_interest": 13377848,
+      "prev_short_interest": 14278301,
+      "change_pct": 0,
+      "avg_daily_volume": 5910741,
+      "days_to_cover": 2.26
+    },
+    {
+      "date": "2019-06-28",
+      "short_interest": 14012727,
+      "prev_short_interest": 13377848,
+      "change_pct": 0,
+      "avg_daily_volume": 5781121,
+      "days_to_cover": 2.42
+    },
+    {
+      "date": "2019-07-15",
+      "short_interest": 15477624,
+      "prev_short_interest": 14012727,
+      "change_pct": 0,
+      "avg_daily_volume": 4568733,
+      "days_to_cover": 3.39
+    },
+    {
+      "date": "2019-07-31",
+      "short_interest": 12397162,
+      "prev_short_interest": 15477624,
+      "change_pct": 0,
+      "avg_daily_volume": 8100549,
+      "days_to_cover": 1.53
+    },
+    {
+      "date": "2019-08-15",
+      "short_interest": 12013714,
+      "prev_short_interest": 12397162,
+      "change_pct": 0,
+      "avg_daily_volume": 8804598,
+      "days_to_cover": 1.36
+    },
+    {
+      "date": "2019-08-30",
+      "short_interest": 11907823,
+      "prev_short_interest": 12013714,
+      "change_pct": 0,
+      "avg_daily_volume": 4767229,
+      "days_to_cover": 2.5
+    },
+    {
+      "date": "2019-09-13",
+      "short_interest": 12272244,
+      "prev_short_interest": 11907823,
+      "change_pct": 0,
+      "avg_daily_volume": 7667411,
+      "days_to_cover": 1.6
+    },
+    {
+      "date": "2019-09-30",
+      "short_interest": 13990791,
+      "prev_short_interest": 12272244,
+      "change_pct": 0,
+      "avg_daily_volume": 6068735,
+      "days_to_cover": 2.31
+    },
+    {
+      "date": "2019-10-15",
+      "short_interest": 13700116,
+      "prev_short_interest": 13990791,
+      "change_pct": 0,
+      "avg_daily_volume": 5329151,
+      "days_to_cover": 2.57
+    },
+    {
+      "date": "2019-10-31",
+      "short_interest": 14809041,
+      "prev_short_interest": 13700116,
+      "change_pct": 0,
+      "avg_daily_volume": 9282208,
+      "days_to_cover": 1.6
+    },
+    {
+      "date": "2019-11-15",
+      "short_interest": 16025562,
+      "prev_short_interest": 14809041,
+      "change_pct": 0,
+      "avg_daily_volume": 6390125,
+      "days_to_cover": 2.51
+    },
+    {
+      "date": "2019-11-29",
+      "short_interest": 15489519,
+      "prev_short_interest": 16025562,
+      "change_pct": 0,
+      "avg_daily_volume": 7348649,
+      "days_to_cover": 2.11
+    },
+    {
+      "date": "2019-12-13",
+      "short_interest": 14290100,
+      "prev_short_interest": 15489519,
+      "change_pct": 0,
+      "avg_daily_volume": 5979029,
+      "days_to_cover": 2.39
+    },
+    {
+      "date": "2019-12-31",
+      "short_interest": 15814580,
+      "prev_short_interest": 14290100,
+      "change_pct": 0,
+      "avg_daily_volume": 5179311,
+      "days_to_cover": 3.05
+    },
+    {
+      "date": "2020-01-15",
+      "short_interest": 16488517,
+      "prev_short_interest": 15814580,
+      "change_pct": 0,
+      "avg_daily_volume": 6608461,
+      "days_to_cover": 2.5
+    },
+    {
+      "date": "2020-01-31",
+      "short_interest": 15697000,
+      "prev_short_interest": 16488517,
+      "change_pct": 0,
+      "avg_daily_volume": 7304776,
+      "days_to_cover": 2.15
+    },
+    {
+      "date": "2020-02-14",
+      "short_interest": 13072128,
+      "prev_short_interest": 15697000,
+      "change_pct": 0,
+      "avg_daily_volume": 5337757,
+      "days_to_cover": 2.45
+    },
+    {
+      "date": "2020-02-28",
+      "short_interest": 12377022,
+      "prev_short_interest": 13072128,
+      "change_pct": 0,
+      "avg_daily_volume": 9958911,
+      "days_to_cover": 1.24
+    },
+    {
+      "date": "2020-03-13",
+      "short_interest": 16121369,
+      "prev_short_interest": 12377022,
+      "change_pct": 0,
+      "avg_daily_volume": 10464029,
+      "days_to_cover": 1.54
+    },
+    {
+      "date": "2020-03-31",
+      "short_interest": 14413478,
+      "prev_short_interest": 16121369,
+      "change_pct": 0,
+      "avg_daily_volume": 12119062,
+      "days_to_cover": 1.19
+    },
+    {
+      "date": "2020-04-15",
+      "short_interest": 11872390,
+      "prev_short_interest": 14413478,
+      "change_pct": 0,
+      "avg_daily_volume": 8297628,
+      "days_to_cover": 1.43
+    },
+    {
+      "date": "2020-04-30",
+      "short_interest": 11692604,
+      "prev_short_interest": 11872390,
+      "change_pct": 0,
+      "avg_daily_volume": 9078951,
+      "days_to_cover": 1.29
+    },
+    {
+      "date": "2020-05-15",
+      "short_interest": 12506887,
+      "prev_short_interest": 11934517,
+      "change_pct": 0,
+      "avg_daily_volume": 11403563,
+      "days_to_cover": 1.1
+    },
+    {
+      "date": "2020-05-29",
+      "short_interest": 13673401,
+      "prev_short_interest": 12506887,
+      "change_pct": 0,
+      "avg_daily_volume": 7252024,
+      "days_to_cover": 1.89
+    },
+    {
+      "date": "2020-06-15",
+      "short_interest": 15165452,
+      "prev_short_interest": 13673401,
+      "change_pct": 0,
+      "avg_daily_volume": 6312558,
+      "days_to_cover": 2.4
+    },
+    {
+      "date": "2020-06-30",
+      "short_interest": 14464404,
+      "prev_short_interest": 15165452,
+      "change_pct": 0,
+      "avg_daily_volume": 6954646,
+      "days_to_cover": 2.08
+    },
+    {
+      "date": "2020-07-15",
+      "short_interest": 13403182,
+      "prev_short_interest": 14464404,
+      "change_pct": 0,
+      "avg_daily_volume": 6855132,
+      "days_to_cover": 1.96
+    },
+    {
+      "date": "2020-07-31",
+      "short_interest": 13975337,
+      "prev_short_interest": 13403182,
+      "change_pct": 0,
+      "avg_daily_volume": 7380522,
+      "days_to_cover": 1.89
+    },
+    {
+      "date": "2020-08-14",
+      "short_interest": 12449997,
+      "prev_short_interest": 13975337,
+      "change_pct": 0,
+      "avg_daily_volume": 6939300,
+      "days_to_cover": 1.79
+    },
+    {
+      "date": "2020-08-31",
+      "short_interest": 13441550,
+      "prev_short_interest": 12449997,
+      "change_pct": 0,
+      "avg_daily_volume": 5311149,
+      "days_to_cover": 2.53
+    },
+    {
+      "date": "2020-09-15",
+      "short_interest": 14160002,
+      "prev_short_interest": 13441550,
+      "change_pct": 0,
+      "avg_daily_volume": 8535638,
+      "days_to_cover": 1.66
+    },
+    {
+      "date": "2020-09-30",
+      "short_interest": 17283459,
+      "prev_short_interest": 14160002,
+      "change_pct": 0,
+      "avg_daily_volume": 8376087,
+      "days_to_cover": 2.06
+    },
+    {
+      "date": "2020-10-15",
+      "short_interest": 16185323,
+      "prev_short_interest": 17283459,
+      "change_pct": 0,
+      "avg_daily_volume": 6257324,
+      "days_to_cover": 2.59
+    },
+    {
+      "date": "2020-10-30",
+      "short_interest": 14435056,
+      "prev_short_interest": 16185359,
+      "change_pct": 0,
+      "avg_daily_volume": 7751922,
+      "days_to_cover": 1.86
+    },
+    {
+      "date": "2020-11-13",
+      "short_interest": 16520396,
+      "prev_short_interest": 14435056,
+      "change_pct": 0,
+      "avg_daily_volume": 13355161,
+      "days_to_cover": 1.24
+    },
+    {
+      "date": "2020-11-30",
+      "short_interest": 16995503,
+      "prev_short_interest": 16520396,
+      "change_pct": 0,
+      "avg_daily_volume": 9125304,
+      "days_to_cover": 1.86
+    },
+    {
+      "date": "2020-12-15",
+      "short_interest": 15031434,
+      "prev_short_interest": 16995503,
+      "change_pct": 0,
+      "avg_daily_volume": 6401801,
+      "days_to_cover": 2.35
+    },
+    {
+      "date": "2020-12-31",
+      "short_interest": 13780884,
+      "prev_short_interest": 15031434,
+      "change_pct": 0,
+      "avg_daily_volume": 6883610,
+      "days_to_cover": 2
+    },
+    {
+      "date": "2021-01-15",
+      "short_interest": 13168513,
+      "prev_short_interest": 13780884,
+      "change_pct": 0,
+      "avg_daily_volume": 5967210,
+      "days_to_cover": 2.21
+    },
+    {
+      "date": "2021-01-29",
+      "short_interest": 15781018,
+      "prev_short_interest": 13168513,
+      "change_pct": 0,
+      "avg_daily_volume": 7508915,
+      "days_to_cover": 2.1
+    },
+    {
+      "date": "2021-02-12",
+      "short_interest": 13609987,
+      "prev_short_interest": 15781018,
+      "change_pct": 0,
+      "avg_daily_volume": 10940395,
+      "days_to_cover": 1.24
+    },
+    {
+      "date": "2021-02-26",
+      "short_interest": 12888184,
+      "prev_short_interest": 13609987,
+      "change_pct": 0,
+      "avg_daily_volume": 11118235,
+      "days_to_cover": 1.16
+    },
+    {
+      "date": "2021-03-15",
+      "short_interest": 15468983,
+      "prev_short_interest": 12888184,
+      "change_pct": 0,
+      "avg_daily_volume": 10629836,
+      "days_to_cover": 1.46
+    },
+    {
+      "date": "2021-03-31",
+      "short_interest": 14036897,
+      "prev_short_interest": 15468983,
+      "change_pct": 0,
+      "avg_daily_volume": 6766443,
+      "days_to_cover": 2.07
+    },
+    {
+      "date": "2021-04-15",
+      "short_interest": 14436412,
+      "prev_short_interest": 13865642,
+      "change_pct": 0,
+      "avg_daily_volume": 6362559,
+      "days_to_cover": 2.27
+    },
+    {
+      "date": "2021-04-30",
+      "short_interest": 13403801,
+      "prev_short_interest": 14436412,
+      "change_pct": 0,
+      "avg_daily_volume": 5011038,
+      "days_to_cover": 2.67
+    },
+    {
+      "date": "2021-05-14",
+      "short_interest": 12802298,
+      "prev_short_interest": 13403801,
+      "change_pct": 0,
+      "avg_daily_volume": 8818114,
+      "days_to_cover": 1.45
+    },
+    {
+      "date": "2021-05-28",
+      "short_interest": 13804138,
+      "prev_short_interest": 12802298,
+      "change_pct": 0,
+      "avg_daily_volume": 5680017,
+      "days_to_cover": 2.43
+    },
+    {
+      "date": "2021-06-15",
+      "short_interest": 14268014,
+      "prev_short_interest": 13797306,
+      "change_pct": 0,
+      "avg_daily_volume": 5064038,
+      "days_to_cover": 2.82
+    },
+    {
+      "date": "2021-06-30",
+      "short_interest": 12198162,
+      "prev_short_interest": 14268014,
+      "change_pct": 0,
+      "avg_daily_volume": 6819012,
+      "days_to_cover": 1.79
+    },
+    {
+      "date": "2021-07-15",
+      "short_interest": 11113879,
+      "prev_short_interest": 12198162,
+      "change_pct": 0,
+      "avg_daily_volume": 5531381,
+      "days_to_cover": 2.01
+    },
+    {
+      "date": "2021-07-30",
+      "short_interest": 9851207,
+      "prev_short_interest": 11113879,
+      "change_pct": 0,
+      "avg_daily_volume": 7115394,
+      "days_to_cover": 1.38
+    },
+    {
+      "date": "2021-08-13",
+      "short_interest": 11900436,
+      "prev_short_interest": 9851207,
+      "change_pct": 0,
+      "avg_daily_volume": 6270498,
+      "days_to_cover": 1.9
+    },
+    {
+      "date": "2021-08-31",
+      "short_interest": 11210259,
+      "prev_short_interest": 11900436,
+      "change_pct": 0,
+      "avg_daily_volume": 5969366,
+      "days_to_cover": 1.88
+    },
+    {
+      "date": "2021-09-15",
+      "short_interest": 11010593,
+      "prev_short_interest": 11210259,
+      "change_pct": 0,
+      "avg_daily_volume": 5423814,
+      "days_to_cover": 2.03
+    },
+    {
+      "date": "2021-09-30",
+      "short_interest": 11522370,
+      "prev_short_interest": 11010593,
+      "change_pct": 0,
+      "avg_daily_volume": 5787316,
+      "days_to_cover": 1.99
+    },
+    {
+      "date": "2021-10-15",
+      "short_interest": 11779529,
+      "prev_short_interest": 11522370,
+      "change_pct": 0,
+      "avg_daily_volume": 5464262,
+      "days_to_cover": 2.16
+    },
+    {
+      "date": "2021-10-29",
+      "short_interest": 13592752,
+      "prev_short_interest": 11779529,
+      "change_pct": 0,
+      "avg_daily_volume": 18913692,
+      "days_to_cover": 1
+    },
+    {
+      "date": "2021-11-15",
+      "short_interest": 16573015,
+      "prev_short_interest": 13592752,
+      "change_pct": 0,
+      "avg_daily_volume": 21625482,
+      "days_to_cover": 1
+    },
+    {
+      "date": "2021-11-30",
+      "short_interest": 15449303,
+      "prev_short_interest": 16573015,
+      "change_pct": 0,
+      "avg_daily_volume": 19548570,
+      "days_to_cover": 1
+    },
+    {
+      "date": "2021-12-15",
+      "short_interest": 17274195,
+      "prev_short_interest": 15449303,
+      "change_pct": 0,
+      "avg_daily_volume": 14888887,
+      "days_to_cover": 1.16
+    },
+    {
+      "date": "2021-12-31",
+      "short_interest": 18685587,
+      "prev_short_interest": 17274195,
+      "change_pct": 0,
+      "avg_daily_volume": 10187086,
+      "days_to_cover": 1.83
+    },
+    {
+      "date": "2022-01-14",
+      "short_interest": 17785968,
+      "prev_short_interest": 18685587,
+      "change_pct": 0,
+      "avg_daily_volume": 13480216,
+      "days_to_cover": 1.32
+    },
+    {
+      "date": "2022-01-31",
+      "short_interest": 17961256,
+      "prev_short_interest": 17785968,
+      "change_pct": 0,
+      "avg_daily_volume": 14945858,
+      "days_to_cover": 1.2
+    },
+    {
+      "date": "2022-02-15",
+      "short_interest": 19751620,
+      "prev_short_interest": 17961256,
+      "change_pct": 0,
+      "avg_daily_volume": 39162706,
+      "days_to_cover": 1
+    },
+    {
+      "date": "2022-02-28",
+      "short_interest": 21374105,
+      "prev_short_interest": 19751620,
+      "change_pct": 0,
+      "avg_daily_volume": 29707236,
+      "days_to_cover": 1
+    },
+    {
+      "date": "2022-03-15",
+      "short_interest": 23063634,
+      "prev_short_interest": 21374105,
+      "change_pct": 0,
+      "avg_daily_volume": 19907924,
+      "days_to_cover": 1.16
+    },
+    {
+      "date": "2022-03-31",
+      "short_interest": 20539817,
+      "prev_short_interest": 23063634,
+      "change_pct": 0,
+      "avg_daily_volume": 17987866,
+      "days_to_cover": 1.14
+    },
+    {
+      "date": "2022-04-14",
+      "short_interest": 21388300,
+      "prev_short_interest": 20539817,
+      "change_pct": 0,
+      "avg_daily_volume": 14380484,
+      "days_to_cover": 1.49
+    },
+    {
+      "date": "2022-04-29",
+      "short_interest": 23964592,
+      "prev_short_interest": 21388300,
+      "change_pct": 0,
+      "avg_daily_volume": 22755624,
+      "days_to_cover": 1.05
+    },
+    {
+      "date": "2022-05-13",
+      "short_interest": 26533442,
+      "prev_short_interest": 23964592,
+      "change_pct": 0,
+      "avg_daily_volume": 20533941,
+      "days_to_cover": 1.29
+    },
+    {
+      "date": "2022-05-31",
+      "short_interest": 22794726,
+      "prev_short_interest": 26533442,
+      "change_pct": 0,
+      "avg_daily_volume": 15825186,
+      "days_to_cover": 1.44
+    },
+    {
+      "date": "2022-06-15",
+      "short_interest": 26830477,
+      "prev_short_interest": 22794726,
+      "change_pct": 0,
+      "avg_daily_volume": 14443612,
+      "days_to_cover": 1.86
+    },
+    {
+      "date": "2022-06-30",
+      "short_interest": 24210596,
+      "prev_short_interest": 26830477,
+      "change_pct": 0,
+      "avg_daily_volume": 15901782,
+      "days_to_cover": 1.52
+    },
+    {
+      "date": "2022-07-15",
+      "short_interest": 22949885,
+      "prev_short_interest": 24210596,
+      "change_pct": 0,
+      "avg_daily_volume": 11415018,
+      "days_to_cover": 2.01
+    },
+    {
+      "date": "2022-07-29",
+      "short_interest": 22432579,
+      "prev_short_interest": 22949885,
+      "change_pct": 0,
+      "avg_daily_volume": 14936304,
+      "days_to_cover": 1.5
+    },
+    {
+      "date": "2022-08-15",
+      "short_interest": 21933601,
+      "prev_short_interest": 22432579,
+      "change_pct": 0,
+      "avg_daily_volume": 18629556,
+      "days_to_cover": 1.18
+    },
+    {
+      "date": "2022-08-31",
+      "short_interest": 21699063,
+      "prev_short_interest": 21933601,
+      "change_pct": 0,
+      "avg_daily_volume": 11231170,
+      "days_to_cover": 1.93
+    },
+    {
+      "date": "2022-09-15",
+      "short_interest": 21526096,
+      "prev_short_interest": 21699063,
+      "change_pct": 0,
+      "avg_daily_volume": 11631480,
+      "days_to_cover": 1.85
+    },
+    {
+      "date": "2022-09-30",
+      "short_interest": 23789272,
+      "prev_short_interest": 21526096,
+      "change_pct": 0,
+      "avg_daily_volume": 13513983,
+      "days_to_cover": 1.76
+    },
+    {
+      "date": "2022-10-14",
+      "short_interest": 24034089,
+      "prev_short_interest": 23789272,
+      "change_pct": 0,
+      "avg_daily_volume": 12436359,
+      "days_to_cover": 1.93
+    },
+    {
+      "date": "2022-10-31",
+      "short_interest": 20529009,
+      "prev_short_interest": 24034089,
+      "change_pct": 0,
+      "avg_daily_volume": 13706346,
+      "days_to_cover": 1.5
+    },
+    {
+      "date": "2022-11-15",
+      "short_interest": 23395909,
+      "prev_short_interest": 20529009,
+      "change_pct": 0,
+      "avg_daily_volume": 18981551,
+      "days_to_cover": 1.23
+    },
+    {
+      "date": "2022-11-30",
+      "short_interest": 20401623,
+      "prev_short_interest": 23395909,
+      "change_pct": 0,
+      "avg_daily_volume": 13562920,
+      "days_to_cover": 1.5
+    },
+    {
+      "date": "2022-12-15",
+      "short_interest": 20969923,
+      "prev_short_interest": 20401623,
+      "change_pct": 0,
+      "avg_daily_volume": 17427263,
+      "days_to_cover": 1.2
+    },
+    {
+      "date": "2022-12-30",
+      "short_interest": 20415037,
+      "prev_short_interest": 20969923,
+      "change_pct": 0,
+      "avg_daily_volume": 13314911,
+      "days_to_cover": 1.53
+    },
+    {
+      "date": "2023-01-13",
+      "short_interest": 23278717,
+      "prev_short_interest": 20415037,
+      "change_pct": 0,
+      "avg_daily_volume": 13799548,
+      "days_to_cover": 1.69
+    },
+    {
+      "date": "2023-01-31",
+      "short_interest": 18662118,
+      "prev_short_interest": 23278717,
+      "change_pct": 0,
+      "avg_daily_volume": 11877732,
+      "days_to_cover": 1.57
+    },
+    {
+      "date": "2023-02-15",
+      "short_interest": 21133682,
+      "prev_short_interest": 18662118,
+      "change_pct": 0,
+      "avg_daily_volume": 17984814,
+      "days_to_cover": 1.18
+    },
+    {
+      "date": "2023-02-28",
+      "short_interest": 22042274,
+      "prev_short_interest": 21133682,
+      "change_pct": 0,
+      "avg_daily_volume": 11250303,
+      "days_to_cover": 1.96
+    },
+    {
+      "date": "2023-03-15",
+      "short_interest": 20998660,
+      "prev_short_interest": 22042274,
+      "change_pct": 0,
+      "avg_daily_volume": 11049591,
+      "days_to_cover": 1.9
+    },
+    {
+      "date": "2023-03-31",
+      "short_interest": 16657671,
+      "prev_short_interest": 20998660,
+      "change_pct": 0,
+      "avg_daily_volume": 12809549,
+      "days_to_cover": 1.3
+    },
+    {
+      "date": "2023-04-14",
+      "short_interest": 15962482,
+      "prev_short_interest": 16657671,
+      "change_pct": 0,
+      "avg_daily_volume": 9861309,
+      "days_to_cover": 1.62
+    },
+    {
+      "date": "2023-04-28",
+      "short_interest": 15527901,
+      "prev_short_interest": 15962482,
+      "change_pct": 0,
+      "avg_daily_volume": 9231194,
+      "days_to_cover": 1.68
+    },
+    {
+      "date": "2023-05-15",
+      "short_interest": 19425108,
+      "prev_short_interest": 15527901,
+      "change_pct": 0,
+      "avg_daily_volume": 24383090,
+      "days_to_cover": 1
+    },
+    {
+      "date": "2023-05-31",
+      "short_interest": 20908800,
+      "prev_short_interest": 19425638,
+      "change_pct": 0,
+      "avg_daily_volume": 20196994,
+      "days_to_cover": 1.04
+    },
+    {
+      "date": "2023-06-15",
+      "short_interest": 20614470,
+      "prev_short_interest": 20908800,
+      "change_pct": 0,
+      "avg_daily_volume": 16989898,
+      "days_to_cover": 1.21
+    },
+    {
+      "date": "2023-06-30",
+      "short_interest": 18829117,
+      "prev_short_interest": 20614470,
+      "change_pct": 0,
+      "avg_daily_volume": 20480706,
+      "days_to_cover": 1
+    },
+    {
+      "date": "2023-07-14",
+      "short_interest": 19766406,
+      "prev_short_interest": 18829117,
+      "change_pct": 0,
+      "avg_daily_volume": 13653110,
+      "days_to_cover": 1.45
+    },
+    {
+      "date": "2023-07-31",
+      "short_interest": 18911543,
+      "prev_short_interest": 19766406,
+      "change_pct": 0,
+      "avg_daily_volume": 13000257,
+      "days_to_cover": 1.45
+    },
+    {
+      "date": "2023-08-15",
+      "short_interest": 17439911,
+      "prev_short_interest": 18911543,
+      "change_pct": 0,
+      "avg_daily_volume": 22800733,
+      "days_to_cover": 1
+    },
+    {
+      "date": "2023-08-31",
+      "short_interest": 19523809,
+      "prev_short_interest": 17439731,
+      "change_pct": 0,
+      "avg_daily_volume": 14408717,
+      "days_to_cover": 1.35
+    },
+    {
+      "date": "2023-09-15",
+      "short_interest": 25425256,
+      "prev_short_interest": 19523809,
+      "change_pct": 0,
+      "avg_daily_volume": 13597771,
+      "days_to_cover": 1.87
+    },
+    {
+      "date": "2023-09-29",
+      "short_interest": 18904135,
+      "prev_short_interest": 25425256,
+      "change_pct": 0,
+      "avg_daily_volume": 12788606,
+      "days_to_cover": 1.48
+    },
+    {
+      "date": "2023-10-13",
+      "short_interest": 18749068,
+      "prev_short_interest": 18904135,
+      "change_pct": 0,
+      "avg_daily_volume": 13150357,
+      "days_to_cover": 1.43
+    },
+    {
+      "date": "2023-10-31",
+      "short_interest": 17971398,
+      "prev_short_interest": 18749068,
+      "change_pct": 0,
+      "avg_daily_volume": 14951951,
+      "days_to_cover": 1.2
+    },
+    {
+      "date": "2023-11-15",
+      "short_interest": 19615939,
+      "prev_short_interest": 17971398,
+      "change_pct": 0,
+      "avg_daily_volume": 17658740,
+      "days_to_cover": 1.11
+    },
+    {
+      "date": "2023-11-30",
+      "short_interest": 21588398,
+      "prev_short_interest": 19615939,
+      "change_pct": 0,
+      "avg_daily_volume": 14456574,
+      "days_to_cover": 1.49
+    },
+    {
+      "date": "2023-12-15",
+      "short_interest": 24249088,
+      "prev_short_interest": 21588398,
+      "change_pct": 0,
+      "avg_daily_volume": 18861910,
+      "days_to_cover": 1.29
+    },
+    {
+      "date": "2023-12-29",
+      "short_interest": 23113185,
+      "prev_short_interest": 24249088,
+      "change_pct": 0,
+      "avg_daily_volume": 13873283,
+      "days_to_cover": 1.67
+    },
+    {
+      "date": "2024-01-12",
+      "short_interest": 19552604,
+      "prev_short_interest": 23113185,
+      "change_pct": 0,
+      "avg_daily_volume": 14450863,
+      "days_to_cover": 1.35
+    },
+    {
+      "date": "2024-01-31",
+      "short_interest": 18829008,
+      "prev_short_interest": 19552604,
+      "change_pct": 0,
+      "avg_daily_volume": 25725225,
+      "days_to_cover": 1
+    },
+    {
+      "date": "2024-02-15",
+      "short_interest": 21282003,
+      "prev_short_interest": 18829008,
+      "change_pct": 0,
+      "avg_daily_volume": 23365244,
+      "days_to_cover": 1
+    },
+    {
+      "date": "2024-02-29",
+      "short_interest": 21202101,
+      "prev_short_interest": 21282003,
+      "change_pct": 0,
+      "avg_daily_volume": 12977714,
+      "days_to_cover": 1.63
+    },
+    {
+      "date": "2024-03-15",
+      "short_interest": 22945489,
+      "prev_short_interest": 21202101,
+      "change_pct": 0,
+      "avg_daily_volume": 17234809,
+      "days_to_cover": 1.33
+    },
+    {
+      "date": "2024-03-28",
+      "short_interest": 21904656,
+      "prev_short_interest": 22945489,
+      "change_pct": 0,
+      "avg_daily_volume": 11754348,
+      "days_to_cover": 1.86
+    },
+    {
+      "date": "2024-04-15",
+      "short_interest": 20965194,
+      "prev_short_interest": 21904656,
+      "change_pct": 0,
+      "avg_daily_volume": 9035545,
+      "days_to_cover": 2.32
+    },
+    {
+      "date": "2024-04-30",
+      "short_interest": 23283751,
+      "prev_short_interest": 20965194,
+      "change_pct": 0,
+      "avg_daily_volume": 14141435,
+      "days_to_cover": 1.65
+    },
+    {
+      "date": "2024-05-15",
+      "short_interest": 22737203,
+      "prev_short_interest": 23283751,
+      "change_pct": 0,
+      "avg_daily_volume": 11052404,
+      "days_to_cover": 2.06
+    },
+    {
+      "date": "2024-05-31",
+      "short_interest": 21349739,
+      "prev_short_interest": 22737203,
+      "change_pct": 0,
+      "avg_daily_volume": 9705608,
+      "days_to_cover": 2.2
+    },
+    {
+      "date": "2024-06-14",
+      "short_interest": 23257764,
+      "prev_short_interest": 21349739,
+      "change_pct": 0,
+      "avg_daily_volume": 12449309,
+      "days_to_cover": 1.87
+    },
+    {
+      "date": "2024-06-28",
+      "short_interest": 21590355,
+      "prev_short_interest": 23257764,
+      "change_pct": 0,
+      "avg_daily_volume": 14445127,
+      "days_to_cover": 1.49
+    },
+    {
+      "date": "2024-07-15",
+      "short_interest": 20550100,
+      "prev_short_interest": 21590355,
+      "change_pct": 0,
+      "avg_daily_volume": 10096559,
+      "days_to_cover": 2.04
+    },
+    {
+      "date": "2024-07-31",
+      "short_interest": 21373026,
+      "prev_short_interest": 20550100,
+      "change_pct": 0,
+      "avg_daily_volume": 13942320,
+      "days_to_cover": 1.53
+    },
+    {
+      "date": "2024-08-15",
+      "short_interest": 18803467,
+      "prev_short_interest": 21373026,
+      "change_pct": 0,
+      "avg_daily_volume": 13001488,
+      "days_to_cover": 1.45
+    },
+    {
+      "date": "2024-08-30",
+      "short_interest": 22679626,
+      "prev_short_interest": 18803467,
+      "change_pct": 0,
+      "avg_daily_volume": 11122592,
+      "days_to_cover": 2.04
+    },
+    {
+      "date": "2024-09-13",
+      "short_interest": 23576745,
+      "prev_short_interest": 22679626,
+      "change_pct": 0,
+      "avg_daily_volume": 10234544,
+      "days_to_cover": 2.3
+    },
+    {
+      "date": "2024-09-30",
+      "short_interest": 23152565,
+      "prev_short_interest": 23576745,
+      "change_pct": 0,
+      "avg_daily_volume": 13317822,
+      "days_to_cover": 1.74
+    },
+    {
+      "date": "2024-10-15",
+      "short_interest": 24215455,
+      "prev_short_interest": 23152565,
+      "change_pct": 0,
+      "avg_daily_volume": 8516007,
+      "days_to_cover": 2.84
+    },
+    {
+      "date": "2024-10-31",
+      "short_interest": 22300640,
+      "prev_short_interest": 24215455,
+      "change_pct": 0,
+      "avg_daily_volume": 11509098,
+      "days_to_cover": 1.94
+    },
+    {
+      "date": "2024-11-15",
+      "short_interest": 22841686,
+      "prev_short_interest": 22300640,
+      "change_pct": 0,
+      "avg_daily_volume": 10074443,
+      "days_to_cover": 2.27
+    },
+    {
+      "date": "2024-11-29",
+      "short_interest": 22952289,
+      "prev_short_interest": 22841686,
+      "change_pct": 0,
+      "avg_daily_volume": 7855081,
+      "days_to_cover": 2.92
+    },
+    {
+      "date": "2024-12-13",
+      "short_interest": 25256846,
+      "prev_short_interest": 22952289,
+      "change_pct": 0,
+      "avg_daily_volume": 8336804,
+      "days_to_cover": 3.03
+    },
+    {
+      "date": "2024-12-31",
+      "short_interest": 26802191,
+      "prev_short_interest": 25256846,
+      "change_pct": 0,
+      "avg_daily_volume": 8043291,
+      "days_to_cover": 3.33
+    },
+    {
+      "date": "2025-01-15",
+      "short_interest": 28494904,
+      "prev_short_interest": 26802191,
+      "change_pct": 0,
+      "avg_daily_volume": 7886875,
+      "days_to_cover": 3.61
+    },
+    {
+      "date": "2025-01-31",
+      "short_interest": 24846253,
+      "prev_short_interest": 28494904,
+      "change_pct": 0,
+      "avg_daily_volume": 8348413,
+      "days_to_cover": 2.98
+    },
+    {
+      "date": "2025-02-14",
+      "short_interest": 32925199,
+      "prev_short_interest": 24846253,
+      "change_pct": 0,
+      "avg_daily_volume": 17939333,
+      "days_to_cover": 1.84
+    },
+    {
+      "date": "2025-02-28",
+      "short_interest": 36103360,
+      "prev_short_interest": 32925199,
+      "change_pct": 0,
+      "avg_daily_volume": 13028985,
+      "days_to_cover": 2.77
+    },
+    {
+      "date": "2025-03-14",
+      "short_interest": 31906816,
+      "prev_short_interest": 36103360,
+      "change_pct": 0,
+      "avg_daily_volume": 13481664,
+      "days_to_cover": 2.37
+    },
+    {
+      "date": "2025-03-31",
+      "short_interest": 28325242,
+      "prev_short_interest": 31906816,
+      "change_pct": 0,
+      "avg_daily_volume": 9399169,
+      "days_to_cover": 3.01
+    },
+    {
+      "date": "2025-04-15",
+      "short_interest": 32827983,
+      "prev_short_interest": 28325242,
+      "change_pct": 0,
+      "avg_daily_volume": 14533887,
+      "days_to_cover": 2.26
+    },
+    {
+      "date": "2025-04-30",
+      "short_interest": 27879790,
+      "prev_short_interest": 32827983,
+      "change_pct": 0,
+      "avg_daily_volume": 10862101,
+      "days_to_cover": 2.57
+    },
+    {
+      "date": "2025-05-15",
+      "short_interest": 29996127,
+      "prev_short_interest": 27879790,
+      "change_pct": 0,
+      "avg_daily_volume": 9335543,
+      "days_to_cover": 3.21
+    },
+    {
+      "date": "2025-05-30",
+      "short_interest": 25718459,
+      "prev_short_interest": 29996127,
+      "change_pct": 0,
+      "avg_daily_volume": 8321154,
+      "days_to_cover": 3.09
+    },
+    {
+      "date": "2025-06-13",
+      "short_interest": 27559530,
+      "prev_short_interest": 25718459,
+      "change_pct": 0,
+      "avg_daily_volume": 8420369,
+      "days_to_cover": 3.27
+    },
+    {
+      "date": "2025-06-30",
+      "short_interest": 26977132,
+      "prev_short_interest": 27559530,
+      "change_pct": 0,
+      "avg_daily_volume": 10969187,
+      "days_to_cover": 2.46
+    },
+    {
+      "date": "2025-07-15",
+      "short_interest": 32440910,
+      "prev_short_interest": 26977132,
+      "change_pct": 0,
+      "avg_daily_volume": 9249396,
+      "days_to_cover": 3.51
+    },
+    {
+      "date": "2025-07-31",
+      "short_interest": 30055801,
+      "prev_short_interest": 32440910,
+      "change_pct": 0,
+      "avg_daily_volume": 13838703,
+      "days_to_cover": 2.17
+    },
+    {
+      "date": "2025-08-15",
+      "short_interest": 30118798,
+      "prev_short_interest": 30055801,
+      "change_pct": 0,
+      "avg_daily_volume": 10839650,
+      "days_to_cover": 2.78
+    },
+    {
+      "date": "2025-08-29",
+      "short_interest": 30966009,
+      "prev_short_interest": 30118798,
+      "change_pct": 0,
+      "avg_daily_volume": 7931083,
+      "days_to_cover": 3.9
+    },
+    {
+      "date": "2025-09-15",
+      "short_interest": 29855642,
+      "prev_short_interest": 30966009,
+      "change_pct": 0,
+      "avg_daily_volume": 10510733,
+      "days_to_cover": 2.84
+    },
+    {
+      "date": "2025-09-30",
+      "short_interest": 34624386,
+      "prev_short_interest": 29855642,
+      "change_pct": 0,
+      "avg_daily_volume": 14765133,
+      "days_to_cover": 2.35
+    },
+    {
+      "date": "2025-10-15",
+      "short_interest": 38620039,
+      "prev_short_interest": 34624386,
+      "change_pct": 0,
+      "avg_daily_volume": 17287552,
+      "days_to_cover": 2.23
+    },
+    {
+      "date": "2025-10-31",
+      "short_interest": 44388346,
+      "prev_short_interest": 38620039,
+      "change_pct": 0,
+      "avg_daily_volume": 20879092,
+      "days_to_cover": 2.13
+    },
+    {
+      "date": "2025-11-14",
+      "short_interest": 43151018,
+      "prev_short_interest": 44388346,
+      "change_pct": 0,
+      "avg_daily_volume": 13871743,
+      "days_to_cover": 3.11
+    },
+    {
+      "date": "2025-11-28",
+      "short_interest": 40184389,
+      "prev_short_interest": 43151018,
+      "change_pct": 0,
+      "avg_daily_volume": 16921318,
+      "days_to_cover": 2.37
+    },
+    {
+      "date": "2025-12-15",
+      "short_interest": 43959623,
+      "prev_short_interest": 40184389,
+      "change_pct": 0,
+      "avg_daily_volume": 15021947,
+      "days_to_cover": 2.93
+    },
+    {
+      "date": "2025-12-31",
+      "short_interest": 44953402,
+      "prev_short_interest": 43959623,
+      "change_pct": 0,
+      "avg_daily_volume": 14922587,
+      "days_to_cover": 3.01
+    },
+    {
+      "date": "2026-01-15",
+      "short_interest": 44262460,
+      "prev_short_interest": 44953402,
+      "change_pct": 0,
+      "avg_daily_volume": 15524221,
+      "days_to_cover": 2.85
+    },
+    {
+      "date": "2026-01-30",
+      "short_interest": 43016293,
+      "prev_short_interest": 44262460,
+      "change_pct": 0,
+      "avg_daily_volume": 15251042,
+      "days_to_cover": 2.82
+    },
+    {
+      "date": "2026-02-13",
+      "short_interest": 51758573,
+      "prev_short_interest": 43016293,
+      "change_pct": 0,
+      "avg_daily_volume": 41591411,
+      "days_to_cover": 1.24
+    }
+  ],
   "ticker": "PYPL"
 }
