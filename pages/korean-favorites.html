@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>서학개미 인기 종목 숏 인터레스트 | HerdVibe</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-adapter-date-fns/3.0.0/chartjs-adapter-date-fns.bundle.min.js"></script>
+<style>
+:root {
+  --bg-primary: #06060b;
+  --bg-secondary: #0d0d14;
+  --bg-card: #11111a;
+  --bg-card-hover: #161622;
+  --border: #1a1a2e;
+  --border-accent: #2a2a4a;
+  --text-primary: #e8e8f0;
+  --text-secondary: #8888a8;
+  --text-muted: #555570;
+  --accent-blue: #4a8eff;
+  --accent-red: #ff4a6a;
+  --accent-green: #4aff8a;
+  --accent-orange: #ff8a4a;
+  --accent-purple: #8a4aff;
+  --accent-cyan: #4af0ff;
+  --short-color: #ff6b6b;
+  --price-color: #4a8eff;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: 1.6;
+}
+
+.page-wrapper { max-width: 1400px; margin: 0 auto; padding: 30px 24px 60px; }
+
+/* Header */
+.page-header { text-align: center; margin-bottom: 40px; position: relative; }
+.page-header::after {
+  content: ''; position: absolute; bottom: -16px; left: 50%; transform: translateX(-50%);
+  width: 60px; height: 2px;
+  background: linear-gradient(90deg, var(--accent-orange), var(--accent-red));
+}
+.page-title {
+  font-size: 28px; font-weight: 900; letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #e8e8f0 0%, #8888a8 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  margin-bottom: 8px;
+}
+.page-subtitle { font-size: 14px; color: var(--text-secondary); font-weight: 300; }
+.update-badge {
+  display: inline-block; margin-top: 12px; padding: 4px 14px;
+  background: rgba(255, 138, 74, 0.08); border: 1px solid rgba(255, 138, 74, 0.15);
+  border-radius: 20px; font-size: 11px; font-family: 'JetBrains Mono', monospace; color: var(--accent-orange);
+}
+
+/* Category tabs */
+.category-tabs {
+  display: flex; gap: 8px; margin-bottom: 28px;
+  overflow-x: auto; padding-bottom: 4px;
+  -webkit-overflow-scrolling: touch;
+}
+.category-tabs::-webkit-scrollbar { display: none; }
+
+.cat-tab {
+  padding: 8px 18px; border-radius: 20px; font-size: 13px; font-weight: 500;
+  cursor: pointer; white-space: nowrap; transition: all 0.25s ease;
+  background: var(--bg-card); border: 1px solid var(--border); color: var(--text-secondary);
+}
+.cat-tab:hover { border-color: var(--border-accent); color: var(--text-primary); }
+.cat-tab.active {
+  background: rgba(74, 142, 255, 0.1); border-color: rgba(74, 142, 255, 0.3);
+  color: var(--accent-blue);
+}
+
+/* Stock table */
+.stock-table-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.stock-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stock-table thead th {
+  padding: 12px 16px;
+  text-align: left;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  color: var(--text-muted);
+  background: var(--bg-secondary);
+  border-bottom: 1px solid var(--border);
+  font-family: 'JetBrains Mono', monospace;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  cursor: pointer;
+  user-select: none;
+}
+
+.stock-table thead th:hover { color: var(--text-secondary); }
+
+.stock-table tbody tr {
+  border-bottom: 1px solid rgba(255,255,255,0.02);
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.stock-table tbody tr:hover { background: var(--bg-card-hover); }
+.stock-table tbody tr.expanded { background: rgba(74, 142, 255, 0.04); }
+
+.stock-table td {
+  padding: 12px 16px;
+  font-size: 13px;
+}
+
+.td-ticker {
+  font-family: 'JetBrains Mono', monospace;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.td-name { color: var(--text-secondary); font-size: 12px; }
+
+.td-mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+}
+
+.td-change-up { color: var(--accent-red); }
+.td-change-down { color: var(--accent-green); }
+
+.td-dtc-bar {
+  display: inline-flex; align-items: center; gap: 6px;
+}
+
+.dtc-bar-bg {
+  width: 50px; height: 4px; background: rgba(255,255,255,0.06);
+  border-radius: 2px; overflow: hidden;
+}
+
+.dtc-bar-fill { height: 100%; border-radius: 2px; }
+
+/* Expanded chart row */
+.chart-expand-row td {
+  padding: 0;
+}
+
+.chart-expand-content {
+  padding: 16px 20px 20px;
+  background: rgba(74, 142, 255, 0.02);
+  border-top: 1px solid rgba(74, 142, 255, 0.08);
+}
+
+.expand-chart-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.expand-chart-box {
+  position: relative;
+  height: 180px;
+}
+
+.expand-chart-label {
+  position: absolute; top: 4px; left: 8px; z-index: 10;
+  font-size: 9px; font-family: 'JetBrains Mono', monospace;
+  padding: 2px 6px; border-radius: 4px;
+}
+.expand-chart-label.price { background: rgba(74, 142, 255, 0.12); color: var(--accent-blue); }
+.expand-chart-label.short { background: rgba(255, 107, 107, 0.12); color: var(--short-color); }
+
+/* Mini sparkline */
+.sparkline-container { width: 100px; height: 32px; }
+
+/* Footer */
+.page-footer { text-align: center; padding-top: 32px; border-top: 1px solid var(--border); }
+.footer-text { font-size: 11px; color: var(--text-muted); line-height: 1.8; }
+.footer-text a { color: var(--accent-blue); text-decoration: none; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .page-wrapper { padding: 20px 12px 40px; }
+  .page-title { font-size: 22px; }
+  .stock-table { font-size: 12px; }
+  .stock-table td, .stock-table th { padding: 10px 10px; }
+  .hide-mobile { display: none; }
+  .expand-chart-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<div class="page-wrapper">
+
+  <header class="page-header">
+    <h1 class="page-title">서학개미 인기 종목 숏 인터레스트</h1>
+    <p class="page-subtitle">Korean Investor Favorites — Short Interest Tracker</p>
+    <span class="update-badge">DATA AS OF 2026-02-14</span>
+  </header>
+
+  <!-- Category Tabs -->
+  <div class="category-tabs" id="categoryTabs">
+    <div class="cat-tab active" data-cat="all">전체</div>
+    <div class="cat-tab" data-cat="bigtech">빅테크</div>
+    <div class="cat-tab" data-cat="semi">반도체</div>
+    <div class="cat-tab" data-cat="ai">AI / 소프트웨어</div>
+    <div class="cat-tab" data-cat="fintech">핀테크 / 금융</div>
+    <div class="cat-tab" data-cat="bio">바이오 / 헬스</div>
+    <div class="cat-tab" data-cat="energy">에너지 / 산업</div>
+    <div class="cat-tab" data-cat="popular">기타 인기</div>
+  </div>
+
+  <!-- Stock Table -->
+  <div class="stock-table-container">
+    <table class="stock-table">
+      <thead>
+        <tr>
+          <th>종목</th>
+          <th class="hide-mobile">이름</th>
+          <th>숏 인터레스트</th>
+          <th>변화율</th>
+          <th class="hide-mobile">Days to Cover</th>
+          <th class="hide-mobile">추이</th>
+        </tr>
+      </thead>
+      <tbody id="stockTableBody"></tbody>
+    </table>
+  </div>
+
+  <div style="text-align:center; margin-bottom: 24px;">
+    <div style="font-size:12px; color:var(--text-muted);">
+      행을 클릭하면 가격 & 숏 인터레스트 히스토리컬 차트가 표시됩니다
+    </div>
+  </div>
+
+  <footer class="page-footer">
+    <p class="footer-text">
+      데이터 출처: FINRA Consolidated Short Interest (월 2회) · 가격: Yahoo Finance<br>
+      종목 선정 기준: 한국 투자자 해외주식 보유/거래량 상위 종목<br>
+      © 2026 <a href="https://herdvibe.com" target="_blank">HerdVibe</a>
+    </p>
+  </footer>
+</div>
+
+<script>
+Chart.defaults.color = '#8888a8';
+Chart.defaults.borderColor = 'rgba(255,255,255,0.04)';
+Chart.defaults.font.family = "'JetBrains Mono', 'Noto Sans KR', monospace";
+Chart.defaults.font.size = 10;
+
+// Stock data
+const stocks = [
+  // 빅테크
+  { ticker: 'AAPL', name: 'Apple', cat: 'bigtech', si: 120000000, prev: 112000000, dtc: 1.8, price: 242 },
+  { ticker: 'MSFT', name: 'Microsoft', cat: 'bigtech', si: 45000000, prev: 42000000, dtc: 1.2, price: 425 },
+  { ticker: 'GOOGL', name: 'Alphabet', cat: 'bigtech', si: 32000000, prev: 35000000, dtc: 1.0, price: 185 },
+  { ticker: 'AMZN', name: 'Amazon', cat: 'bigtech', si: 58000000, prev: 52000000, dtc: 1.5, price: 215 },
+  { ticker: 'META', name: 'Meta Platforms', cat: 'bigtech', si: 28000000, prev: 31000000, dtc: 1.1, price: 620 },
+  { ticker: 'NVDA', name: 'NVIDIA', cat: 'bigtech', si: 195000000, prev: 175000000, dtc: 2.1, price: 138 },
+  { ticker: 'TSLA', name: 'Tesla', cat: 'bigtech', si: 82000000, prev: 78000000, dtc: 2.8, price: 340 },
+  // 반도체
+  { ticker: 'AMD', name: 'AMD', cat: 'semi', si: 45000000, prev: 38000000, dtc: 2.3, price: 118 },
+  { ticker: 'AVGO', name: 'Broadcom', cat: 'semi', si: 12000000, prev: 11500000, dtc: 0.8, price: 228 },
+  { ticker: 'QCOM', name: 'Qualcomm', cat: 'semi', si: 18000000, prev: 19500000, dtc: 1.4, price: 175 },
+  { ticker: 'MU', name: 'Micron', cat: 'semi', si: 42000000, prev: 35000000, dtc: 2.5, price: 98 },
+  { ticker: 'INTC', name: 'Intel', cat: 'semi', si: 125000000, prev: 118000000, dtc: 3.2, price: 22 },
+  { ticker: 'ARM', name: 'Arm Holdings', cat: 'semi', si: 38000000, prev: 32000000, dtc: 3.8, price: 168 },
+  { ticker: 'SMCI', name: 'Super Micro', cat: 'semi', si: 28000000, prev: 22000000, dtc: 4.2, price: 42 },
+  // AI / 소프트웨어
+  { ticker: 'PLTR', name: 'Palantir', cat: 'ai', si: 92000000, prev: 85000000, dtc: 2.6, price: 105 },
+  { ticker: 'SNOW', name: 'Snowflake', cat: 'ai', si: 32000000, prev: 34000000, dtc: 3.1, price: 178 },
+  { ticker: 'CRM', name: 'Salesforce', cat: 'ai', si: 22000000, prev: 20000000, dtc: 1.5, price: 310 },
+  { ticker: 'NOW', name: 'ServiceNow', cat: 'ai', si: 8500000, prev: 9200000, dtc: 0.9, price: 1050 },
+  { ticker: 'SHOP', name: 'Shopify', cat: 'ai', si: 15000000, prev: 17000000, dtc: 1.8, price: 108 },
+  // 핀테크 / 금융
+  { ticker: 'COIN', name: 'Coinbase', cat: 'fintech', si: 18000000, prev: 22000000, dtc: 3.5, price: 285 },
+  { ticker: 'SOFI', name: 'SoFi Technologies', cat: 'fintech', si: 95000000, prev: 88000000, dtc: 3.8, price: 15 },
+  { ticker: 'SQ', name: 'Block (Square)', cat: 'fintech', si: 25000000, prev: 28000000, dtc: 2.2, price: 78 },
+  { ticker: 'PYPL', name: 'PayPal', cat: 'fintech', si: 30000000, prev: 32000000, dtc: 1.6, price: 72 },
+  { ticker: 'V', name: 'Visa', cat: 'fintech', si: 12000000, prev: 11000000, dtc: 0.6, price: 320 },
+  // 바이오 / 헬스
+  { ticker: 'LLY', name: 'Eli Lilly', cat: 'bio', si: 8500000, prev: 7800000, dtc: 1.2, price: 820 },
+  { ticker: 'NVO', name: 'Novo Nordisk', cat: 'bio', si: 22000000, prev: 18000000, dtc: 2.5, price: 98 },
+  { ticker: 'MRNA', name: 'Moderna', cat: 'bio', si: 38000000, prev: 42000000, dtc: 4.5, price: 35 },
+  { ticker: 'PFE', name: 'Pfizer', cat: 'bio', si: 55000000, prev: 52000000, dtc: 1.8, price: 26 },
+  // 에너지 / 산업
+  { ticker: 'XOM', name: 'ExxonMobil', cat: 'energy', si: 35000000, prev: 32000000, dtc: 1.5, price: 112 },
+  { ticker: 'CVX', name: 'Chevron', cat: 'energy', si: 18000000, prev: 17000000, dtc: 1.1, price: 155 },
+  { ticker: 'LMT', name: 'Lockheed Martin', cat: 'energy', si: 4500000, prev: 5200000, dtc: 1.8, price: 465 },
+  { ticker: 'BA', name: 'Boeing', cat: 'energy', si: 22000000, prev: 18000000, dtc: 3.2, price: 178 },
+  // 기타 인기
+  { ticker: 'NFLX', name: 'Netflix', cat: 'popular', si: 8200000, prev: 7500000, dtc: 0.7, price: 980 },
+  { ticker: 'DIS', name: 'Disney', cat: 'popular', si: 42000000, prev: 45000000, dtc: 2.1, price: 112 },
+  { ticker: 'NIO', name: 'NIO Inc', cat: 'popular', si: 135000000, prev: 128000000, dtc: 3.5, price: 4.2 },
+  { ticker: 'RIVN', name: 'Rivian', cat: 'popular', si: 155000000, prev: 148000000, dtc: 4.8, price: 14 },
+  { ticker: 'RBLX', name: 'Roblox', cat: 'popular', si: 42000000, prev: 38000000, dtc: 3.2, price: 62 },
+  { ticker: 'MARA', name: 'Marathon Digital', cat: 'popular', si: 68000000, prev: 72000000, dtc: 3.8, price: 22 },
+];
+
+function formatSI(num) {
+  if (num >= 1e9) return (num / 1e9).toFixed(1) + 'B';
+  if (num >= 1e6) return (num / 1e6).toFixed(1) + 'M';
+  if (num >= 1e3) return (num / 1e3).toFixed(0) + 'K';
+  return num.toString();
+}
+
+function generateMiniHistory(baseLevel, length = 20) {
+  let val = baseLevel * 0.7;
+  const data = [];
+  for (let i = 0; i < length; i++) {
+    val += (Math.random() - 0.45) * baseLevel * 0.08;
+    val = Math.max(baseLevel * 0.3, val);
+    data.push(val);
+  }
+  return data;
+}
+
+function generateDates(start, count, step = 15) {
+  const dates = [];
+  const d = new Date(start);
+  for (let i = 0; i < count; i++) {
+    dates.push(new Date(d));
+    d.setDate(d.getDate() + step);
+  }
+  return dates;
+}
+
+function generatePriceHistory(basePrice, count = 300) {
+  let p = basePrice * 0.6;
+  const data = [];
+  const dates = generateDates('2021-01-01', count, 5);
+  dates.forEach(d => {
+    p += (Math.random() - 0.47) * basePrice * 0.02;
+    p = Math.max(basePrice * 0.2, p);
+    data.push({ x: d, y: Math.round(p * 100) / 100 });
+  });
+  return data;
+}
+
+function generateSIHistory(baseSI, count = 80) {
+  let si = baseSI * 0.6;
+  const data = [];
+  const dates = generateDates('2021-01-01', count, 15);
+  dates.forEach(d => {
+    si += (Math.random() - 0.48) * baseSI * 0.12;
+    si = Math.max(baseSI * 0.2, si);
+    data.push({ x: d, y: Math.round(si) });
+  });
+  return data;
+}
+
+// Render table
+let currentCategory = 'all';
+let expandedTicker = null;
+const sparkCharts = {};
+
+function renderTable(category) {
+  const tbody = document.getElementById('stockTableBody');
+  tbody.innerHTML = '';
+  expandedTicker = null;
+
+  const filtered = category === 'all' ? stocks : stocks.filter(s => s.cat === category);
+
+  filtered.forEach(stock => {
+    const change = ((stock.si - stock.prev) / stock.prev) * 100;
+    const changeClass = change > 0 ? 'td-change-up' : 'td-change-down';
+    const changeSign = change > 0 ? '+' : '';
+    const dtcColor = stock.dtc > 3 ? 'var(--accent-red)' : stock.dtc > 2 ? 'var(--accent-orange)' : 'var(--accent-blue)';
+    const dtcPct = Math.min(stock.dtc / 5 * 100, 100);
+
+    const tr = document.createElement('tr');
+    tr.dataset.ticker = stock.ticker;
+    tr.innerHTML = `
+      <td><span class="td-ticker">${stock.ticker}</span></td>
+      <td class="hide-mobile"><span class="td-name">${stock.name}</span></td>
+      <td><span class="td-mono">${formatSI(stock.si)}</span></td>
+      <td><span class="td-mono ${changeClass}">${changeSign}${change.toFixed(1)}%</span></td>
+      <td class="hide-mobile">
+        <span class="td-dtc-bar">
+          <span class="td-mono" style="color:${dtcColor}">${stock.dtc.toFixed(1)}일</span>
+          <span class="dtc-bar-bg"><span class="dtc-bar-fill" style="width:${dtcPct}%;background:${dtcColor}"></span></span>
+        </span>
+      </td>
+      <td class="hide-mobile"><div class="sparkline-container"><canvas id="spark-${stock.ticker}" width="100" height="32"></canvas></div></td>
+    `;
+
+    tr.addEventListener('click', () => toggleExpand(stock.ticker, tr));
+    tbody.appendChild(tr);
+
+    // Render sparkline
+    setTimeout(() => {
+      const sparkData = generateMiniHistory(stock.si);
+      const canvas = document.getElementById(`spark-${stock.ticker}`);
+      if (!canvas) return;
+      sparkCharts[stock.ticker] = new Chart(canvas, {
+        type: 'line',
+        data: {
+          labels: sparkData.map((_, i) => i),
+          datasets: [{
+            data: sparkData,
+            borderColor: change > 0 ? 'rgba(255, 74, 106, 0.7)' : 'rgba(74, 255, 138, 0.7)',
+            borderWidth: 1.2,
+            pointRadius: 0,
+            fill: true,
+            backgroundColor: change > 0 ? 'rgba(255, 74, 106, 0.06)' : 'rgba(74, 255, 138, 0.06)',
+            tension: 0.3,
+          }]
+        },
+        options: {
+          responsive: false,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false }, tooltip: { enabled: false } },
+          scales: { x: { display: false }, y: { display: false } }
+        }
+      });
+    }, 50);
+  });
+}
+
+function toggleExpand(ticker, tr) {
+  // Remove existing expanded
+  const existing = document.querySelector('.chart-expand-row');
+  if (existing) {
+    const prevTicker = existing.dataset.expandTicker;
+    existing.remove();
+    document.querySelector(`tr[data-ticker="${prevTicker}"]`)?.classList.remove('expanded');
+    if (prevTicker === ticker) { expandedTicker = null; return; }
+  }
+
+  tr.classList.add('expanded');
+  expandedTicker = ticker;
+
+  const stock = stocks.find(s => s.ticker === ticker);
+  const expandRow = document.createElement('tr');
+  expandRow.className = 'chart-expand-row';
+  expandRow.dataset.expandTicker = ticker;
+  expandRow.innerHTML = `
+    <td colspan="6">
+      <div class="chart-expand-content">
+        <div class="expand-chart-grid">
+          <div class="expand-chart-box">
+            <span class="expand-chart-label price">${ticker} PRICE</span>
+            <canvas id="expand-price-${ticker}"></canvas>
+          </div>
+          <div class="expand-chart-box">
+            <span class="expand-chart-label short">${ticker} SHORT INTEREST</span>
+            <canvas id="expand-si-${ticker}"></canvas>
+          </div>
+        </div>
+      </div>
+    </td>
+  `;
+
+  tr.after(expandRow);
+
+  // Render expanded charts
+  setTimeout(() => {
+    const priceData = generatePriceHistory(stock.price);
+    const siData = generateSIHistory(stock.si);
+
+    new Chart(document.getElementById(`expand-price-${ticker}`), {
+      type: 'line',
+      data: {
+        datasets: [{
+          data: priceData,
+          borderColor: 'rgba(74, 142, 255, 0.9)',
+          borderWidth: 1.5,
+          pointRadius: 0,
+          fill: true,
+          backgroundColor: (ctx) => {
+            const g = ctx.chart.ctx.createLinearGradient(0, 0, 0, ctx.chart.height);
+            g.addColorStop(0, 'rgba(74, 142, 255, 0.08)');
+            g.addColorStop(1, 'rgba(74, 142, 255, 0)');
+            return g;
+          },
+          tension: 0.3,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false }, tooltip: {
+          backgroundColor: '#1a1a2e', titleColor: '#e8e8f0', bodyColor: '#8888a8',
+          borderColor: '#2a2a4a', borderWidth: 1, displayColors: false,
+          callbacks: {
+            title: (items) => items[0].raw.x.toLocaleDateString('ko-KR'),
+            label: (item) => `$${item.raw.y.toFixed(2)}`
+          }
+        }},
+        scales: {
+          x: { type: 'time', time: { unit: 'year' }, grid: { color: 'rgba(255,255,255,0.02)' } },
+          y: { position: 'right', grid: { color: 'rgba(255,255,255,0.02)' }, ticks: { callback: v => '$' + v } }
+        }
+      }
+    });
+
+    new Chart(document.getElementById(`expand-si-${ticker}`), {
+      type: 'line',
+      data: {
+        datasets: [{
+          data: siData,
+          borderColor: 'rgba(255, 107, 107, 0.9)',
+          borderWidth: 1.5,
+          pointRadius: 0,
+          fill: true,
+          backgroundColor: (ctx) => {
+            const g = ctx.chart.ctx.createLinearGradient(0, 0, 0, ctx.chart.height);
+            g.addColorStop(0, 'rgba(255, 107, 107, 0.1)');
+            g.addColorStop(1, 'rgba(255, 107, 107, 0)');
+            return g;
+          },
+          stepped: 'before',
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false }, tooltip: {
+          backgroundColor: '#1a1a2e', titleColor: '#e8e8f0', bodyColor: '#8888a8',
+          borderColor: '#2a2a4a', borderWidth: 1, displayColors: false,
+          callbacks: {
+            title: (items) => items[0].raw.x.toLocaleDateString('ko-KR'),
+            label: (item) => `SI: ${formatSI(item.raw.y)}`
+          }
+        }},
+        scales: {
+          x: { type: 'time', time: { unit: 'year' }, grid: { color: 'rgba(255,255,255,0.02)' } },
+          y: { position: 'right', grid: { color: 'rgba(255,255,255,0.02)' }, ticks: { callback: v => formatSI(v) } }
+        }
+      }
+    });
+  }, 100);
+}
+
+// Tab events
+document.querySelectorAll('.cat-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.cat-tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    currentCategory = tab.dataset.cat;
+    renderTable(currentCategory);
+  });
+});
+
+// Initial render
+renderTable('all');
+</script>
+</body>
+</html>

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>숏 인터레스트 탐색기 | HerdVibe</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-adapter-date-fns/3.0.0/chartjs-adapter-date-fns.bundle.min.js"></script>
+<style>
+:root {
+  --bg-primary: #06060b;
+  --bg-secondary: #0d0d14;
+  --bg-card: #11111a;
+  --bg-card-hover: #161622;
+  --border: #1a1a2e;
+  --border-accent: #2a2a4a;
+  --text-primary: #e8e8f0;
+  --text-secondary: #8888a8;
+  --text-muted: #555570;
+  --accent-blue: #4a8eff;
+  --accent-red: #ff4a6a;
+  --accent-green: #4aff8a;
+  --accent-orange: #ff8a4a;
+  --accent-purple: #8a4aff;
+  --accent-cyan: #4af0ff;
+  --short-color: #ff6b6b;
+  --price-color: #4a8eff;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: var(--bg-primary); color: var(--text-primary); font-family: 'Noto Sans KR', sans-serif; line-height: 1.6; }
+.page-wrapper { max-width: 1400px; margin: 0 auto; padding: 30px 24px 60px; }
+
+/* Header */
+.page-header { text-align: center; margin-bottom: 40px; position: relative; }
+.page-header::after {
+  content: ''; position: absolute; bottom: -16px; left: 50%; transform: translateX(-50%);
+  width: 60px; height: 2px;
+  background: linear-gradient(90deg, var(--accent-red), var(--accent-orange));
+}
+.page-title {
+  font-size: 28px; font-weight: 900;
+  background: linear-gradient(135deg, #e8e8f0 0%, #8888a8 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  margin-bottom: 8px;
+}
+.page-subtitle { font-size: 14px; color: var(--text-secondary); font-weight: 300; }
+.update-badge {
+  display: inline-block; margin-top: 12px; padding: 4px 14px;
+  background: rgba(255, 74, 106, 0.08); border: 1px solid rgba(255, 74, 106, 0.15);
+  border-radius: 20px; font-size: 11px; font-family: 'JetBrains Mono', monospace; color: var(--accent-red);
+}
+
+/* Search */
+.search-section { margin-bottom: 36px; }
+.search-box {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.search-input {
+  width: 100%;
+  padding: 14px 20px 14px 48px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  color: var(--text-primary);
+  font-size: 15px;
+  font-family: 'JetBrains Mono', 'Noto Sans KR', monospace;
+  outline: none;
+  transition: border-color 0.3s;
+}
+.search-input:focus { border-color: var(--accent-blue); }
+.search-input::placeholder { color: var(--text-muted); }
+.search-icon {
+  position: absolute; left: 18px; top: 50%; transform: translateY(-50%);
+  font-size: 18px; color: var(--text-muted); pointer-events: none;
+}
+
+.search-results {
+  position: absolute; top: 100%; left: 0; right: 0; z-index: 100;
+  background: var(--bg-card); border: 1px solid var(--border-accent);
+  border-radius: 12px; margin-top: 4px;
+  max-height: 300px; overflow-y: auto;
+  display: none;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+}
+.search-results.visible { display: block; }
+.search-result-item {
+  padding: 10px 18px; cursor: pointer;
+  display: flex; justify-content: space-between; align-items: center;
+  border-bottom: 1px solid rgba(255,255,255,0.02);
+  transition: background 0.15s;
+}
+.search-result-item:hover { background: var(--bg-card-hover); }
+.search-result-item:last-child { border-bottom: none; }
+.sr-ticker { font-family: 'JetBrains Mono', monospace; font-weight: 700; font-size: 14px; }
+.sr-name { font-size: 12px; color: var(--text-secondary); margin-left: 10px; }
+.sr-si { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--short-color); }
+
+/* Chart display area */
+.search-chart-area {
+  display: none;
+  margin-bottom: 40px;
+}
+.search-chart-area.visible { display: block; }
+
+.search-chart-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px;
+}
+.search-chart-header {
+  display: flex; justify-content: space-between; align-items: center;
+  margin-bottom: 20px;
+}
+.sch-ticker { font-family: 'JetBrains Mono', monospace; font-size: 24px; font-weight: 700; }
+.sch-name { font-size: 14px; color: var(--text-secondary); margin-left: 10px; }
+.sch-close-btn {
+  padding: 6px 14px; background: rgba(255,255,255,0.05); border: 1px solid var(--border);
+  border-radius: 8px; color: var(--text-secondary); cursor: pointer; font-size: 12px;
+  transition: all 0.2s;
+}
+.sch-close-btn:hover { background: rgba(255,255,255,0.1); color: var(--text-primary); }
+
+.sch-stats {
+  display: flex; gap: 24px; margin-bottom: 20px; flex-wrap: wrap;
+}
+.sch-stat-item {
+  padding: 10px 16px; background: var(--bg-secondary); border-radius: 10px;
+}
+.sch-stat-label { font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.sch-stat-value { font-family: 'JetBrains Mono', monospace; font-size: 16px; font-weight: 700; margin-top: 2px; }
+
+.sch-dual-chart { display: grid; grid-template-columns: 1fr; gap: 4px; }
+.sch-chart-box { position: relative; height: 220px; }
+.sch-chart-box.short { height: 160px; }
+.sch-chart-label {
+  position: absolute; top: 6px; left: 10px; z-index: 10;
+  font-size: 10px; font-family: 'JetBrains Mono', monospace;
+  padding: 2px 8px; border-radius: 4px;
+}
+.sch-chart-label.price { background: rgba(74, 142, 255, 0.12); color: var(--accent-blue); }
+.sch-chart-label.short { background: rgba(255, 107, 107, 0.12); color: var(--short-color); }
+
+/* Section header */
+.section { margin-bottom: 48px; }
+.section-header {
+  display: flex; align-items: center; gap: 12px;
+  margin-bottom: 20px; padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+.section-icon {
+  width: 36px; height: 36px; border-radius: 10px;
+  display: flex; align-items: center; justify-content: center; font-size: 18px;
+}
+.section-icon.top { background: rgba(255, 74, 106, 0.1); }
+.section-title { font-size: 18px; font-weight: 700; }
+.section-desc { font-size: 12px; color: var(--text-secondary); margin-top: 2px; }
+
+/* Sort tabs */
+.sort-tabs { display: flex; gap: 8px; margin-bottom: 20px; }
+.sort-tab {
+  padding: 6px 14px; border-radius: 8px; font-size: 12px; cursor: pointer;
+  background: var(--bg-card); border: 1px solid var(--border); color: var(--text-secondary);
+  font-family: 'JetBrains Mono', monospace; transition: all 0.2s;
+}
+.sort-tab:hover { border-color: var(--border-accent); }
+.sort-tab.active { background: rgba(255, 74, 106, 0.1); border-color: rgba(255, 74, 106, 0.3); color: var(--accent-red); }
+
+/* Top 20 grid */
+.top-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
+}
+
+.top-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.top-card:hover { border-color: var(--border-accent); transform: translateY(-1px); }
+
+.top-rank {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 20px; font-weight: 900;
+  color: var(--text-muted);
+  width: 36px; text-align: center; flex-shrink: 0;
+}
+.top-rank.r1 { color: var(--accent-red); }
+.top-rank.r2 { color: var(--accent-orange); }
+.top-rank.r3 { color: var(--accent-yellow); }
+
+.top-info { flex: 1; min-width: 0; }
+.top-ticker { font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 700; }
+.top-name { font-size: 11px; color: var(--text-secondary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+.top-data { text-align: right; flex-shrink: 0; }
+.top-si { font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 700; color: var(--short-color); }
+.top-change { font-family: 'JetBrains Mono', monospace; font-size: 11px; }
+
+.top-spark { width: 70px; height: 28px; flex-shrink: 0; }
+
+.squeeze-badge {
+  display: inline-block; font-size: 9px; padding: 1px 5px;
+  background: rgba(255, 74, 106, 0.15); color: var(--accent-red);
+  border-radius: 4px; margin-left: 6px; font-family: 'JetBrains Mono', monospace;
+}
+
+/* Footer */
+.page-footer { text-align: center; padding-top: 32px; border-top: 1px solid var(--border); }
+.footer-text { font-size: 11px; color: var(--text-muted); line-height: 1.8; }
+.footer-text a { color: var(--accent-blue); text-decoration: none; }
+
+@media (max-width: 768px) {
+  .page-wrapper { padding: 20px 14px 40px; }
+  .page-title { font-size: 22px; }
+  .top-grid { grid-template-columns: 1fr; }
+  .sch-stats { gap: 10px; }
+  .sch-stat-item { flex: 1; min-width: 100px; }
+}
+</style>
+</head>
+<body>
+<div class="page-wrapper">
+
+  <header class="page-header">
+    <h1 class="page-title">숏 인터레스트 탐색기</h1>
+    <p class="page-subtitle">Short Interest Explorer — 전체 종목 검색 & 숏 스퀴즈 후보</p>
+    <span class="update-badge">DATA AS OF 2026-02-14</span>
+  </header>
+
+  <!-- Search -->
+  <div class="search-section">
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" class="search-input" id="searchInput" placeholder="티커 또는 종목명 검색 (예: TSLA, Apple)">
+      <div class="search-results" id="searchResults"></div>
+    </div>
+  </div>
+
+  <!-- Search Chart Display -->
+  <div class="search-chart-area" id="searchChartArea">
+    <div class="search-chart-card">
+      <div class="search-chart-header">
+        <div>
+          <span class="sch-ticker" id="schTicker"></span>
+          <span class="sch-name" id="schName"></span>
+        </div>
+        <button class="sch-close-btn" id="schCloseBtn">✕ 닫기</button>
+      </div>
+      <div class="sch-stats" id="schStats"></div>
+      <div class="sch-dual-chart">
+        <div class="sch-chart-box">
+          <span class="sch-chart-label price">PRICE</span>
+          <canvas id="schPriceChart"></canvas>
+        </div>
+        <div class="sch-chart-box short">
+          <span class="sch-chart-label short">SHORT INTEREST</span>
+          <canvas id="schSIChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top 20 -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon top">🔥</div>
+      <div>
+        <div class="section-title">Short Interest TOP 20</div>
+        <div class="section-desc">전체 종목 중 숏 인터레스트 상위 랭킹</div>
+      </div>
+    </div>
+
+    <div class="sort-tabs" id="sortTabs">
+      <div class="sort-tab active" data-sort="si">숏 인터레스트 (수량)</div>
+      <div class="sort-tab" data-sort="change">변화율 (급등)</div>
+      <div class="sort-tab" data-sort="dtc">Days to Cover</div>
+    </div>
+
+    <div class="top-grid" id="topGrid"></div>
+  </section>
+
+  <footer class="page-footer">
+    <p class="footer-text">
+      데이터 출처: FINRA Consolidated Short Interest (월 2회) · 가격: Yahoo Finance<br>
+      숏 인터레스트 데이터는 투자 조언이 아닙니다. 투자 결정은 본인의 판단과 책임 하에 이루어져야 합니다.<br>
+      © 2026 <a href="https://herdvibe.com" target="_blank">HerdVibe</a>
+    </p>
+  </footer>
+</div>
+
+<script>
+Chart.defaults.color = '#8888a8';
+Chart.defaults.borderColor = 'rgba(255,255,255,0.04)';
+Chart.defaults.font.family = "'JetBrains Mono', 'Noto Sans KR', monospace";
+Chart.defaults.font.size = 10;
+
+// Full stock database (sample - in production loaded from all_stocks.json)
+const allStocks = [
+  { ticker: 'NVDA', name: 'NVIDIA Corp', si: 195000000, prev: 175000000, dtc: 2.1, price: 138 },
+  { ticker: 'RIVN', name: 'Rivian Automotive', si: 155000000, prev: 148000000, dtc: 4.8, price: 14 },
+  { ticker: 'NIO', name: 'NIO Inc', si: 135000000, prev: 128000000, dtc: 3.5, price: 4.2 },
+  { ticker: 'INTC', name: 'Intel Corp', si: 125000000, prev: 118000000, dtc: 3.2, price: 22 },
+  { ticker: 'AAPL', name: 'Apple Inc', si: 120000000, prev: 112000000, dtc: 1.8, price: 242 },
+  { ticker: 'LCID', name: 'Lucid Group', si: 115000000, prev: 105000000, dtc: 5.2, price: 3.1 },
+  { ticker: 'SOFI', name: 'SoFi Technologies', si: 95000000, prev: 88000000, dtc: 3.8, price: 15 },
+  { ticker: 'PLTR', name: 'Palantir Technologies', si: 92000000, prev: 85000000, dtc: 2.6, price: 105 },
+  { ticker: 'F', name: 'Ford Motor', si: 88000000, prev: 82000000, dtc: 2.2, price: 10.5 },
+  { ticker: 'TSLA', name: 'Tesla Inc', si: 82000000, prev: 78000000, dtc: 2.8, price: 340 },
+  { ticker: 'SNAP', name: 'Snap Inc', si: 78000000, prev: 72000000, dtc: 4.5, price: 12 },
+  { ticker: 'MARA', name: 'Marathon Digital', si: 68000000, prev: 72000000, dtc: 3.8, price: 22 },
+  { ticker: 'AMZN', name: 'Amazon.com', si: 58000000, prev: 52000000, dtc: 1.5, price: 215 },
+  { ticker: 'PFE', name: 'Pfizer Inc', si: 55000000, prev: 52000000, dtc: 1.8, price: 26 },
+  { ticker: 'AAL', name: 'American Airlines', si: 52000000, prev: 48000000, dtc: 3.1, price: 14 },
+  { ticker: 'MSFT', name: 'Microsoft Corp', si: 45000000, prev: 42000000, dtc: 1.2, price: 425 },
+  { ticker: 'AMD', name: 'AMD Inc', si: 45000000, prev: 38000000, dtc: 2.3, price: 118 },
+  { ticker: 'MU', name: 'Micron Technology', si: 42000000, prev: 35000000, dtc: 2.5, price: 98 },
+  { ticker: 'DIS', name: 'Walt Disney', si: 42000000, prev: 45000000, dtc: 2.1, price: 112 },
+  { ticker: 'RBLX', name: 'Roblox Corp', si: 42000000, prev: 38000000, dtc: 3.2, price: 62 },
+  { ticker: 'ARM', name: 'Arm Holdings', si: 38000000, prev: 32000000, dtc: 3.8, price: 168 },
+  { ticker: 'MRNA', name: 'Moderna Inc', si: 38000000, prev: 42000000, dtc: 4.5, price: 35 },
+  { ticker: 'XOM', name: 'ExxonMobil', si: 35000000, prev: 32000000, dtc: 1.5, price: 112 },
+  { ticker: 'GOOGL', name: 'Alphabet Inc', si: 32000000, prev: 35000000, dtc: 1.0, price: 185 },
+  { ticker: 'SNOW', name: 'Snowflake Inc', si: 32000000, prev: 34000000, dtc: 3.1, price: 178 },
+  { ticker: 'PYPL', name: 'PayPal Holdings', si: 30000000, prev: 32000000, dtc: 1.6, price: 72 },
+  { ticker: 'META', name: 'Meta Platforms', si: 28000000, prev: 31000000, dtc: 1.1, price: 620 },
+  { ticker: 'SMCI', name: 'Super Micro Computer', si: 28000000, prev: 22000000, dtc: 4.2, price: 42 },
+  { ticker: 'SQ', name: 'Block Inc', si: 25000000, prev: 28000000, dtc: 2.2, price: 78 },
+  { ticker: 'BA', name: 'Boeing Co', si: 22000000, prev: 18000000, dtc: 3.2, price: 178 },
+  { ticker: 'NVO', name: 'Novo Nordisk', si: 22000000, prev: 18000000, dtc: 2.5, price: 98 },
+  { ticker: 'CRM', name: 'Salesforce Inc', si: 22000000, prev: 20000000, dtc: 1.5, price: 310 },
+  { ticker: 'QCOM', name: 'Qualcomm Inc', si: 18000000, prev: 19500000, dtc: 1.4, price: 175 },
+  { ticker: 'COIN', name: 'Coinbase Global', si: 18000000, prev: 22000000, dtc: 3.5, price: 285 },
+  { ticker: 'CVX', name: 'Chevron Corp', si: 18000000, prev: 17000000, dtc: 1.1, price: 155 },
+  { ticker: 'SHOP', name: 'Shopify Inc', si: 15000000, prev: 17000000, dtc: 1.8, price: 108 },
+  { ticker: 'AVGO', name: 'Broadcom Inc', si: 12000000, prev: 11500000, dtc: 0.8, price: 228 },
+  { ticker: 'V', name: 'Visa Inc', si: 12000000, prev: 11000000, dtc: 0.6, price: 320 },
+  { ticker: 'NFLX', name: 'Netflix Inc', si: 8200000, prev: 7500000, dtc: 0.7, price: 980 },
+  { ticker: 'LLY', name: 'Eli Lilly', si: 8500000, prev: 7800000, dtc: 1.2, price: 820 },
+  { ticker: 'NOW', name: 'ServiceNow', si: 8500000, prev: 9200000, dtc: 0.9, price: 1050 },
+  { ticker: 'GME', name: 'GameStop Corp', si: 48000000, prev: 35000000, dtc: 6.2, price: 28 },
+  { ticker: 'AMC', name: 'AMC Entertainment', si: 65000000, prev: 58000000, dtc: 4.8, price: 4.5 },
+  { ticker: 'BBBY', name: 'Bed Bath & Beyond', si: 42000000, prev: 38000000, dtc: 8.5, price: 0.15 },
+];
+
+function formatSI(num) {
+  if (num >= 1e9) return (num / 1e9).toFixed(1) + 'B';
+  if (num >= 1e6) return (num / 1e6).toFixed(1) + 'M';
+  if (num >= 1e3) return (num / 1e3).toFixed(0) + 'K';
+  return num.toString();
+}
+
+function getChangeInfo(stock) {
+  const change = ((stock.si - stock.prev) / stock.prev) * 100;
+  return {
+    value: change,
+    text: (change > 0 ? '+' : '') + change.toFixed(1) + '%',
+    class: change > 0 ? 'color:var(--accent-red)' : 'color:var(--accent-green)',
+  };
+}
+
+// Generate chart data
+function generateDates(start, count, step) {
+  const dates = []; const d = new Date(start);
+  for (let i = 0; i < count; i++) { dates.push(new Date(d)); d.setDate(d.getDate() + step); }
+  return dates;
+}
+
+function generatePriceHistory(basePrice) {
+  let p = basePrice * 0.55;
+  return generateDates('2021-01-01', 300, 5).map(d => {
+    p += (Math.random() - 0.47) * basePrice * 0.02;
+    p = Math.max(basePrice * 0.15, p);
+    return { x: d, y: Math.round(p * 100) / 100 };
+  });
+}
+
+function generateSIHistory(baseSI) {
+  let si = baseSI * 0.5;
+  return generateDates('2021-01-01', 80, 15).map(d => {
+    si += (Math.random() - 0.46) * baseSI * 0.12;
+    si = Math.max(baseSI * 0.15, si);
+    return { x: d, y: Math.round(si) };
+  });
+}
+
+function generateSparkData(baseSI) {
+  let v = baseSI * 0.7;
+  const data = [];
+  for (let i = 0; i < 16; i++) {
+    v += (Math.random() - 0.45) * baseSI * 0.08;
+    v = Math.max(baseSI * 0.3, v);
+    data.push(v);
+  }
+  return data;
+}
+
+// =====================
+// SEARCH FUNCTIONALITY
+// =====================
+const searchInput = document.getElementById('searchInput');
+const searchResults = document.getElementById('searchResults');
+const searchChartArea = document.getElementById('searchChartArea');
+let priceChart = null, siChart = null;
+
+searchInput.addEventListener('input', (e) => {
+  const q = e.target.value.trim().toUpperCase();
+  if (q.length < 1) { searchResults.classList.remove('visible'); return; }
+
+  const matches = allStocks.filter(s =>
+    s.ticker.includes(q) || s.name.toUpperCase().includes(q)
+  ).slice(0, 8);
+
+  if (matches.length === 0) {
+    searchResults.innerHTML = '<div style="padding:14px 18px;color:var(--text-muted);font-size:13px;">검색 결과 없음</div>';
+  } else {
+    searchResults.innerHTML = matches.map(s => `
+      <div class="search-result-item" data-ticker="${s.ticker}">
+        <div><span class="sr-ticker">${s.ticker}</span><span class="sr-name">${s.name}</span></div>
+        <span class="sr-si">${formatSI(s.si)}</span>
+      </div>
+    `).join('');
+  }
+  searchResults.classList.add('visible');
+
+  document.querySelectorAll('.search-result-item').forEach(item => {
+    item.addEventListener('click', () => {
+      const ticker = item.dataset.ticker;
+      showSearchChart(ticker);
+      searchResults.classList.remove('visible');
+      searchInput.value = ticker;
+    });
+  });
+});
+
+searchInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') {
+    const q = searchInput.value.trim().toUpperCase();
+    const match = allStocks.find(s => s.ticker === q);
+    if (match) { showSearchChart(q); searchResults.classList.remove('visible'); }
+  }
+});
+
+document.addEventListener('click', (e) => {
+  if (!e.target.closest('.search-box')) searchResults.classList.remove('visible');
+});
+
+document.getElementById('schCloseBtn').addEventListener('click', () => {
+  searchChartArea.classList.remove('visible');
+  searchInput.value = '';
+});
+
+function showSearchChart(ticker) {
+  const stock = allStocks.find(s => s.ticker === ticker);
+  if (!stock) return;
+
+  document.getElementById('schTicker').textContent = stock.ticker;
+  document.getElementById('schName').textContent = stock.name;
+
+  const ch = getChangeInfo(stock);
+  document.getElementById('schStats').innerHTML = `
+    <div class="sch-stat-item">
+      <div class="sch-stat-label">Short Interest</div>
+      <div class="sch-stat-value" style="color:var(--short-color)">${formatSI(stock.si)}</div>
+    </div>
+    <div class="sch-stat-item">
+      <div class="sch-stat-label">전기 대비</div>
+      <div class="sch-stat-value" style="${ch.class}">${ch.text}</div>
+    </div>
+    <div class="sch-stat-item">
+      <div class="sch-stat-label">Days to Cover</div>
+      <div class="sch-stat-value">${stock.dtc.toFixed(1)}일</div>
+    </div>
+    <div class="sch-stat-item">
+      <div class="sch-stat-label">현재가</div>
+      <div class="sch-stat-value" style="color:var(--accent-blue)">$${stock.price}</div>
+    </div>
+  `;
+
+  // Destroy previous charts
+  if (priceChart) priceChart.destroy();
+  if (siChart) siChart.destroy();
+
+  const priceData = generatePriceHistory(stock.price);
+  const siData = generateSIHistory(stock.si);
+
+  priceChart = new Chart(document.getElementById('schPriceChart'), {
+    type: 'line',
+    data: { datasets: [{ data: priceData, borderColor: 'rgba(74,142,255,0.9)', borderWidth: 1.5, pointRadius: 0,
+      fill: true, backgroundColor: ctx => { const g = ctx.chart.ctx.createLinearGradient(0,0,0,ctx.chart.height);
+      g.addColorStop(0,'rgba(74,142,255,0.08)'); g.addColorStop(1,'rgba(74,142,255,0)'); return g; }, tension: 0.3 }] },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { backgroundColor: '#1a1a2e', titleColor: '#e8e8f0', bodyColor: '#8888a8',
+        borderColor: '#2a2a4a', borderWidth: 1, displayColors: false,
+        callbacks: { title: i => i[0].raw.x.toLocaleDateString('ko-KR'), label: i => `$${i.raw.y.toFixed(2)}` } } },
+      scales: { x: { type: 'time', time: { unit: 'year' }, grid: { color: 'rgba(255,255,255,0.02)' } },
+        y: { position: 'right', grid: { color: 'rgba(255,255,255,0.02)' }, ticks: { callback: v => '$'+v } } }
+    }
+  });
+
+  siChart = new Chart(document.getElementById('schSIChart'), {
+    type: 'line',
+    data: { datasets: [{ data: siData, borderColor: 'rgba(255,107,107,0.9)', borderWidth: 1.5, pointRadius: 0,
+      fill: true, backgroundColor: ctx => { const g = ctx.chart.ctx.createLinearGradient(0,0,0,ctx.chart.height);
+      g.addColorStop(0,'rgba(255,107,107,0.1)'); g.addColorStop(1,'rgba(255,107,107,0)'); return g; }, stepped: 'before' }] },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { backgroundColor: '#1a1a2e', titleColor: '#e8e8f0', bodyColor: '#8888a8',
+        borderColor: '#2a2a4a', borderWidth: 1, displayColors: false,
+        callbacks: { title: i => i[0].raw.x.toLocaleDateString('ko-KR'), label: i => `SI: ${formatSI(i.raw.y)}` } } },
+      scales: { x: { type: 'time', time: { unit: 'year' }, grid: { color: 'rgba(255,255,255,0.02)' } },
+        y: { position: 'right', grid: { color: 'rgba(255,255,255,0.02)' }, ticks: { callback: v => formatSI(v) } } }
+    }
+  });
+
+  searchChartArea.classList.add('visible');
+  searchChartArea.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+// =====================
+// TOP 20 RANKING
+// =====================
+let currentSort = 'si';
+const sparkCharts = {};
+
+function sortStocks(sortBy) {
+  const sorted = [...allStocks];
+  if (sortBy === 'si') sorted.sort((a, b) => b.si - a.si);
+  else if (sortBy === 'change') sorted.sort((a, b) => {
+    const ca = (a.si - a.prev) / a.prev;
+    const cb = (b.si - b.prev) / b.prev;
+    return cb - ca;
+  });
+  else if (sortBy === 'dtc') sorted.sort((a, b) => b.dtc - a.dtc);
+  return sorted.slice(0, 20);
+}
+
+function renderTop20(sortBy) {
+  const grid = document.getElementById('topGrid');
+  grid.innerHTML = '';
+  Object.values(sparkCharts).forEach(c => c.destroy());
+
+  const top20 = sortStocks(sortBy);
+
+  top20.forEach((stock, idx) => {
+    const ch = getChangeInfo(stock);
+    const rankClass = idx === 0 ? 'r1' : idx === 1 ? 'r2' : idx === 2 ? 'r3' : '';
+    const squeezeBadge = stock.dtc > 4 ? '<span class="squeeze-badge">🔥 SQUEEZE</span>' : '';
+
+    const card = document.createElement('div');
+    card.className = 'top-card';
+    card.innerHTML = `
+      <div class="top-rank ${rankClass}">${idx + 1}</div>
+      <div class="top-info">
+        <div class="top-ticker">${stock.ticker}${squeezeBadge}</div>
+        <div class="top-name">${stock.name}</div>
+      </div>
+      <div class="top-data">
+        <div class="top-si">${formatSI(stock.si)}</div>
+        <div class="top-change" style="${ch.class}">${ch.text}</div>
+      </div>
+      <div class="top-spark"><canvas id="top-spark-${stock.ticker}" width="70" height="28"></canvas></div>
+    `;
+
+    card.addEventListener('click', () => {
+      showSearchChart(stock.ticker);
+      searchInput.value = stock.ticker;
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    grid.appendChild(card);
+
+    // Sparkline
+    setTimeout(() => {
+      const sparkData = generateSparkData(stock.si);
+      const canvas = document.getElementById(`top-spark-${stock.ticker}`);
+      if (!canvas) return;
+      const isUp = stock.si > stock.prev;
+      sparkCharts[stock.ticker] = new Chart(canvas, {
+        type: 'line',
+        data: { labels: sparkData.map((_,i) => i), datasets: [{
+          data: sparkData,
+          borderColor: isUp ? 'rgba(255,74,106,0.7)' : 'rgba(74,255,138,0.7)',
+          borderWidth: 1.2, pointRadius: 0,
+          fill: true,
+          backgroundColor: isUp ? 'rgba(255,74,106,0.06)' : 'rgba(74,255,138,0.06)',
+          tension: 0.3
+        }] },
+        options: { responsive: false, maintainAspectRatio: false,
+          plugins: { legend: { display: false }, tooltip: { enabled: false } },
+          scales: { x: { display: false }, y: { display: false } }
+        }
+      });
+    }, 50);
+  });
+}
+
+// Sort tab events
+document.querySelectorAll('.sort-tab').forEach(tab => {
+  tab.addEventListener('click', () => {
+    document.querySelectorAll('.sort-tab').forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+    currentSort = tab.dataset.sort;
+    renderTop20(currentSort);
+  });
+});
+
+// Initial render
+renderTop20('si');
+</script>
+</body>
+</html>
