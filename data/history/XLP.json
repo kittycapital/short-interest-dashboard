@@ -1,5 +1,4 @@
 {
-  "ticker": "XLP",
   "price": [
     {
       "date": "2021-03-01",
@@ -4243,7 +4242,7 @@
     },
     {
       "date": "2024-07-15",
-      "close": 74.0,
+      "close": 73.99,
       "volume": 8481200
     },
     {
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 90.01,
-      "volume": 15782715
+      "volume": 17313200
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "XLP"
 }

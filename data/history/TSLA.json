@@ -1,5 +1,4 @@
 {
-  "ticker": "TSLA",
   "price": [
     {
       "date": "2021-03-01",
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 402.51,
-      "volume": 56415999
+      "volume": 56760900
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "TSLA"
 }

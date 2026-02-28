@@ -1,5 +1,4 @@
 {
-  "ticker": "NVO",
   "price": [
     {
       "date": "2021-03-01",
@@ -4458,7 +4457,7 @@
     },
     {
       "date": "2024-09-13",
-      "close": 133.32,
+      "close": 133.33,
       "volume": 2375300
     },
     {
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 37.45,
-      "volume": 24007597
+      "volume": 24113900
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "NVO"
 }

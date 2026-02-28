@@ -1,5 +1,4 @@
 {
-  "ticker": "XLC",
   "price": [
     {
       "date": "2021-03-01",
@@ -6282,5 +6281,7 @@
       "volume": 7128088
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "XLC"
 }

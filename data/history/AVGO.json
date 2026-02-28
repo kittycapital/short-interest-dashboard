@@ -1,5 +1,4 @@
 {
-  "ticker": "AVGO",
   "price": [
     {
       "date": "2021-03-01",
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 319.55,
-      "volume": 23624216
+      "volume": 27934100
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "AVGO"
 }

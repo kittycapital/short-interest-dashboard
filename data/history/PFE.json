@@ -1,5 +1,4 @@
 {
-  "ticker": "PFE",
   "price": [
     {
       "date": "2021-03-01",
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 27.65,
-      "volume": 29724256
+      "volume": 41859400
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "PFE"
 }

@@ -1,5 +1,4 @@
 {
-  "ticker": "XLY",
   "price": [
     {
       "date": "2021-03-01",
@@ -258,7 +257,7 @@
     },
     {
       "date": "2021-05-12",
-      "close": 80.17,
+      "close": 80.16,
       "volume": 14124000
     },
     {
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 116.86,
-      "volume": 9208694
+      "volume": 9636200
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "XLY"
 }

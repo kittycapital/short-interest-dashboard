@@ -1,5 +1,4 @@
 {
-  "ticker": "TQQQ",
   "price": [
     {
       "date": "2021-03-01",
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 49.52,
-      "volume": 93213333
+      "volume": 93427300
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "TQQQ"
 }

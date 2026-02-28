@@ -1,5 +1,4 @@
 {
-  "ticker": "COIN",
   "price": [
     {
       "date": "2021-04-14",
@@ -6127,5 +6126,7 @@
       "volume": 11136839
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "COIN"
 }

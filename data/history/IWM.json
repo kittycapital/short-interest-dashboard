@@ -1,5 +1,4 @@
 {
-  "ticker": "IWM",
   "price": [
     {
       "date": "2021-03-01",
@@ -3473,7 +3472,7 @@
     },
     {
       "date": "2023-11-30",
-      "close": 174.95,
+      "close": 174.96,
       "volume": 32216800
     },
     {
@@ -3568,7 +3567,7 @@
     },
     {
       "date": "2023-12-28",
-      "close": 199.43,
+      "close": 199.42,
       "volume": 28930100
     },
     {
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 261.41,
-      "volume": 40454055
+      "volume": 40585300
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "IWM"
 }

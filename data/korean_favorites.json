@@ -6281,9 +6281,10 @@
         {
           "date": "2026-02-27",
           "close": 264.18,
-          "volume": 71592273
+          "volume": 72239400
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "MSFT": {
@@ -7850,7 +7851,7 @@
         },
         {
           "date": "2022-05-24",
-          "close": 251.74,
+          "close": 251.73,
           "volume": 29043900
         },
         {
@@ -7960,7 +7961,7 @@
         },
         {
           "date": "2022-06-27",
-          "close": 256.84,
+          "close": 256.85,
           "volume": 24615100
         },
         {
@@ -12566,9 +12567,10 @@
         {
           "date": "2026-02-27",
           "close": 392.74,
-          "volume": 50401665
+          "volume": 51276300
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "GOOGL": {
@@ -18851,9 +18853,10 @@
         {
           "date": "2026-02-27",
           "close": 311.76,
-          "volume": 43953954
+          "volume": 44568300
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "AMZN": {
@@ -25136,9 +25139,10 @@
         {
           "date": "2026-02-27",
           "close": 210.0,
-          "volume": 57070533
+          "volume": 57230900
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "META": {
@@ -25360,7 +25364,7 @@
         },
         {
           "date": "2021-04-30",
-          "close": 322.82,
+          "close": 322.83,
           "volume": 26332400
         },
         {
@@ -26120,7 +26124,7 @@
         },
         {
           "date": "2021-12-06",
-          "close": 315.66,
+          "close": 315.67,
           "volume": 21758300
         },
         {
@@ -28035,7 +28039,7 @@
         },
         {
           "date": "2023-06-15",
-          "close": 279.88,
+          "close": 279.87,
           "volume": 25973500
         },
         {
@@ -30225,7 +30229,7 @@
         },
         {
           "date": "2025-03-17",
-          "close": 603.53,
+          "close": 603.54,
           "volume": 15473900
         },
         {
@@ -30465,7 +30469,7 @@
         },
         {
           "date": "2025-05-23",
-          "close": 625.64,
+          "close": 625.65,
           "volume": 8454100
         },
         {
@@ -31424,6 +31428,7 @@
           "volume": 15584702
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "NVDA": {
@@ -37706,9 +37711,10 @@
         {
           "date": "2026-02-27",
           "close": 177.19,
-          "volume": 307958795
+          "volume": 310523200
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "TSLA": {
@@ -43991,9 +43997,10 @@
         {
           "date": "2026-02-27",
           "close": 402.51,
-          "volume": 56415999
+          "volume": 56760900
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "AMD": {
@@ -50276,9 +50283,10 @@
         {
           "date": "2026-02-27",
           "close": 200.21,
-          "volume": 31162229
+          "volume": 31232400
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "AVGO": {
@@ -56561,9 +56569,10 @@
         {
           "date": "2026-02-27",
           "close": 319.55,
-          "volume": 23624216
+          "volume": 27934100
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "QCOM": {
@@ -58405,7 +58414,7 @@
         },
         {
           "date": "2022-08-12",
-          "close": 139.66,
+          "close": 139.65,
           "volume": 4967500
         },
         {
@@ -62846,9 +62855,10 @@
         {
           "date": "2026-02-27",
           "close": 142.36,
-          "volume": 12433250
+          "volume": 12434300
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "MU": {
@@ -69131,9 +69141,10 @@
         {
           "date": "2026-02-27",
           "close": 412.37,
-          "volume": 28542393
+          "volume": 28586500
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "INTC": {
@@ -75416,9 +75427,10 @@
         {
           "date": "2026-02-27",
           "close": 45.61,
-          "volume": 76283506
+          "volume": 79231400
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "ARM": {
@@ -78504,6 +78516,7 @@
           "volume": 3025877
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "SMCI": {
@@ -84786,9 +84799,10 @@
         {
           "date": "2026-02-27",
           "close": 32.39,
-          "volume": 26518897
+          "volume": 27182100
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "PLTR": {
@@ -91074,6 +91088,7 @@
           "volume": 55784657
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "SNOW": {
@@ -97359,6 +97374,7 @@
           "volume": 10240347
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "CRM": {
@@ -103641,9 +103657,10 @@
         {
           "date": "2026-02-27",
           "close": 194.79,
-          "volume": 13157947
+          "volume": 16330600
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "NOW": {
@@ -109929,6 +109946,7 @@
           "volume": 14873954
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "SHOP": {
@@ -116214,6 +116232,7 @@
           "volume": 9771521
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "COIN": {
@@ -122344,6 +122363,7 @@
           "volume": 11136839
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "SOFI": {
@@ -128629,10 +128649,12 @@
           "volume": 113291925
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "SQ": {
       "price": [],
+      "short_volume": [],
       "short_interest": []
     },
     "PYPL": {
@@ -134918,6 +134940,7 @@
           "volume": 23546849
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "V": {
@@ -135294,7 +135317,7 @@
         },
         {
           "date": "2021-06-15",
-          "close": 224.9,
+          "close": 224.89,
           "volume": 7093800
         },
         {
@@ -137369,7 +137392,7 @@
         },
         {
           "date": "2023-02-07",
-          "close": 225.69,
+          "close": 225.68,
           "volume": 4042600
         },
         {
@@ -138149,7 +138172,7 @@
         },
         {
           "date": "2023-09-21",
-          "close": 232.18,
+          "close": 232.19,
           "volume": 6881500
         },
         {
@@ -138529,7 +138552,7 @@
         },
         {
           "date": "2024-01-10",
-          "close": 260.17,
+          "close": 260.16,
           "volume": 4355800
         },
         {
@@ -141200,9 +141223,10 @@
         {
           "date": "2026-02-27",
           "close": 320.14,
-          "volume": 6135915
+          "volume": 12403000
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "MA": {
@@ -142964,7 +142988,7 @@
         },
         {
           "date": "2022-07-21",
-          "close": 339.82,
+          "close": 339.81,
           "volume": 2230800
         },
         {
@@ -144249,7 +144273,7 @@
         },
         {
           "date": "2023-07-31",
-          "close": 388.62,
+          "close": 388.63,
           "volume": 3578300
         },
         {
@@ -145344,7 +145368,7 @@
         },
         {
           "date": "2024-06-12",
-          "close": 438.58,
+          "close": 438.57,
           "volume": 2738900
         },
         {
@@ -147485,9 +147509,10 @@
         {
           "date": "2026-02-27",
           "close": 517.21,
-          "volume": 3036624
+          "volume": 5121100
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "LLY": {
@@ -149934,7 +149959,7 @@
         },
         {
           "date": "2023-02-06",
-          "close": 329.18,
+          "close": 329.19,
           "volume": 3055700
         },
         {
@@ -150444,7 +150469,7 @@
         },
         {
           "date": "2023-07-05",
-          "close": 456.66,
+          "close": 456.67,
           "volume": 2130200
         },
         {
@@ -150674,7 +150699,7 @@
         },
         {
           "date": "2023-09-08",
-          "close": 576.32,
+          "close": 576.31,
           "volume": 4308300
         },
         {
@@ -150839,7 +150864,7 @@
         },
         {
           "date": "2023-10-25",
-          "close": 576.32,
+          "close": 576.31,
           "volume": 2283300
         },
         {
@@ -151804,7 +151829,7 @@
         },
         {
           "date": "2024-08-02",
-          "close": 794.75,
+          "close": 794.74,
           "volume": 3515900
         },
         {
@@ -153770,9 +153795,10 @@
         {
           "date": "2026-02-27",
           "close": 1051.99,
-          "volume": 2455171
+          "volume": 4317800
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "NVO": {
@@ -158234,7 +158260,7 @@
         },
         {
           "date": "2024-09-13",
-          "close": 133.32,
+          "close": 133.33,
           "volume": 2375300
         },
         {
@@ -160055,9 +160081,10 @@
         {
           "date": "2026-02-27",
           "close": 37.45,
-          "volume": 24007597
+          "volume": 24113900
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "MRNA": {
@@ -166343,6 +166370,7 @@
           "volume": 7941826
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "PFE": {
@@ -172625,9 +172653,10 @@
         {
           "date": "2026-02-27",
           "close": 27.65,
-          "volume": 29724256
+          "volume": 41859400
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "XOM": {
@@ -178910,9 +178939,10 @@
         {
           "date": "2026-02-27",
           "close": 152.5,
-          "volume": 30234713
+          "volume": 30246900
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "CVX": {
@@ -185195,9 +185225,10 @@
         {
           "date": "2026-02-27",
           "close": 186.76,
-          "volume": 12012569
+          "volume": 12024200
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "LMT": {
@@ -186869,7 +186900,7 @@
         },
         {
           "date": "2022-06-24",
-          "close": 381.27,
+          "close": 381.26,
           "volume": 1768000
         },
         {
@@ -187184,7 +187215,7 @@
         },
         {
           "date": "2022-09-23",
-          "close": 378.33,
+          "close": 378.32,
           "volume": 1874600
         },
         {
@@ -187634,7 +187665,7 @@
         },
         {
           "date": "2023-02-02",
-          "close": 421.35,
+          "close": 421.34,
           "volume": 2104700
         },
         {
@@ -188099,7 +188130,7 @@
         },
         {
           "date": "2023-06-16",
-          "close": 428.71,
+          "close": 428.7,
           "volume": 1642800
         },
         {
@@ -188849,7 +188880,7 @@
         },
         {
           "date": "2024-01-23",
-          "close": 416.18,
+          "close": 416.19,
           "volume": 3613500
         },
         {
@@ -189809,7 +189840,7 @@
         },
         {
           "date": "2024-10-25",
-          "close": 542.78,
+          "close": 542.79,
           "volume": 1077600
         },
         {
@@ -191480,9 +191511,10 @@
         {
           "date": "2026-02-27",
           "close": 658.08,
-          "volume": 1384758
+          "volume": 2597600
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "BA": {
@@ -197765,9 +197797,10 @@
         {
           "date": "2026-02-27",
           "close": 227.53,
-          "volume": 6162291
+          "volume": 6272400
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "NFLX": {
@@ -204050,9 +204083,10 @@
         {
           "date": "2026-02-27",
           "close": 96.24,
-          "volume": 190805735
+          "volume": 200440200
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "DIS": {
@@ -210335,9 +210369,10 @@
         {
           "date": "2026-02-27",
           "close": 106.04,
-          "volume": 9128221
+          "volume": 13941400
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "NIO": {
@@ -216623,6 +216658,7 @@
           "volume": 28725479
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "RIVN": {
@@ -222018,6 +222054,7 @@
           "volume": 34135102
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "RBLX": {
@@ -228268,6 +228305,7 @@
           "volume": 8067664
         }
       ],
+      "short_volume": [],
       "short_interest": []
     },
     "MARA": {
@@ -234553,6 +234591,7 @@
           "volume": 102196400
         }
       ],
+      "short_volume": [],
       "short_interest": []
     }
   }

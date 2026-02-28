@@ -1,5 +1,4 @@
 {
-  "ticker": "AMD",
   "price": [
     {
       "date": "2021-03-01",
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 200.21,
-      "volume": 31162229
+      "volume": 31232400
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "AMD"
 }

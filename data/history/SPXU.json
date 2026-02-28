@@ -1,5 +1,4 @@
 {
-  "ticker": "SPXU",
   "price": [
     {
       "date": "2021-03-01",
@@ -588,7 +587,7 @@
     },
     {
       "date": "2021-08-16",
-      "close": 261.23,
+      "close": 261.24,
       "volume": 405435
     },
     {
@@ -1288,7 +1287,7 @@
     },
     {
       "date": "2022-03-07",
-      "close": 282.3,
+      "close": 282.31,
       "volume": 1718625
     },
     {
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 49.29,
-      "volume": 6013644
+      "volume": 6030500
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "SPXU"
 }

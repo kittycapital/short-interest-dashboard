@@ -1,5 +1,4 @@
 {
-  "ticker": "RIVN",
   "price": [
     {
       "date": "2021-11-10",
@@ -5392,5 +5391,7 @@
       "volume": 34135102
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "RIVN"
 }

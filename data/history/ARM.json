@@ -1,5 +1,4 @@
 {
-  "ticker": "ARM",
   "price": [
     {
       "date": "2023-09-14",
@@ -3082,5 +3081,7 @@
       "volume": 3025877
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "ARM"
 }

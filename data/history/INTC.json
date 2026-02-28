@@ -1,5 +1,4 @@
 {
-  "ticker": "INTC",
   "price": [
     {
       "date": "2021-03-01",
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 45.61,
-      "volume": 76283506
+      "volume": 79231400
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "INTC"
 }

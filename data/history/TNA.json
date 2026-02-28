@@ -1,5 +1,4 @@
 {
-  "ticker": "TNA",
   "price": [
     {
       "date": "2021-03-01",
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 52.8,
-      "volume": 10529181
+      "volume": 10544400
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "TNA"
 }

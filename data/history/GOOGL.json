@@ -1,5 +1,4 @@
 {
-  "ticker": "GOOGL",
   "price": [
     {
       "date": "2021-03-01",
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 311.76,
-      "volume": 43953954
+      "volume": 44568300
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "GOOGL"
 }

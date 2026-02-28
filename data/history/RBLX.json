@@ -1,5 +1,4 @@
 {
-  "ticker": "RBLX",
   "price": [
     {
       "date": "2021-03-10",
@@ -6247,5 +6246,7 @@
       "volume": 8067664
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "RBLX"
 }

@@ -1,5 +1,4 @@
 {
-  "ticker": "XLF",
   "price": [
     {
       "date": "2021-03-01",
@@ -3583,7 +3582,7 @@
     },
     {
       "date": "2024-01-03",
-      "close": 36.35,
+      "close": 36.36,
       "volume": 46909000
     },
     {
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 51.43,
-      "volume": 81200129
+      "volume": 81996300
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "XLF"
 }

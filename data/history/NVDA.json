@@ -1,5 +1,4 @@
 {
-  "ticker": "NVDA",
   "price": [
     {
       "date": "2021-03-01",
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 177.19,
-      "volume": 307958795
+      "volume": 310523200
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "NVDA"
 }

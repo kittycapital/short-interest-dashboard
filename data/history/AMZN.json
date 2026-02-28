@@ -1,5 +1,4 @@
 {
-  "ticker": "AMZN",
   "price": [
     {
       "date": "2021-03-01",
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 210.0,
-      "volume": 57070533
+      "volume": 57230900
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "AMZN"
 }

@@ -1,5 +1,4 @@
 {
-  "ticker": "NOW",
   "price": [
     {
       "date": "2021-03-01",
@@ -6282,5 +6281,7 @@
       "volume": 14873954
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "NOW"
 }

@@ -1,5 +1,4 @@
 {
-  "ticker": "SVXY",
   "price": [
     {
       "date": "2021-03-01",
@@ -6279,8 +6278,10 @@
     {
       "date": "2026-02-27",
       "close": 52.28,
-      "volume": 2753092
+      "volume": 2753200
     }
   ],
-  "short_interest": []
+  "short_volume": [],
+  "short_interest": [],
+  "ticker": "SVXY"
 }
