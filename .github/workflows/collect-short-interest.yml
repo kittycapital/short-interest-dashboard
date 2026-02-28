@@ -1,0 +1,42 @@
+name: Collect Short Interest Data
+
+on:
+  schedule:
+    # FINRA Short Interest는 월 2회 발표 (매월 15일경, 말일경)
+    # 발표 후 1~2일 뒤 수집 (여유를 두고 3일, 18일, 말일+2일)
+    - cron: '0 6 3,18 * *'    # 매월 3일, 18일 UTC 06:00 (KST 15:00)
+    - cron: '0 6 1 * *'       # 매월 1일 (전월 말일 데이터 수집)
+  workflow_dispatch:           # 수동 실행 가능
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests yfinance pandas
+
+      - name: Run data collector
+        env:
+          FINRA_CLIENT_ID: ${{ secrets.FINRA_CLIENT_ID }}
+          FINRA_CLIENT_SECRET: ${{ secrets.FINRA_CLIENT_SECRET }}
+        run: |
+          cd scripts
+          python collect_data.py
+
+      - name: Commit and push data
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          git diff --staged --quiet || git commit -m "📊 Update Short Interest data $(date +'%Y-%m-%d')"
+          git push
