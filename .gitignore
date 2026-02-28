@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Data (keep structure, ignore large files)
+# data/ 디렉토리는 GitHub Actions가 자동 업데이트
+# 초기 .gitkeep만 커밋
