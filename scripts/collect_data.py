@@ -188,8 +188,7 @@ class FINRAClient:
                 "compareType": "EQUAL",
                 "fieldName": "securitiesInformationProcessorSymbolIdentifier",
                 "fieldValue": symbol
-            }],
-            "sortFields": ["-tradeReportDate"]
+            }]
         }
 
         try:
@@ -215,8 +214,7 @@ class FINRAClient:
                 "compareType": "EQUAL",
                 "fieldName": self.si_symbol_field,
                 "fieldValue": symbol
-            }],
-            "sortFields": ["-settlementDate"]
+            }]
         }
 
         try:
@@ -237,23 +235,25 @@ class FINRAClient:
 
         url = f"https://api.finra.org/data/group/{self.REG_SHO_GROUP}/name/{self.REG_SHO_DATASET}"
         
-        # 최신 날짜 확인
         try:
-            resp = requests.post(url, headers=self._get_headers(), json={
-                "limit": 1,
-                "sortFields": ["-tradeReportDate"]
-            })
+            # sortFields 없이 소량 가져와서 최신 날짜 파악
+            resp = requests.post(url, headers=self._get_headers(), json={"limit": 100})
             if resp.status_code != 200:
-                print(f"  ❌ Latest date fetch: {resp.status_code}")
+                print(f"  ❌ Latest date fetch: {resp.status_code} - {resp.text[:200]}")
                 return None
             
-            first = resp.json()
-            if not first:
+            sample = resp.json()
+            if not sample:
                 return None
-            latest_date = first[0].get('tradeReportDate')
+            
+            # 클라이언트에서 최신 날짜 찾기
+            dates = [r.get('tradeReportDate', '') for r in sample if r.get('tradeReportDate')]
+            if not dates:
+                return None
+            latest_date = max(dates)
             print(f"  📅 Latest Reg SHO date: {latest_date}")
 
-            # 전체 데이터 조회 (페이지네이션)
+            # 해당 날짜 전체 데이터 조회 (파티션 키 지정했으니 페이지네이션 가능)
             all_data = []
             offset = 0
             batch_size = 5000
@@ -270,6 +270,7 @@ class FINRAClient:
                 }
                 resp = requests.post(url, headers=self._get_headers(), json=payload)
                 if resp.status_code != 200:
+                    print(f"  ❌ Batch fetch: {resp.status_code}")
                     break
                 batch = resp.json()
                 if not batch:
