@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>미국 시장 숏 인터레스트 대시보드 | HerdVibe</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-adapter-date-fns/3.0.0/chartjs-adapter-date-fns.bundle.min.js"></script>
+<style>
+:root {
+  --bg-primary: #06060b;
+  --bg-secondary: #0d0d14;
+  --bg-card: #11111a;
+  --bg-card-hover: #161622;
+  --border: #1a1a2e;
+  --border-accent: #2a2a4a;
+  --text-primary: #e8e8f0;
+  --text-secondary: #8888a8;
+  --text-muted: #555570;
+  --accent-blue: #4a8eff;
+  --accent-red: #ff4a6a;
+  --accent-green: #4aff8a;
+  --accent-orange: #ff8a4a;
+  --accent-purple: #8a4aff;
+  --accent-cyan: #4af0ff;
+  --accent-yellow: #ffe04a;
+  --short-color: #ff6b6b;
+  --price-color: #4a8eff;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.page-wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 30px 24px 60px;
+}
+
+/* Header */
+.page-header {
+  text-align: center;
+  margin-bottom: 48px;
+  position: relative;
+}
+
+.page-header::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background: linear-gradient(90deg, var(--accent-blue), var(--accent-purple));
+  border-radius: 1px;
+}
+
+.page-title {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  background: linear-gradient(135deg, #e8e8f0 0%, #8888a8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 10px;
+}
+
+.page-subtitle {
+  font-size: 14px;
+  color: var(--text-secondary);
+  font-weight: 300;
+}
+
+.update-badge {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 4px 14px;
+  background: rgba(74, 142, 255, 0.08);
+  border: 1px solid rgba(74, 142, 255, 0.15);
+  border-radius: 20px;
+  font-size: 11px;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--accent-blue);
+}
+
+/* Section */
+.section {
+  margin-bottom: 56px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+.section-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.section-icon.market { background: rgba(74, 142, 255, 0.1); }
+.section-icon.sector { background: rgba(138, 74, 255, 0.1); }
+.section-icon.leverage { background: rgba(255, 138, 74, 0.1); }
+.section-icon.bond { background: rgba(74, 240, 255, 0.1); }
+
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.section-desc {
+  font-size: 12px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+/* Chart cards */
+.chart-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.chart-grid-3 { grid-template-columns: repeat(3, 1fr); }
+.chart-grid-2 { grid-template-columns: repeat(2, 1fr); }
+
+.chart-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.chart-card:hover {
+  border-color: var(--border-accent);
+}
+
+.chart-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.chart-ticker {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.chart-name {
+  font-size: 12px;
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+
+.chart-stat {
+  text-align: right;
+}
+
+.chart-stat-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.chart-stat-label {
+  font-size: 10px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.stat-up { color: var(--accent-red); }
+.stat-down { color: var(--accent-green); }
+
+.dual-chart-container {
+  position: relative;
+}
+
+.chart-wrapper {
+  position: relative;
+  height: 160px;
+  margin-bottom: 4px;
+}
+
+.chart-wrapper.short-chart {
+  height: 110px;
+}
+
+.chart-label {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  font-size: 9px;
+  font-family: 'JetBrains Mono', monospace;
+  padding: 2px 6px;
+  border-radius: 4px;
+  z-index: 10;
+  letter-spacing: 0.3px;
+}
+
+.chart-label.price {
+  background: rgba(74, 142, 255, 0.12);
+  color: var(--accent-blue);
+}
+
+.chart-label.short {
+  background: rgba(255, 107, 107, 0.12);
+  color: var(--short-color);
+}
+
+/* Sector heatmap */
+.sector-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.sector-cell {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: default;
+}
+
+.sector-cell:hover {
+  border-color: var(--border-accent);
+  transform: translateY(-2px);
+}
+
+.sector-ticker {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.sector-name {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.sector-si {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.sector-change {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+}
+
+.change-up { color: var(--accent-red); }
+.change-down { color: var(--accent-green); }
+.change-neutral { color: var(--text-muted); }
+
+/* Leverage comparison */
+.leverage-row {
+  display: grid;
+  grid-template-columns: 1fr 80px 1fr;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.leverage-pair {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.leverage-vs {
+  text-align: center;
+  font-size: 12px;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+.lev-ticker {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.lev-type {
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-left: 6px;
+}
+
+.lev-bull { background: rgba(74, 255, 138, 0.1); color: var(--accent-green); }
+.lev-bear { background: rgba(255, 74, 106, 0.1); color: var(--accent-red); }
+
+.lev-si-bar {
+  margin-top: 10px;
+  height: 6px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.lev-si-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.6s ease;
+}
+
+.lev-si-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 6px;
+}
+
+.lev-si-value {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  color: var(--text-primary);
+}
+
+.lev-si-label {
+  font-size: 10px;
+  color: var(--text-muted);
+}
+
+/* Bond vs Risk */
+.comparison-chart-container {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.comparison-legend {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.legend-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+/* Insight box */
+.insight-box {
+  background: rgba(74, 142, 255, 0.04);
+  border: 1px solid rgba(74, 142, 255, 0.1);
+  border-radius: 10px;
+  padding: 14px 18px;
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+.insight-box strong {
+  color: var(--text-primary);
+}
+
+/* Footer */
+.page-footer {
+  text-align: center;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+  margin-top: 20px;
+}
+
+.footer-text {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+.footer-text a {
+  color: var(--accent-blue);
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .chart-grid-3 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 768px) {
+  .page-wrapper { padding: 20px 16px 40px; }
+  .page-title { font-size: 22px; }
+  .chart-grid-3, .chart-grid-2 { grid-template-columns: 1fr; }
+  .sector-grid { grid-template-columns: repeat(3, 1fr); }
+  .leverage-row { grid-template-columns: 1fr; gap: 8px; }
+  .leverage-vs { display: none; }
+}
+
+@media (max-width: 480px) {
+  .sector-grid { grid-template-columns: repeat(2, 1fr); }
+}
+</style>
+</head>
+<body>
+<div class="page-wrapper">
+
+  <!-- Header -->
+  <header class="page-header">
+    <h1 class="page-title">미국 시장 숏 인터레스트 대시보드</h1>
+    <p class="page-subtitle">US Market Short Interest Overview — FINRA Consolidated Data</p>
+    <span class="update-badge" id="updateDate">DATA AS OF 2026-02-14</span>
+  </header>
+
+  <!-- Section A: Market Sentiment -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon market">📊</div>
+      <div>
+        <div class="section-title">시장 전체 숏 센티먼트</div>
+        <div class="section-desc">SPY · QQQ · IWM — 가격 vs 숏 인터레스트 추이</div>
+      </div>
+    </div>
+    <div class="chart-grid chart-grid-3" id="marketCharts"></div>
+    <div class="insight-box">
+      💡 <strong>해석 가이드:</strong> 숏 인터레스트 급등은 약세 베팅 증가를 의미하지만, 역사적으로 극단적 수준에 도달하면 오히려 <strong>숏 스퀴즈</strong>로 이어져 반등 시그널이 되기도 합니다. 가격과 숏 인터레스트의 <strong>다이버전스</strong>를 주목하세요.
+    </div>
+  </section>
+
+  <!-- Section B: Sector ETF -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon sector">🏷️</div>
+      <div>
+        <div class="section-title">섹터별 숏 인터레스트 비교</div>
+        <div class="section-desc">S&P 500 SPDR 섹터 ETF 11종 — 어느 섹터에 베어리시 베팅이 몰리는가</div>
+      </div>
+    </div>
+    <div class="sector-grid" id="sectorGrid"></div>
+    <div style="margin-top: 20px;">
+      <div class="comparison-chart-container">
+        <canvas id="sectorBarChart" height="280"></canvas>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section C: Leverage/Inverse ETF -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon leverage">⚡</div>
+      <div>
+        <div class="section-title">레버리지 / 인버스 ETF 숏 인터레스트</div>
+        <div class="section-desc">방향성 베팅의 프록시 — 불/베어 레버리지 ETF 비교</div>
+      </div>
+    </div>
+    <div id="leverageSection"></div>
+    <div class="insight-box">
+      💡 <strong>해석 가이드:</strong> 인버스 ETF(SQQQ 등)의 숏 인터레스트 급증은 역설적으로 <strong>강세 시그널</strong>입니다. 인버스를 숏한다는 것은 하락에 베팅한 사람들을 상대로 반대 포지션을 취한다는 의미이기 때문입니다.
+    </div>
+  </section>
+
+  <!-- Section D: Bond vs Risk Asset -->
+  <section class="section">
+    <div class="section-header">
+      <div class="section-icon bond">🔄</div>
+      <div>
+        <div class="section-title">안전자산 vs 위험자산 숏 비교</div>
+        <div class="section-desc">채권(TLT, HYG, LQD) vs 주식(SPY, QQQ) — 리스크온/오프 판단</div>
+      </div>
+    </div>
+    <div class="comparison-chart-container">
+      <div class="comparison-legend">
+        <div class="legend-item"><div class="legend-dot" style="background:#4a8eff"></div>SPY</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#8a4aff"></div>QQQ</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#4af0ff"></div>TLT</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#ffe04a"></div>HYG</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#ff8a4a"></div>LQD</div>
+      </div>
+      <canvas id="bondVsRiskChart" height="300"></canvas>
+    </div>
+    <div class="insight-box">
+      💡 <strong>해석 가이드:</strong> 채권 ETF(TLT) 숏 인터레스트 급증 = 금리 상승 베팅. HYG(하이일드) 숏 증가 = 크레딧 리스크 확대 우려. 위험자산과 안전자산 숏의 <strong>상대적 변화</strong>로 시장의 리스크 선호도 변화를 읽을 수 있습니다.
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="page-footer">
+    <p class="footer-text">
+      데이터 출처: FINRA Consolidated Short Interest (월 2회 업데이트) · 가격 데이터: Yahoo Finance<br>
+      숏 인터레스트 데이터는 투자 조언이 아닙니다. 투자 결정은 본인의 판단과 책임 하에 이루어져야 합니다.<br>
+      © 2026 <a href="https://herdvibe.com" target="_blank">HerdVibe</a> · 문의: herdvibe@gmail.com
+    </p>
+  </footer>
+
+</div>
+
+<script>
+// ============================================
+// SAMPLE DATA GENERATOR
+// In production, this loads from JSON files
+// generated by GitHub Actions + FINRA API
+// ============================================
+
+Chart.defaults.color = '#8888a8';
+Chart.defaults.borderColor = 'rgba(255,255,255,0.04)';
+Chart.defaults.font.family = "'JetBrains Mono', 'Noto Sans KR', monospace";
+Chart.defaults.font.size = 10;
+
+function generateDates(startYear, endYear, interval='daily') {
+  const dates = [];
+  const start = new Date(startYear, 0, 1);
+  const end = new Date(endYear, 11, 31);
+  const step = interval === 'daily' ? 1 : 15;
+  for (let d = new Date(start); d <= end; d.setDate(d.getDate() + step)) {
+    if (interval === 'daily' && (d.getDay() === 0 || d.getDay() === 6)) continue;
+    dates.push(new Date(d));
+  }
+  return dates;
+}
+
+function generatePriceData(dates, startPrice, volatility, trend) {
+  let price = startPrice;
+  return dates.map(d => {
+    price += (Math.random() - 0.48 + trend) * volatility;
+    price = Math.max(price * 0.97, price);
+    return { x: d, y: Math.round(price * 100) / 100 };
+  });
+}
+
+function generateShortInterest(dates, baseLevel, volatilityPct) {
+  let si = baseLevel;
+  const siDates = dates.filter((_, i) => i % 15 === 0);
+  return siDates.map(d => {
+    si += (Math.random() - 0.5) * baseLevel * volatilityPct;
+    si = Math.max(si * 0.3, si);
+    return { x: d, y: Math.round(si) };
+  });
+}
+
+// Market data
+const dailyDates = generateDates(2021, 2025);
+const siDates = generateDates(2021, 2025, 'bimonthly');
+
+const marketETFs = [
+  { ticker: 'SPY', name: 'S&P 500', startPrice: 380, vol: 3, trend: 0.08, siBase: 85000000, siVol: 0.25 },
+  { ticker: 'QQQ', name: 'Nasdaq 100', startPrice: 310, vol: 4, trend: 0.10, siBase: 45000000, siVol: 0.30 },
+  { ticker: 'IWM', name: 'Russell 2000', startPrice: 200, vol: 2.5, trend: 0.03, siBase: 72000000, siVol: 0.35 },
+];
+
+// Sector data
+const sectors = [
+  { ticker: 'XLK', name: '기술', si: 18500000, prev: 16200000, color: '#4a8eff' },
+  { ticker: 'XLF', name: '금융', si: 42000000, prev: 43500000, color: '#8a4aff' },
+  { ticker: 'XLE', name: '에너지', si: 28000000, prev: 25000000, color: '#ff8a4a' },
+  { ticker: 'XLV', name: '헬스케어', si: 15200000, prev: 14800000, color: '#4aff8a' },
+  { ticker: 'XLI', name: '산업재', si: 12500000, prev: 13000000, color: '#ffe04a' },
+  { ticker: 'XLC', name: '커뮤니케이션', si: 9800000, prev: 8500000, color: '#ff4a6a' },
+  { ticker: 'XLP', name: '필수소비재', si: 14000000, prev: 14200000, color: '#4af0ff' },
+  { ticker: 'XLU', name: '유틸리티', si: 22000000, prev: 20000000, color: '#c0c0c0' },
+  { ticker: 'XLY', name: '경기소비재', si: 8200000, prev: 9100000, color: '#ff6bff' },
+  { ticker: 'XLB', name: '소재', si: 6500000, prev: 6800000, color: '#6bffb3' },
+  { ticker: 'XLRE', name: '부동산', si: 19500000, prev: 17000000, color: '#ffb36b' },
+];
+
+// Leverage data
+const leveragePairs = [
+  { bull: { ticker: 'TQQQ', name: '나스닥3X 롱', si: 32000000 }, bear: { ticker: 'SQQQ', name: '나스닥3X 숏', si: 58000000 }, max: 70000000 },
+  { bull: { ticker: 'UPRO', name: 'S&P3X 롱', si: 8500000 }, bear: { ticker: 'SPXU', name: 'S&P3X 숏', si: 12000000 }, max: 15000000 },
+  { bull: { ticker: 'TNA', name: '러셀3X 롱', si: 4200000 }, bear: { ticker: 'TZA', name: '러셀3X 숏', si: 7800000 }, max: 10000000 },
+  { bull: { ticker: 'UVXY', name: 'VIX 1.5X', si: 25000000, isBear: true }, bear: { ticker: 'SVXY', name: 'VIX 숏', si: 3200000 }, max: 30000000 },
+];
+
+// ============================================
+// CHART CREATION
+// ============================================
+
+function formatSI(num) {
+  if (num >= 1e9) return (num / 1e9).toFixed(1) + 'B';
+  if (num >= 1e6) return (num / 1e6).toFixed(1) + 'M';
+  if (num >= 1e3) return (num / 1e3).toFixed(0) + 'K';
+  return num;
+}
+
+function createDualChart(containerId, ticker, name, priceData, siData, change) {
+  const card = document.createElement('div');
+  card.className = 'chart-card';
+
+  const changeClass = change > 0 ? 'stat-up' : 'stat-down';
+  const changeSign = change > 0 ? '+' : '';
+  const latestSI = siData[siData.length - 1].y;
+
+  card.innerHTML = `
+    <div class="chart-card-header">
+      <div>
+        <span class="chart-ticker">${ticker}</span>
+        <span class="chart-name">${name}</span>
+      </div>
+      <div class="chart-stat">
+        <div class="chart-stat-value ${changeClass}">${changeSign}${change.toFixed(1)}%</div>
+        <div class="chart-stat-label">SI 변화 (전기비)</div>
+      </div>
+    </div>
+    <div class="dual-chart-container">
+      <div class="chart-wrapper">
+        <span class="chart-label price">PRICE</span>
+        <canvas id="price-${ticker}"></canvas>
+      </div>
+      <div class="chart-wrapper short-chart">
+        <span class="chart-label short">SHORT INTEREST ${formatSI(latestSI)}</span>
+        <canvas id="si-${ticker}"></canvas>
+      </div>
+    </div>
+  `;
+
+  document.getElementById(containerId).appendChild(card);
+
+  // Price chart
+  new Chart(document.getElementById(`price-${ticker}`), {
+    type: 'line',
+    data: {
+      datasets: [{
+        data: priceData,
+        borderColor: 'rgba(74, 142, 255, 0.9)',
+        borderWidth: 1.5,
+        pointRadius: 0,
+        fill: true,
+        backgroundColor: (ctx) => {
+          const g = ctx.chart.ctx.createLinearGradient(0, 0, 0, ctx.chart.height);
+          g.addColorStop(0, 'rgba(74, 142, 255, 0.08)');
+          g.addColorStop(1, 'rgba(74, 142, 255, 0)');
+          return g;
+        },
+        tension: 0.3,
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { 
+        backgroundColor: '#1a1a2e',
+        titleColor: '#e8e8f0',
+        bodyColor: '#8888a8',
+        borderColor: '#2a2a4a',
+        borderWidth: 1,
+        padding: 10,
+        displayColors: false,
+        callbacks: {
+          title: (items) => items[0].raw.x.toLocaleDateString('ko-KR'),
+          label: (item) => `$${item.raw.y.toFixed(2)}`
+        }
+      }},
+      scales: {
+        x: { type: 'time', display: false },
+        y: { 
+          position: 'right',
+          grid: { color: 'rgba(255,255,255,0.02)' },
+          ticks: { font: { size: 9 }, callback: v => '$' + v }
+        }
+      }
+    }
+  });
+
+  // SI chart
+  new Chart(document.getElementById(`si-${ticker}`), {
+    type: 'line',
+    data: {
+      datasets: [{
+        data: siData,
+        borderColor: 'rgba(255, 107, 107, 0.9)',
+        borderWidth: 1.5,
+        pointRadius: 0,
+        fill: true,
+        backgroundColor: (ctx) => {
+          const g = ctx.chart.ctx.createLinearGradient(0, 0, 0, ctx.chart.height);
+          g.addColorStop(0, 'rgba(255, 107, 107, 0.1)');
+          g.addColorStop(1, 'rgba(255, 107, 107, 0)');
+          return g;
+        },
+        stepped: 'before',
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: {
+        backgroundColor: '#1a1a2e',
+        titleColor: '#e8e8f0',
+        bodyColor: '#8888a8',
+        borderColor: '#2a2a4a',
+        borderWidth: 1,
+        padding: 10,
+        displayColors: false,
+        callbacks: {
+          title: (items) => items[0].raw.x.toLocaleDateString('ko-KR'),
+          label: (item) => `SI: ${formatSI(item.raw.y)} shares`
+        }
+      }},
+      scales: {
+        x: {
+          type: 'time',
+          time: { unit: 'year' },
+          grid: { color: 'rgba(255,255,255,0.02)' },
+          ticks: { font: { size: 9 } }
+        },
+        y: {
+          position: 'right',
+          grid: { color: 'rgba(255,255,255,0.02)' },
+          ticks: { font: { size: 9 }, callback: v => formatSI(v) }
+        }
+      }
+    }
+  });
+}
+
+// Create market charts
+marketETFs.forEach(etf => {
+  const priceData = generatePriceData(dailyDates, etf.startPrice, etf.vol, etf.trend);
+  const siData = generateShortInterest(siDates, etf.siBase, etf.siVol);
+  const lastSI = siData[siData.length - 1].y;
+  const prevSI = siData[siData.length - 2].y;
+  const change = ((lastSI - prevSI) / prevSI) * 100;
+  createDualChart('marketCharts', etf.ticker, etf.name, priceData, siData, change);
+});
+
+// Create sector grid
+const sectorGridEl = document.getElementById('sectorGrid');
+sectors.forEach(s => {
+  const change = ((s.si - s.prev) / s.prev) * 100;
+  const changeClass = change > 0 ? 'change-up' : change < 0 ? 'change-down' : 'change-neutral';
+  const changeSign = change > 0 ? '▲' : change < 0 ? '▼' : '—';
+
+  const cell = document.createElement('div');
+  cell.className = 'sector-cell';
+  cell.innerHTML = `
+    <div class="sector-ticker">${s.ticker}</div>
+    <div class="sector-name">${s.name}</div>
+    <div class="sector-si" style="color: ${s.color}">${formatSI(s.si)}</div>
+    <div class="sector-change ${changeClass}">${changeSign} ${Math.abs(change).toFixed(1)}%</div>
+  `;
+  sectorGridEl.appendChild(cell);
+});
+
+// Create sector bar chart
+new Chart(document.getElementById('sectorBarChart'), {
+  type: 'bar',
+  data: {
+    labels: sectors.map(s => s.ticker),
+    datasets: [
+      {
+        label: '현재 Short Interest',
+        data: sectors.map(s => s.si),
+        backgroundColor: sectors.map(s => s.color + '99'),
+        borderColor: sectors.map(s => s.color),
+        borderWidth: 1,
+        borderRadius: 4,
+      },
+      {
+        label: '전기 Short Interest',
+        data: sectors.map(s => s.prev),
+        backgroundColor: 'rgba(255,255,255,0.06)',
+        borderColor: 'rgba(255,255,255,0.1)',
+        borderWidth: 1,
+        borderRadius: 4,
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        position: 'top',
+        labels: {
+          usePointStyle: true,
+          pointStyle: 'rectRounded',
+          padding: 20,
+          font: { size: 11 }
+        }
+      },
+      tooltip: {
+        backgroundColor: '#1a1a2e',
+        titleColor: '#e8e8f0',
+        bodyColor: '#8888a8',
+        borderColor: '#2a2a4a',
+        borderWidth: 1,
+        padding: 12,
+        callbacks: {
+          label: (item) => `${item.dataset.label}: ${formatSI(item.raw)} shares`
+        }
+      }
+    },
+    scales: {
+      x: { grid: { display: false } },
+      y: {
+        grid: { color: 'rgba(255,255,255,0.03)' },
+        ticks: { callback: v => formatSI(v) }
+      }
+    }
+  }
+});
+
+// Create leverage section
+const levSection = document.getElementById('leverageSection');
+leveragePairs.forEach(pair => {
+  const row = document.createElement('div');
+  row.className = 'leverage-row';
+
+  const bullPct = (pair.bull.si / pair.max * 100).toFixed(0);
+  const bearPct = (pair.bear.si / pair.max * 100).toFixed(0);
+
+  row.innerHTML = `
+    <div class="leverage-pair">
+      <div>
+        <span class="lev-ticker">${pair.bull.ticker}</span>
+        <span class="lev-type ${pair.bull.isBear ? 'lev-bear' : 'lev-bull'}">${pair.bull.name}</span>
+      </div>
+      <div class="lev-si-bar">
+        <div class="lev-si-fill" style="width:${bullPct}%; background: ${pair.bull.isBear ? 'var(--accent-red)' : 'var(--accent-green)'}"></div>
+      </div>
+      <div class="lev-si-info">
+        <span class="lev-si-value">${formatSI(pair.bull.si)}</span>
+        <span class="lev-si-label">Short Interest</span>
+      </div>
+    </div>
+    <div class="leverage-vs">VS</div>
+    <div class="leverage-pair">
+      <div>
+        <span class="lev-ticker">${pair.bear.ticker}</span>
+        <span class="lev-type lev-bear">${pair.bear.name}</span>
+      </div>
+      <div class="lev-si-bar">
+        <div class="lev-si-fill" style="width:${bearPct}%; background: var(--accent-red)"></div>
+      </div>
+      <div class="lev-si-info">
+        <span class="lev-si-value">${formatSI(pair.bear.si)}</span>
+        <span class="lev-si-label">Short Interest</span>
+      </div>
+    </div>
+  `;
+  levSection.appendChild(row);
+});
+
+// Bond vs Risk chart
+const bondVsRiskAssets = [
+  { ticker: 'SPY', color: '#4a8eff', baseLevel: 85000000 },
+  { ticker: 'QQQ', color: '#8a4aff', baseLevel: 45000000 },
+  { ticker: 'TLT', color: '#4af0ff', baseLevel: 62000000 },
+  { ticker: 'HYG', color: '#ffe04a', baseLevel: 38000000 },
+  { ticker: 'LQD', color: '#ff8a4a', baseLevel: 22000000 },
+];
+
+new Chart(document.getElementById('bondVsRiskChart'), {
+  type: 'line',
+  data: {
+    datasets: bondVsRiskAssets.map(a => ({
+      label: a.ticker,
+      data: generateShortInterest(siDates, a.baseLevel, 0.3),
+      borderColor: a.color,
+      borderWidth: 1.8,
+      pointRadius: 0,
+      tension: 0.2,
+      stepped: 'before',
+    }))
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    interaction: { mode: 'index', intersect: false },
+    plugins: {
+      legend: { display: false },
+      tooltip: {
+        backgroundColor: '#1a1a2e',
+        titleColor: '#e8e8f0',
+        bodyColor: '#8888a8',
+        borderColor: '#2a2a4a',
+        borderWidth: 1,
+        padding: 12,
+        callbacks: {
+          title: (items) => items[0].raw.x.toLocaleDateString('ko-KR'),
+          label: (item) => `${item.dataset.label}: ${formatSI(item.raw.y)}`
+        }
+      }
+    },
+    scales: {
+      x: {
+        type: 'time',
+        time: { unit: 'quarter' },
+        grid: { color: 'rgba(255,255,255,0.02)' },
+      },
+      y: {
+        grid: { color: 'rgba(255,255,255,0.03)' },
+        ticks: { callback: v => formatSI(v) }
+      }
+    }
+  }
+});
+</script>
+</body>
+</html>
