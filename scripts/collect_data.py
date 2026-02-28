@@ -75,13 +75,16 @@ class FINRAClient:
     """FINRA API Client for Short Interest data"""
 
     TOKEN_URL = "https://ews.fip.finra.org/fip/rest/ews/oauth2/access_token?grant_type=client_credentials"
-    API_BASE = "https://api.finra.org/data/group/otcMarket/name"
+    # Consolidated Short Interest는 equity 그룹에 있음
+    API_BASE = "https://api.finra.org/data/group/equity/name"
 
     def __init__(self):
         self.client_id = os.environ.get('FINRA_CLIENT_ID', '')
         self.client_secret = os.environ.get('FINRA_CLIENT_SECRET', '')
         self.token = None
         self.token_expiry = None
+        self.dataset_name = 'consolidatedShortInterest'
+        self.field_map = {}
 
     def authenticate(self):
         """OAuth 2.0 인증"""
@@ -100,10 +103,42 @@ class FINRAClient:
             self.token = data['access_token']
             self.token_expiry = datetime.now() + timedelta(seconds=data.get('expires_in', 1800))
             print("✅ FINRA API authenticated")
+            self._check_metadata()
             return True
         except Exception as e:
             print(f"❌ FINRA auth failed: {e}")
             return False
+
+    def _check_metadata(self):
+        """API 메타데이터 확인 - 필드명 디버깅용"""
+        headers = {
+            'Authorization': f'Bearer {self.token}',
+            'Accept': 'application/json'
+        }
+        # 여러 가능한 엔드포인트 시도
+        endpoints = [
+            ("equity", "consolidatedShortInterest"),
+            ("otcMarket", "consolidatedShortInterest"),
+            ("otcMarket", "EquityShortInterest"),
+        ]
+        for group, name in endpoints:
+            url = f"https://api.finra.org/data/group/{group}/name/{name}"
+            try:
+                resp = requests.get(url, headers=headers)
+                if resp.status_code == 200:
+                    meta = resp.json()
+                    fields = [f.get('name') for f in meta.get('fields', [])]
+                    print(f"✅ Found dataset: {group}/{name}")
+                    print(f"   Fields: {fields[:10]}...")
+                    self.API_BASE = f"https://api.finra.org/data/group/{group}/name"
+                    self.dataset_name = name
+                    self.field_map = {f.get('name'): f for f in meta.get('fields', [])}
+                    return
+                else:
+                    print(f"   ⏭️  {group}/{name}: {resp.status_code}")
+            except Exception as e:
+                print(f"   ⏭️  {group}/{name}: {e}")
+        print("⚠️  Could not find short interest dataset metadata")
 
     def get_short_interest(self, symbol=None, limit=5000):
         """
@@ -132,13 +167,13 @@ class FINRAClient:
                 "fieldValue": symbol
             }]
 
+        url = f"{self.API_BASE}/{getattr(self, 'dataset_name', 'consolidatedShortInterest')}"
+
         try:
-            resp = requests.post(
-                f"{self.API_BASE}/consolidatedShortInterest",
-                headers=headers,
-                json=payload
-            )
-            resp.raise_for_status()
+            resp = requests.post(url, headers=headers, json=payload)
+            if resp.status_code != 200:
+                print(f"❌ FINRA API error for {symbol}: {resp.status_code} - {resp.text[:300]}")
+                return None
             return resp.json()
         except Exception as e:
             print(f"❌ FINRA API error for {symbol}: {e}")
@@ -163,10 +198,13 @@ class FINRAClient:
 
         try:
             resp = requests.post(
-                f"{self.API_BASE}/consolidatedShortInterest",
+                f"{self.API_BASE}/{getattr(self, 'dataset_name', 'consolidatedShortInterest')}",
                 headers=headers,
                 json=payload
             )
+            if resp.status_code != 200:
+                print(f"❌ Latest SI fetch failed: {resp.status_code} - {resp.text[:300]}")
+                return None
             data = resp.json()
             if not data:
                 return None
@@ -192,7 +230,7 @@ class FINRAClient:
                 }
 
                 resp = requests.post(
-                    f"{self.API_BASE}/consolidatedShortInterest",
+                    f"{self.API_BASE}/{getattr(self, 'dataset_name', 'consolidatedShortInterest')}",
                     headers=headers,
                     json=payload
                 )
