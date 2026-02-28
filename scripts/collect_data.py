@@ -26,7 +26,10 @@ from pathlib import Path
 # ============================================
 # CONFIG
 # ============================================
-DATA_DIR = Path("data")
+# 레포 루트 기준 경로 (scripts/ 안에서 실행해도 루트에서 실행해도 동작)
+SCRIPT_DIR = Path(__file__).resolve().parent
+REPO_ROOT = SCRIPT_DIR.parent
+DATA_DIR = REPO_ROOT / "data"
 HISTORY_DIR = DATA_DIR / "history"
 
 # 페이지 1: 시장 개요 ETF
@@ -360,8 +363,10 @@ def build_all_stocks_snapshot(finra_client):
     all_data = finra_client.get_all_latest_short_interest() if finra_client.token else None
 
     if not all_data:
-        print("  ⚠️  No full data available, skipping snapshot")
-        return None
+        print("  ⚠️  No full data available, saving empty snapshot")
+        snapshot = {'updated_at': datetime.now().strftime('%Y-%m-%d'), 'settlement_date': '', 'stocks': []}
+        save_json(snapshot, DATA_DIR / 'all_stocks.json')
+        return snapshot
 
     snapshot = {
         'updated_at': datetime.now().strftime('%Y-%m-%d'),
