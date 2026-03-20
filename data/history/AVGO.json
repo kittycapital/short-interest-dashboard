@@ -2,8 +2,8 @@
   "price": [
     {
       "date": "2021-03-19",
-      "close": 43.02,
-      "volume": 108602000
+      "close": NaN,
+      "volume": 0
     },
     {
       "date": "2021-03-22",
@@ -6273,7 +6273,12 @@
     {
       "date": "2026-03-18",
       "close": 315.93,
-      "volume": 22971289
+      "volume": 25460600
+    },
+    {
+      "date": "2026-03-19",
+      "close": NaN,
+      "volume": 23203803
     }
   ],
   "short_volume": [
