@@ -2,8 +2,8 @@
   "price": [
     {
       "date": "2021-06-09",
-      "close": 17.3,
-      "volume": 381656000
+      "close": NaN,
+      "volume": 0
     },
     {
       "date": "2021-06-10",
@@ -6273,7 +6273,12 @@
     {
       "date": "2026-06-08",
       "close": 208.64,
-      "volume": 137741400
+      "volume": 138372800
+    },
+    {
+      "date": "2026-06-09",
+      "close": NaN,
+      "volume": 179602708
     }
   ],
   "short_volume": [

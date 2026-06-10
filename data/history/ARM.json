@@ -3423,7 +3423,12 @@
     {
       "date": "2026-06-08",
       "close": 346.39,
-      "volume": 9031000
+      "volume": 9055900
+    },
+    {
+      "date": "2026-06-09",
+      "close": NaN,
+      "volume": 13328315
     }
   ],
   "short_volume": [
